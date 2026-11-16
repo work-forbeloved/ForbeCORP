@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	लोकप्रिय टूल
+searchTools	टूल खोजें
+searchExample	PDF, तुलना या स्पेस हटाना खोजें
+filterCategory	टूल की श्रेणियाँ
+allTools	सभी टूल
+categoryText	टेक्स्ट
+categoryData	दस्तावेज़ और डेटा
+categoryImage	इमेज
+howItWorks	इस्तेमाल का तरीका
+tryExample	उदाहरण आज़माएँ
+chooseDrop	फ़ाइल चुनें या यहाँ खींचकर छोड़ें
+workingLabel	प्रगति
+cancelRun	रद्द करें
+downloadFile	फ़ाइल डाउनलोड करें
+downloadHtml	HTML डाउनलोड करें
+downloadZip	ZIP डाउनलोड करें
+previewAction	प्रीव्यू दिखाएँ
+previewTitleLabel	प्रीव्यू
+outputFormat	आउटपुट फ़ॉर्मैट
+automatic	अपने आप
+none	कोई नहीं
+goCleaner	टेक्स्ट क्लीनर में खोलें
+goCompare	संस्करणों की तुलना
+revisedText	बदला हुआ टेक्स्ट
+applyEdits	बदलाव लागू करें
+pdfTextTitle	PDF से टेक्स्ट निकालें
+pdfTextIntro	PDF खोलकर चुने जा सकने वाले टेक्स्ट को कॉपी, संपादित या एक्सपोर्ट करें।
+pdfTextGuide	ज़रूरत होने पर पेज नंबर लिखें। कॉलम और टेबल वाले पेजों के नतीजे जाँचें। स्कैन किए गए पेजों के लिए OCR इस्तेमाल करें।
+pdfTextRun	टेक्स्ट निकालें
+pdfFormats	PDF · हर फ़ाइल 40 MB तक
+pagesLabel	पेज
+pagesHelp	सभी पेजों के लिए खाली छोड़ें। उदाहरण: 1–3, 5।
+emptyPdfPages	चुनने योग्य टेक्स्ट के बिना पेज
+pdfPagesTitle	PDF के पेज व्यवस्थित करें
+pdfPagesIntro	PDF जोड़ें, पेज चुनें, उनका क्रम बदलें, घुमाएँ या अलग-अलग सहेजें।
+pdfPagesGuide	PDF जोड़कर हर फ़ाइल के पेज और उनका क्रम तय करें। एक PDF या अलग पेजों का ZIP डाउनलोड करें।
+pdfPagesRun	PDF बनाएँ
+pageOrdering	पेज दिए गए क्रम में आते हैं। 3, 1–2 लिखने से पेज 3 पहले आएगा।
+combinePdf	एक संयुक्त PDF
+splitPdf	हर पेज की अलग PDF, एक ZIP में
+rotatePages	पेज घुमाएँ
+moveUp	ऊपर ले जाएँ
+moveDown	नीचे ले जाएँ
+removeFile	फ़ाइल हटाएँ
+ocrTitle	PDF और इमेज के लिए OCR
+ocrIntro	स्कैन, फ़ोटो और स्क्रीनशॉट से टेक्स्ट पहचानें।
+ocrGuide	इमेज या स्कैन की गई PDF खोलें। टेक्स्ट की भाषा चुनकर OCR चलाएँ और एक्सपोर्ट से पहले नतीजा जाँचें।
+ocrRun	टेक्स्ट पहचानें
+ocrFormats	PDF, PNG, JPG, WebP या BMP · 40 MB तक
+docTitle	दस्तावेज़ को टेक्स्ट में बदलें
+docIntro	DOCX, ODT, PDF या टेक्स्ट फ़ाइल से संपादन योग्य टेक्स्ट निकालें।
+docGuide	दस्तावेज़ खोलकर टेक्स्ट निकालें और TXT डाउनलोड करें या दूसरे टूल में भेजें। मूल पेज लेआउट नहीं रहता।
+otherFormats	DOCX, ODT, TXT, MD या CSV · 10 MB तक। PDF · 40 MB तक।
+comparePageTitle	दो टेक्स्ट की तुलना
+compareIntro	लाइन, शब्द या वर्ण के हिसाब से तुलना करें और बदलाव ढूँढें।
+compareGuide	दो संस्करण चिपकाएँ या दो दस्तावेज़ खोलें। तुलना का स्तर चुनें। चाहें तो समान हिस्से छिपाएँ।
+compareAction	टेक्स्ट की तुलना करें
+compareBy	तुलना का स्तर
+compareLines	लाइनें
+ignoreSpace	स्पेस नज़रअंदाज़ करें
+changesOnly	केवल बदलाव दिखाएँ
+previousChange	पिछला बदलाव
+nextChange	अगला बदलाव
+cleanerGuide	टेक्स्ट चिपकाएँ या दस्तावेज़ खोलें। सफ़ाई की सेटिंग बदलें और डाउनलोड या कॉपी करने से पहले नतीजा जाँचें।
+cleanupSettings	सफ़ाई की सेटिंग
+cleanupWrap	टूटी लाइनें जोड़ें
+cleanupSpaces	फालतू स्पेस हटाएँ
+cleanupBlank	अतिरिक्त खाली लाइनें घटाएँ
+cleanupTabs	टैब को स्पेस में बदलें
+cleanupInvisible	अदृश्य फ़ॉर्मैटिंग वर्ण हटाएँ
+duplicatesLabel	दोहराई गई लाइनें हटाएँ
+sortLines	लाइनें क्रम में लगाएँ
+ascending	बढ़ता क्रम
+descending	घटता क्रम
+sortHelp	क्रम लगाने पर लाइनें अलग रहती हैं और लाइन जोड़ना बंद हो जाता है।
+caseLabel	बड़े और छोटे अक्षर
+uppercase	बड़े अक्षर
+lowercase	छोटे अक्षर
+titleCase	हर शब्द का पहला अक्षर बड़ा
+findLabel	ढूँढने का टेक्स्ट
+replaceLabel	इससे बदलें
+matchCase	बड़े और छोटे अक्षर अलग मानें
+rewriteGuide	एक तरीका चुनें और सुझावों को अलग-अलग जाँचें। नाम, तारीख, रकम, लिंक या मनचाही अभिव्यक्ति सुरक्षित रख सकते हैं।
+rewriteMode	संपादन का तरीका
+rewriteRepeat	दोहराए गए शब्द हटाएँ
+rewriteTypography	लेखन-चिह्न और स्पेस ठीक करें
+protectedTerms	शब्दों को सुरक्षित रखें
+protectAutomatic	पहचाने गए नाम, तारीख, रकम और लिंक सुरक्षित रखें
+protectCustom	हर लाइन में एक सुरक्षित अभिव्यक्ति
+acceptAll	सभी बदलाव स्वीकार करें
+undoAll	सभी बदलाव वापस लें
+signalLong	30 शब्दों से लंबे वाक्य
+signalDoubled	लगातार दोहराए गए शब्द
+signalMixed	लैटिन और सिरिलिक अक्षरों वाले शब्द
+signalFormats	तारीख या संख्या के अलग-अलग फ़ॉर्मैट
+signalExtra	संपादन के अन्य संकेत
+styleAdvice	लंबे वाक्य बाँटें, दोहराव कम करें और तारीख और संख्या का एक फ़ॉर्मैट चुनें। नामों व शब्दों में मिली-जुली लिपियाँ जाँचें।
+counterIntro	शब्द, वर्ण, वाक्य और अनुच्छेद गिनें और पढ़ने व बोलने का समय जानें।
+counterGuide	टेक्स्ट चिपकाकर भाषा चुनें। ज़रूरत के हिसाब से वर्ण सीमा या पढ़ने और बोलने की गति तय करें।
+characterLimit	वर्ण सीमा
+speedSettings	समय का अनुमान
+readingRate	पढ़ने के शब्द प्रति मिनट
+speakingRate	बोलने के शब्द प्रति मिनट
+statParagraphs	अनुच्छेद
+readingTime	पढ़ने का समय
+speakingTime	बोलने का समय
+frequentWords	सबसे ज़्यादा आए शब्द
+tableTitle	CSV और सूचियाँ
+tableIntro	CSV का प्रीव्यू देखें, दोहराई गई पंक्तियाँ हटाएँ और CSV या Markdown टेबल एक्सपोर्ट करें।
+tableGuide	CSV खोलें या सूची चिपकाएँ। सेपरेटर और एन्कोडिंग चुनें। प्रीव्यू में ज़्यादा से ज़्यादा 31 पंक्तियाँ और 12 कॉलम दिखते हैं।
+tableHeader	पहली पंक्ति हेडर है
+listMode	एक लाइन में एक सूची आइटम
+separatorLabel	सेपरेटर
+encodingLabel	फ़ाइल एन्कोडिंग
+tablePreview	टेबल का प्रीव्यू
+markdownTitle	Markdown प्रीव्यू
+markdownIntro	Markdown का प्रीव्यू देखें और फ़ॉर्मैट किया हुआ नतीजा HTML में लें।
+markdownGuide	Markdown चिपकाएँ या MD फ़ाइल खोलें। शीर्षक, सूचियाँ, टेबल और कोड दिखते हैं। बाहरी इमेज की जगह उसका वैकल्पिक टेक्स्ट दिखता है।
+imageTitle	इमेज का आकार और फ़ॉर्मैट बदलें
+imageIntro	JPG, PNG या WebP का आकार बदलें, उन्हें कंप्रेस करें और फ़ाइल का साइज़ देखें।
+imageGuide	इमेज खोलें और चौड़ाई व ऊँचाई चुनें या अनुपात बनाए रखें। फ़ॉर्मैट और JPG या WebP की क्वालिटी चुनें।
+imageFormats	JPG, PNG या WebP · 40 MB तक
+imageWidth	चौड़ाई (px)
+imageHeight	ऊँचाई (px)
+imageRatio	अनुपात बनाए रखें
+qualityLabel	क्वालिटी
+convertImage	इमेज बदलें
+batchTitle	दस्तावेज़ों की बैच प्रोसेसिंग
+batchIntro	कई टेक्स्ट साफ़ करें या PDF से टेक्स्ट और पेज निकालकर एक ZIP में लें।
+batchGuide	कार्रवाई चुनकर फ़ाइलें जोड़ें। हर फ़ाइल का नतीजा देखें और पूरी हुई फ़ाइलों को ZIP में डाउनलोड करें।
+batchMax	24 फ़ाइलें और कुल 80 MB तक।
+batchOperation	कार्रवाई
+batchExtractPages	चुने हुए PDF पेज निकालें
+batchRun	फ़ाइलें प्रोसेस करें
+msgFailed	प्रोसेस नहीं हो सका। इनपुट जाँचकर फिर कोशिश करें।
+msgLarge	इनपुट साइज़ या जटिलता की सीमा से बड़ा है।
+msgNoText	पढ़ने योग्य टेक्स्ट नहीं मिला।
+msgFileType	सपोर्टेड फ़ॉर्मैट की फ़ाइल चुनें।
+msgRangeError	इस PDF में मौजूद पेज नंबर या रेंज दें।
+msgProtectedPdf	PDF पासवर्ड से सुरक्षित है। अनलॉक की हुई कॉपी खोलें।
+msgCsvError	CSV पढ़ा नहीं गया। सेपरेटर और उद्धरण चिह्न जाँचें।
+msgDimensions	1 से 8192 पिक्सेल के बीच आयाम दें। कुल पिक्सेल 3.2 करोड़ तक हो सकते हैं।
+msgImageFormat	ब्राउज़र इस फ़ॉर्मैट में एक्सपोर्ट नहीं कर सकता। PNG या JPG आज़माएँ।
+msgServe	इस सुविधा के लिए साइट को लोकल सर्वर या होस्टिंग से खोलें।
+msgCompareLimit	बहुत ज़्यादा अंतर हैं। छोटे हिस्सों की तुलना करें।
+msgWorking	प्रोसेस हो रहा है…
+msgCancelled	प्रोसेसिंग रद्द हुई।
+msgPageProgress	पेज {page} · {total} में से {current}
+msgTextReady	टेक्स्ट तैयार है। प्रोसेस हुए पेज: {total}।
+msgFileProgress	फ़ाइल {current} / {total}
+msgFileLoaded	{file} खोली गई।
+msgFileReady	फ़ाइल तैयार है। पेज: {total}।
+msgExampleReady	उदाहरण खुल गया।
+msgCatalogResults	मिले टूल: {total}
+msgCatalogEmpty	कोई टूल नहीं मिला। खोज या श्रेणी बदलें।
+msgClearForExample	उदाहरण खोलने से पहले इनपुट खाली करें।
+msgCleanReady	सफ़ाई पूरी हुई। बदलाव: {total}।
+msgDiffCount	बदले हुए हिस्से: {total}।
+msgDiffPosition	बदलाव {current} / {total}।
+msgNoChanges	कोई बदलाव नहीं मिला।
+msgTableReady	पंक्तियाँ: {rows}, कॉलम: {columns}, हटाए गए दोहराव: {duplicates}।
+msgPreviewReady	प्रीव्यू तैयार है।
+msgImageReady	इमेज डाउनलोड के लिए तैयार है।
+msgQueued	प्रतीक्षा में
+msgDone	पूरा हुआ
+msgBatchReady	प्रोसेस हुई फ़ाइलें: {done}। गड़बड़ियाँ: {failed}।
+msgRemoved	हटाया गया
+msgApplied	बदलाव स्वीकार हुए।
+msgUndoAll	सभी बदलाव वापस लिए गए।
+msgOverLimit	सीमा से {total} वर्ण ज़्यादा।
+msgRemaining	बाकी वर्ण: {total}।
+sampleCleanup	PDF से कॉपी किए  टेक्स्ट में\nफालतू लाइन ब्रेक हो सकते हैं।\n\n• इस आइटम को रखें\n• इस आइटम को रखें
+sampleCompareLeft	रिपोर्ट शुक्रवार को देनी है।\nबजट 120 CHF है।
+sampleCompareRight	रिपोर्ट सोमवार को देनी है।\nबजट 150 CHF है।
+sampleText	वर्तमान समय में हम रिपोर्ट तैयार कर सकते हैं। इसके अतिरिक्त, बजट बजट अपडेट हुआ है।\n\nयह ध्यान देने योग्य है कि कीमत 120 CHF रहेगी।
+detectorTitle	टेक्स्ट की शैली की जाँच
+detectorIntro	लंबे वाक्य, दोहराव, प्रचलित वाक्यांश और फ़ॉर्मैट की गड़बड़ी देखें।
+detectorCaveat	हाइलाइट बताते हैं कि क्या संपादित किया जा सकता है। इनसे लेखक का पता नहीं चलता।
+detectorHelp	टेक्स्ट चिपकाएँ, भाषा चुनें और हाइलाइट किए वाक्यांशों को संदर्भ में देखें।
+cleanTitle	टेक्स्ट क्लीनर
+cleanIntro	लाइन ब्रेक, अतिरिक्त स्पेस और दोहराव हटाएँ, टेक्स्ट बदलें या लाइनें क्रम में लगाएँ।
+rewriteIntro	भारी वाक्यांश आसान करें, दोहराव हटाएँ या फ़ॉर्मैटिंग सुधारें और हर बदलाव जाँचें।
+search-text-cleaner	स्पेस हटाना लाइन ब्रेक ढूँढना बदलना दोहराव क्रम
+msgPageSelection	चुने हुए पेज: {current} / {total}।
+saveSettings	इस डिवाइस पर सेटिंग सहेजें
+resetSettings	सेटिंग रीसेट करें
+batchUsesSettings	बैच सफ़ाई में साफ़ करने की सहेजी हुई सेटिंग इस्तेमाल होती हैं।
+msgSettingsSaved	सेटिंग इस डिवाइस पर सहेजी गईं।
+msgSettingsReset	डिफ़ॉल्ट सेटिंग वापस आ गईं।
+msgStorageUnavailable	ब्राउज़र ने सेटिंग सहेजने की अनुमति नहीं दी।
+previewFlowHeadline	PDF से संपादन योग्य टेक्स्ट
+flowStepFile	फ़ाइल और पेज चुनें
+flowStepClean	फालतू लाइन ब्रेक और स्पेस हटाएँ
+flowStepExport	संपादन योग्य संस्करण सहेजें
+recognizeEnglish	अंग्रेज़ी टेक्स्ट भी पहचानें

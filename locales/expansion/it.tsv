@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	Strumenti più usati
+searchTools	Trova uno strumento
+searchExample	Prova PDF, confronto o spazi in eccesso
+filterCategory	Categorie degli strumenti
+allTools	Tutti gli strumenti
+categoryText	Testo
+categoryData	Documenti e dati
+categoryImage	Immagini
+howItWorks	Come funziona
+tryExample	Prova un esempio
+chooseDrop	Scegli un file o trascinalo qui
+workingLabel	Avanzamento
+cancelRun	Annulla
+downloadFile	Scarica il file
+downloadHtml	Scarica HTML
+downloadZip	Scarica ZIP
+previewAction	Mostra anteprima
+previewTitleLabel	Anteprima
+outputFormat	Formato di uscita
+automatic	Automatico
+none	Nessuno
+goCleaner	Apri nella pulizia del testo
+goCompare	Confronta le versioni
+revisedText	Testo rivisto
+applyEdits	Applica le modifiche
+pdfTextTitle	Estrai testo da PDF
+pdfTextIntro	Apri un PDF e copia, modifica o esporta il testo selezionabile.
+pdfTextGuide	Apri un PDF e indica le pagine se necessario. Controlla il risultato, in particolare se ci sono colonne o tabelle. Per le scansioni usa l’OCR.
+pdfTextRun	Estrai il testo
+pdfFormats	PDF · fino a 40 MB per file
+pagesLabel	Pagine
+pagesHelp	Lascia vuoto per tutte le pagine. Esempio di selezione: 1–3, 5.
+emptyPdfPages	Pagine senza testo selezionabile
+pdfPagesTitle	Organizza le pagine PDF
+pdfPagesIntro	Unisci PDF, scegli, riordina e ruota le pagine oppure salvale separatamente.
+pdfPagesGuide	Aggiungi uno o più PDF. Scegli pagine e ordine per ogni file, poi scarica un PDF unico oppure pagine separate in uno ZIP.
+pdfPagesRun	Crea PDF
+pageOrdering	Le pagine seguono l’ordine indicato. Con 3, 1–2 la terza pagina viene per prima.
+combinePdf	Un unico PDF
+splitPdf	Un PDF per pagina in uno ZIP
+rotatePages	Ruota le pagine
+moveUp	Sposta in alto
+moveDown	Sposta in basso
+removeFile	Rimuovi il file
+ocrTitle	OCR per PDF e immagini
+ocrIntro	Riconosci il testo di scansioni, foto e schermate.
+ocrGuide	Apri un’immagine o un PDF scansionato. Seleziona la lingua del testo, avvia il riconoscimento e rileggi il risultato prima di esportarlo.
+ocrRun	Riconosci il testo
+ocrFormats	PDF, PNG, JPG, WebP o BMP · fino a 40 MB
+docTitle	Converti un documento in testo
+docIntro	Ottieni testo modificabile da DOCX, ODT, PDF e file di testo.
+docGuide	Apri un documento ed estrai il testo. Scarica un TXT o passa il risultato a un altro strumento. L’impaginazione non viene conservata.
+otherFormats	DOCX, ODT, TXT, MD o CSV · fino a 10 MB. PDF · fino a 40 MB.
+comparePageTitle	Confronta due testi
+compareIntro	Confronta versioni per righe, parole o caratteri e passa da una differenza all’altra.
+compareGuide	Incolla due versioni o apri due documenti. Scegli il livello di confronto e nascondi le parti uguali per rivedere un testo lungo.
+compareAction	Confronta i testi
+compareBy	Confronta per
+compareLines	Righe
+ignoreSpace	Ignora gli spazi
+changesOnly	Mostra solo le modifiche
+previousChange	Modifica precedente
+nextChange	Modifica successiva
+cleanerGuide	Incolla il testo o apri un documento. Imposta la pulizia e controlla il risultato prima di copiarlo o scaricarlo.
+cleanupSettings	Impostazioni di pulizia
+cleanupWrap	Unisci le righe spezzate
+cleanupSpaces	Rimuovi gli spazi superflui
+cleanupBlank	Riduci le righe vuote
+cleanupTabs	Converti le tabulazioni in spazi
+cleanupInvisible	Rimuovi i caratteri invisibili
+duplicatesLabel	Rimuovi le righe duplicate
+sortLines	Ordina le righe
+ascending	Crescente
+descending	Decrescente
+sortHelp	Durante l’ordinamento le righe restano separate e l’unione viene disattivata.
+caseLabel	Maiuscole e minuscole
+uppercase	MAIUSCOLE
+lowercase	minuscole
+titleCase	Iniziali Maiuscole
+findLabel	Cerca testo
+replaceLabel	Sostituisci con
+matchCase	Distingui maiuscole e minuscole
+rewriteGuide	Scegli una modalità e controlla le singole proposte. Proteggi nomi, link, date, importi o termini scelti da te.
+rewriteMode	Modalità di modifica
+rewriteRepeat	Rimuovi parole ripetute
+rewriteTypography	Correggi la tipografia
+protectedTerms	Proteggi termini
+protectAutomatic	Proteggi nomi riconoscibili, date, importi e link
+protectCustom	Termini da conservare, uno per riga
+acceptAll	Accetta tutte le modifiche
+undoAll	Annulla tutte le modifiche
+signalLong	Frasi di oltre 30 parole
+signalDoubled	Parole ripetute consecutivamente
+signalMixed	Parole con caratteri latini e cirillici
+signalFormats	Formati di numeri o date incoerenti
+signalExtra	Altri elementi da controllare
+styleAdvice	Prova a spezzare le frasi lunghe, ridurre le ripetizioni e usare un formato coerente per date e numeri. Controlla anche i termini con alfabeti misti.
+counterIntro	Conta parole, caratteri, frasi e paragrafi e stima i tempi di lettura e di esposizione.
+counterGuide	Incolla il testo e seleziona la sua lingua. Imposta un limite di caratteri oppure adatta la velocità di lettura e di esposizione.
+characterLimit	Limite di caratteri
+speedSettings	Stima dei tempi
+readingRate	Parole al minuto in lettura
+speakingRate	Parole al minuto in un discorso
+statParagraphs	Paragrafi
+readingTime	Tempo di lettura
+speakingTime	Durata del discorso
+frequentWords	Parole più frequenti
+tableTitle	CSV ed elenchi
+tableIntro	Visualizza CSV, rimuovi righe duplicate ed esporta CSV o una tabella Markdown.
+tableGuide	Apri un CSV o incolla un elenco. Scegli separatore e codifica. L’anteprima mostra fino a 31 righe e 12 colonne.
+tableHeader	Prima riga come intestazione
+listMode	Un elemento per riga
+separatorLabel	Separatore
+encodingLabel	Codifica del file
+tablePreview	Anteprima della tabella
+markdownTitle	Anteprima Markdown
+markdownIntro	Visualizza Markdown e scarica il risultato come HTML.
+markdownGuide	Incolla Markdown o apri un file MD. Sono supportati titoli, elenchi, tabelle e blocchi di codice. Per le immagini esterne appare il testo alternativo.
+imageTitle	Ridimensiona e converti immagini
+imageIntro	Ridimensiona e comprimi JPG, PNG e WebP. Confronta le dimensioni dei file prima di scaricarli.
+imageGuide	Apri un’immagine, scegli larghezza e altezza o mantieni le proporzioni. Seleziona il formato e imposta la qualità per JPG o WebP.
+imageFormats	JPG, PNG o WebP · fino a 40 MB
+imageWidth	Larghezza (px)
+imageHeight	Altezza (px)
+imageRatio	Mantieni le proporzioni
+qualityLabel	Qualità
+convertImage	Converti immagine
+batchTitle	Elaborazione in serie
+batchIntro	Pulisci più file di testo o estrai testo e pagine da PDF in un unico ZIP.
+batchGuide	Scegli un’operazione e aggiungi i file. Controlla l’esito per ogni file e scarica i risultati in un archivio ZIP.
+batchMax	Fino a 24 file e 80 MB complessivi.
+batchOperation	Operazione
+batchExtractPages	Estrai le pagine PDF selezionate
+batchRun	Elabora file
+msgFailed	Elaborazione non riuscita. Controlla i dati e riprova.
+msgLarge	I dati superano il limite di dimensione o complessità.
+msgNoText	Non è stato trovato testo leggibile.
+msgFileType	Scegli un file di un formato supportato.
+msgRangeError	Indica pagine o intervalli validi per questo PDF.
+msgProtectedPdf	Il PDF è protetto con password. Apri una copia sbloccata.
+msgCsvError	Impossibile leggere il CSV. Verifica separatore e virgolette.
+msgDimensions	Imposta dimensioni da 1 a 8192 pixel, fino a 32 milioni di pixel in totale.
+msgImageFormat	Il browser non può esportare questo formato. Prova PNG o JPG.
+msgServe	Apri il sito tramite il server locale o l’hosting per usare questa funzione.
+msgCompareLimit	Le versioni hanno troppe differenze. Prova a confrontarle per sezioni.
+msgWorking	Elaborazione…
+msgCancelled	Elaborazione annullata.
+msgPageProgress	Pagina {page} · {current} di {total}
+msgTextReady	Testo pronto. Pagine elaborate: {total}.
+msgFileProgress	File {current} di {total}
+msgFileLoaded	Caricato {file}.
+msgFileReady	File pronto. Pagine: {total}.
+msgExampleReady	Esempio caricato.
+msgCatalogResults	Strumenti trovati: {total}
+msgCatalogEmpty	Nessun risultato. Cambia ricerca o categoria.
+msgClearForExample	Svuota il campo per caricare l’esempio.
+msgCleanReady	Pulizia completata. Modifiche: {total}.
+msgDiffCount	Blocchi modificati: {total}.
+msgDiffPosition	Modifica {current} di {total}.
+msgNoChanges	Nessuna modifica trovata.
+msgTableReady	Righe: {rows}, colonne: {columns}, duplicati rimossi: {duplicates}.
+msgPreviewReady	Anteprima pronta.
+msgImageReady	Immagine pronta da scaricare.
+msgQueued	In attesa
+msgDone	Completato
+msgBatchReady	File elaborati: {done}. Errori: {failed}.
+msgRemoved	Rimosso
+msgApplied	Modifiche accettate.
+msgUndoAll	Tutte le modifiche annullate.
+msgOverLimit	Limite superato di {total} caratteri.
+msgRemaining	Caratteri rimanenti: {total}.
+sampleCleanup	Un testo copiato  da PDF\npuò avere a capo superflui.\n\n• Conserva questa voce\n• Conserva questa voce
+sampleCompareLeft	Il rapporto scade venerdì.\nIl budget è di 120 CHF.
+sampleCompareRight	Il rapporto scade lunedì.\nIl budget è di 150 CHF.
+sampleText	Con cadenza giornaliera aggiorniamo il rapporto al fine di tenere in considerazione le nuove spese. Il documento include il il budget.\n\nÈ importante notare che il prezzo resta di 120 CHF.
+detectorTitle	Analisi dello stile
+detectorIntro	Individua frasi lunghe, ripetizioni, formule ricorrenti e formati incoerenti.
+detectorCaveat	Le evidenziazioni suggeriscono punti da rivedere. Non stabiliscono chi ha scritto il testo.
+detectorHelp	Incolla il testo, seleziona la lingua e controlla i passaggi evidenziati nel loro contesto.
+cleanTitle	Pulizia del testo
+cleanIntro	Rimuovi a capo, spazi e duplicati, ordina le righe o sostituisci del testo.
+rewriteIntro	Semplifica le espressioni, rimuovi le ripetizioni o sistema la tipografia con il controllo di ogni modifica.
+search-text-cleaner	eliminare spazi a capo trova sostituisci duplicati ordinamento
+msgPageSelection	Pagine selezionate: {current} di {total}.
+saveSettings	Salva le impostazioni su questo dispositivo
+resetSettings	Ripristina le impostazioni
+batchUsesSettings	La pulizia in serie usa le impostazioni che hai salvato.
+msgSettingsSaved	Impostazioni salvate su questo dispositivo.
+msgSettingsReset	Impostazioni predefinite ripristinate.
+msgStorageUnavailable	Il browser non ha consentito di salvare le impostazioni.
+previewFlowHeadline	Da PDF a testo modificabile
+flowStepFile	Scegli un file e le pagine
+flowStepClean	Rimuovi a capo e spazi superflui
+flowStepExport	Salva una versione modificabile
+recognizeEnglish	Riconosci anche il testo in inglese

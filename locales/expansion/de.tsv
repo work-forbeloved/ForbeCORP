@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	Beliebte Werkzeuge
+searchTools	Werkzeug finden
+searchExample	Zum Beispiel PDF, vergleichen oder Leerzeichen entfernen
+filterCategory	Werkzeugkategorien
+allTools	Alle Werkzeuge
+categoryText	Text
+categoryData	Dokumente und Daten
+categoryImage	Bilder
+howItWorks	So funktioniert das Werkzeug
+tryExample	Beispiel ausprobieren
+chooseDrop	Datei auswählen oder hier ablegen
+workingLabel	Verarbeitungsfortschritt
+cancelRun	Abbrechen
+downloadFile	Datei herunterladen
+downloadHtml	HTML herunterladen
+downloadZip	ZIP herunterladen
+previewAction	Vorschau anzeigen
+previewTitleLabel	Vorschau
+outputFormat	Ausgabeformat
+automatic	Automatisch
+none	Keine
+goCleaner	In der Textbereinigung öffnen
+goCompare	Versionen vergleichen
+revisedText	Überarbeiteter Text
+applyEdits	Änderungen anwenden
+pdfTextTitle	Text aus PDF extrahieren
+pdfTextIntro	Öffne eine PDF-Datei und kopiere, bearbeite oder exportiere den auswählbaren Text.
+pdfTextGuide	Öffne eine PDF-Datei und gib bei Bedarf Seiten an. Prüfe das Ergebnis besonders bei Spalten und Tabellen. Für gescannte Seiten gibt es OCR.
+pdfTextRun	Text extrahieren
+pdfFormats	PDF · bis 40 MB pro Datei
+pagesLabel	Seiten
+pagesHelp	Für alle Seiten leer lassen. Beispiel: 1–3, 5.
+emptyPdfPages	Seiten ohne auswählbaren Text
+pdfPagesTitle	PDF-Seiten organisieren
+pdfPagesIntro	Führe PDFs zusammen, wähle und sortiere Seiten, drehe sie oder speichere sie einzeln.
+pdfPagesGuide	Füge eine oder mehrere PDF-Dateien hinzu. Gib Seiten und Reihenfolge je Datei an. Lade eine gemeinsame PDF oder einzelne Seiten in einer ZIP-Datei herunter.
+pdfPagesRun	PDF erstellen
+pageOrdering	Die Seiten folgen der Eingabereihenfolge. Bei 3, 1–2 steht Seite 3 zuerst.
+combinePdf	Eine gemeinsame PDF
+splitPdf	Eine PDF je Seite in einer ZIP-Datei
+rotatePages	Seiten drehen
+moveUp	Nach oben verschieben
+moveDown	Nach unten verschieben
+removeFile	Datei entfernen
+ocrTitle	OCR für PDF und Bilder
+ocrIntro	Erkenne Text aus Scans, Fotos und Screenshots.
+ocrGuide	Öffne ein Bild oder eine gescannte PDF. Wähle die Textsprache, starte die Erkennung und prüfe den Text vor dem Export.
+ocrRun	Text erkennen
+ocrFormats	PDF, PNG, JPG, WebP oder BMP · bis 40 MB
+docTitle	Dokument in Text umwandeln
+docIntro	Gewinne bearbeitbaren Text aus DOCX, ODT, PDF oder Textdateien.
+docGuide	Öffne ein Dokument und extrahiere seinen Text. Lade TXT herunter oder sende das Ergebnis an ein anderes Werkzeug. Das Seitenlayout bleibt nicht erhalten.
+otherFormats	DOCX, ODT, TXT, MD oder CSV · bis 10 MB. PDF · bis 40 MB.
+comparePageTitle	Zwei Texte vergleichen
+compareIntro	Vergleiche Zeilen, Wörter oder Zeichen und springe zwischen Unterschieden.
+compareGuide	Füge zwei Versionen ein oder öffne zwei Dokumente. Wähle die Vergleichsebene und blende unveränderte Blöcke bei langen Texten aus.
+compareAction	Texte vergleichen
+compareBy	Vergleichen nach
+compareLines	Zeilen
+ignoreSpace	Leerraum ignorieren
+changesOnly	Nur Änderungen anzeigen
+previousChange	Vorherige Änderung
+nextChange	Nächste Änderung
+cleanerGuide	Füge Text ein oder öffne ein Dokument. Wähle die Bereinigungseinstellungen und prüfe das Ergebnis vor dem Kopieren oder Exportieren.
+cleanupSettings	Bereinigungseinstellungen
+cleanupWrap	Umgebrochene Zeilen verbinden
+cleanupSpaces	Überflüssige Leerzeichen entfernen
+cleanupBlank	Zusätzliche Leerzeilen reduzieren
+cleanupTabs	Tabulatoren in Leerzeichen umwandeln
+cleanupInvisible	Unsichtbare Formatierungszeichen entfernen
+duplicatesLabel	Doppelte Zeilen entfernen
+sortLines	Zeilen sortieren
+ascending	Aufsteigend
+descending	Absteigend
+sortHelp	Beim Sortieren bleiben Zeilen separat und werden nicht zusammengeführt.
+caseLabel	Groß- und Kleinschreibung
+uppercase	GROSSBUCHSTABEN
+lowercase	kleinbuchstaben
+titleCase	Wörter Groß Beginnen
+findLabel	Text suchen
+replaceLabel	Ersetzen durch
+matchCase	Groß- und Kleinschreibung beachten
+rewriteGuide	Wähle einen Modus und prüfe die Vorschläge einzeln. Schütze Namen, Daten, Beträge, Links oder selbst gewählte Begriffe.
+rewriteMode	Bearbeitungsmodus
+rewriteRepeat	Wortwiederholungen entfernen
+rewriteTypography	Typografie korrigieren
+protectedTerms	Begriffe schützen
+protectAutomatic	Erkannte Namen, Daten, Beträge und Links schützen
+protectCustom	Zu schützende Begriffe, einer pro Zeile
+acceptAll	Alle Änderungen übernehmen
+undoAll	Alle Änderungen zurücknehmen
+signalLong	Sätze mit mehr als 30 Wörtern
+signalDoubled	Direkte Wortwiederholungen
+signalMixed	Wörter mit lateinischen und kyrillischen Zeichen
+signalFormats	Uneinheitliche Zahlen- oder Datumsformate
+signalExtra	Weitere Hinweise zur Überarbeitung
+styleAdvice	Teile lange Sätze, kürze Wiederholungen und wähle einheitliche Formate für Daten und Zahlen. Prüfe Begriffe mit gemischten Schriften.
+counterIntro	Zähle Wörter, Zeichen, Sätze und Absätze und schätze Lese- und Sprechzeit.
+counterGuide	Füge den Text ein und wähle die Sprache. Lege ein Zeichenlimit fest oder passe Lese- und Sprechtempo an.
+characterLimit	Zeichenlimit
+speedSettings	Zeitschätzung
+readingRate	Lesewörter pro Minute
+speakingRate	Gesprochene Wörter pro Minute
+statParagraphs	Absätze
+readingTime	Lesezeit
+speakingTime	Sprechzeit
+frequentWords	Häufigste Wörter
+tableTitle	CSV und Listen
+tableIntro	Sieh dir CSV-Dateien an, entferne doppelte Zeilen und exportiere CSV oder eine Markdown-Tabelle.
+tableGuide	Öffne eine CSV-Datei oder füge eine Liste ein. Wähle Trennzeichen und Kodierung. Die Vorschau zeigt bis zu 31 Zeilen und 12 Spalten.
+tableHeader	Erste Zeile ist die Kopfzeile
+listMode	Ein Listeneintrag pro Zeile
+separatorLabel	Trennzeichen
+encodingLabel	Dateikodierung
+tablePreview	Tabellenvorschau
+markdownTitle	Markdown-Vorschau
+markdownIntro	Zeige Markdown formatiert an und lade das Ergebnis als HTML herunter.
+markdownGuide	Füge Markdown ein oder öffne eine MD-Datei. Unterstützt werden Überschriften, Listen, Tabellen und Codeblöcke. Bei externen Bildern erscheint der Alternativtext.
+imageTitle	Bilder skalieren und umwandeln
+imageIntro	Skaliere und komprimiere JPG, PNG oder WebP und vergleiche die Dateigrößen.
+imageGuide	Öffne ein Bild. Lege Breite und Höhe fest oder behalte das Seitenverhältnis bei. Wähle Format und Qualität für JPG oder WebP.
+imageFormats	JPG, PNG oder WebP · bis 40 MB
+imageWidth	Breite (px)
+imageHeight	Höhe (px)
+imageRatio	Seitenverhältnis beibehalten
+qualityLabel	Qualität
+convertImage	Bild umwandeln
+batchTitle	Dokumente im Stapel verarbeiten
+batchIntro	Bereinige mehrere Dateien oder extrahiere Text und Seiten aus PDFs in eine ZIP-Datei.
+batchGuide	Wähle eine Aktion und füge Dateien hinzu. Prüfe den Status für jede Datei und lade die Ergebnisse in einer ZIP-Datei herunter.
+batchMax	Bis zu 24 Dateien und insgesamt 80 MB.
+batchOperation	Aktion
+batchExtractPages	Ausgewählte PDF-Seiten extrahieren
+batchRun	Dateien verarbeiten
+msgFailed	Verarbeitung fehlgeschlagen. Prüfe die Eingabe und versuche es erneut.
+msgLarge	Die Eingabe überschreitet die Größen- oder Komplexitätsgrenze.
+msgNoText	Kein lesbarer Text gefunden.
+msgFileType	Wähle eine Datei in einem unterstützten Format.
+msgRangeError	Gib gültige Seiten oder Seitenbereiche der PDF-Datei ein.
+msgProtectedPdf	Diese PDF-Datei ist passwortgeschützt. Öffne eine entsperrte Kopie.
+msgCsvError	CSV konnte nicht gelesen werden. Prüfe Trennzeichen und Anführungszeichen.
+msgDimensions	Wähle Abmessungen zwischen 1 und 8192 Pixeln bei insgesamt höchstens 32 Millionen Pixeln.
+msgImageFormat	Der Browser kann dieses Format nicht exportieren. Probiere PNG oder JPG.
+msgServe	Öffne die Website über den lokalen Server oder den Host, um diese Funktion zu nutzen.
+msgCompareLimit	Die Versionen sind zu unterschiedlich. Vergleiche kleinere Abschnitte.
+msgWorking	Wird verarbeitet…
+msgCancelled	Verarbeitung abgebrochen.
+msgPageProgress	Seite {page} · {current} von {total}
+msgTextReady	Text fertig. Verarbeitete Seiten: {total}.
+msgFileProgress	Datei {current} von {total}
+msgFileLoaded	{file} wurde geöffnet.
+msgFileReady	Datei fertig. Seiten: {total}.
+msgExampleReady	Beispiel geladen.
+msgCatalogResults	Gefundene Werkzeuge: {total}
+msgCatalogEmpty	Keine Treffer. Ändere Suche oder Kategorie.
+msgClearForExample	Leere das Eingabefeld, um das Beispiel zu laden.
+msgCleanReady	Bereinigt. Änderungen: {total}.
+msgDiffCount	Geänderte Blöcke: {total}.
+msgDiffPosition	Änderung {current} von {total}.
+msgNoChanges	Keine Änderungen gefunden.
+msgTableReady	Zeilen: {rows}, Spalten: {columns}, entfernte Duplikate: {duplicates}.
+msgPreviewReady	Vorschau fertig.
+msgImageReady	Das Bild kann heruntergeladen werden.
+msgQueued	Wartet
+msgDone	Fertig
+msgBatchReady	Verarbeitete Dateien: {done}. Fehler: {failed}.
+msgRemoved	Entfernt
+msgApplied	Änderungen übernommen.
+msgUndoAll	Alle Änderungen zurückgenommen.
+msgOverLimit	Zeichenlimit um {total} überschritten.
+msgRemaining	Verbleibende Zeichen: {total}.
+sampleCleanup	Aus einer PDF kopierter  Text\nkann zusätzliche Umbrüche enthalten.\n\n• Diesen Eintrag behalten\n• Diesen Eintrag behalten
+sampleCompareLeft	Der Bericht ist am Freitag fällig.\nDas Budget beträgt 120 CHF.
+sampleCompareRight	Der Bericht ist am Montag fällig.\nDas Budget beträgt 150 CHF.
+sampleText	Zu diesem Zeitpunkt können wir den Bericht auf täglicher Basis vorbereiten. Der Bericht enthält das das aktuelle Budget.\n\nEs ist wichtig zu betonen, dass der Preis bei 120 CHF bleibt.
+detectorTitle	Textstil analysieren
+detectorIntro	Finde lange Sätze, Wiederholungen, gängige Formulierungen und uneinheitliche Formate.
+detectorCaveat	Die Markierungen geben Hinweise zur Überarbeitung. Sie sagen nicht, wer den Text geschrieben hat.
+detectorHelp	Füge einen Entwurf ein, wähle die Sprache und prüfe die Markierungen im Kontext.
+cleanTitle	Text bereinigen
+cleanIntro	Entferne Umbrüche, Leerzeichen und Duplikate, sortiere Zeilen oder ersetze Text.
+rewriteIntro	Vereinfache Formulierungen, entferne Wiederholungen oder korrigiere die Typografie und prüfe jeden Eingriff.
+search-text-cleaner	Leerzeichen entfernen Umbrüche löschen Suchen Ersetzen Duplikate sortieren
+msgPageSelection	Ausgewählte Seiten: {current} von {total}.
+saveSettings	Einstellungen auf diesem Gerät speichern
+resetSettings	Einstellungen zurücksetzen
+batchUsesSettings	Die Stapelbereinigung verwendet deine gespeicherten Einstellungen.
+msgSettingsSaved	Einstellungen auf diesem Gerät gespeichert.
+msgSettingsReset	Standardeinstellungen wiederhergestellt.
+msgStorageUnavailable	Der Browser konnte die Einstellungen nicht speichern.
+previewFlowHeadline	Von PDF zu bearbeitbarem Text
+flowStepFile	Wähle eine Datei und die Seiten
+flowStepClean	Entferne störende Umbrüche und Leerzeichen
+flowStepExport	Speichere eine bearbeitbare Version
+recognizeEnglish	Auch englischen Text erkennen

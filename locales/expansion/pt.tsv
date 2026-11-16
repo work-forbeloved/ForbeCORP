@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	Ferramentas populares
+searchTools	Procurar ferramenta
+searchExample	Tente PDF, comparar ou remover espaços
+filterCategory	Categorias de ferramentas
+allTools	Todas as ferramentas
+categoryText	Texto
+categoryData	Documentos e dados
+categoryImage	Imagens
+howItWorks	Como utilizar a ferramenta
+tryExample	Experimentar um exemplo
+chooseDrop	Escolha um ficheiro ou arraste-o para aqui
+workingLabel	Progresso
+cancelRun	Cancelar
+downloadFile	Descarregar ficheiro
+downloadHtml	Descarregar HTML
+downloadZip	Descarregar ZIP
+previewAction	Pré-visualizar
+previewTitleLabel	Pré-visualização
+outputFormat	Formato de saída
+automatic	Automático
+none	Nenhum
+goCleaner	Abrir na limpeza de texto
+goCompare	Comparar versões
+revisedText	Texto revisto
+applyEdits	Aplicar alterações
+pdfTextTitle	Extrair texto de PDF
+pdfTextIntro	Abra um PDF e copie, edite ou exporte o texto selecionável.
+pdfTextGuide	Escolha um PDF e indique as páginas, se necessário. Reveja o resultado, sobretudo se houver colunas ou tabelas. Use OCR em páginas digitalizadas.
+pdfTextRun	Extrair texto
+pdfFormats	PDF · até 40 MB por ficheiro
+pagesLabel	Páginas
+pagesHelp	Deixe em branco para todas as páginas. Exemplo: 1–3, 5.
+emptyPdfPages	Páginas sem texto selecionável
+pdfPagesTitle	Organizar páginas de PDF
+pdfPagesIntro	Junte PDFs, selecione, reordene e rode páginas ou guarde-as em ficheiros separados.
+pdfPagesGuide	Adicione um ou mais PDFs. Escolha as páginas e a ordem de cada ficheiro. Descarregue um PDF único ou páginas separadas num ZIP.
+pdfPagesRun	Criar PDF
+pageOrdering	As páginas seguem a ordem indicada. Por exemplo, 3, 1–2 coloca a terceira página primeiro.
+combinePdf	Um único PDF
+splitPdf	Um PDF por página num ZIP
+rotatePages	Rodar páginas
+moveUp	Mover para cima
+moveDown	Mover para baixo
+removeFile	Remover ficheiro
+ocrTitle	OCR para PDF e imagens
+ocrIntro	Reconheça texto em páginas digitalizadas, fotografias e capturas.
+ocrGuide	Abra uma imagem ou um PDF digitalizado. Escolha o idioma, inicie o reconhecimento e reveja o texto antes de exportar.
+ocrRun	Reconhecer texto
+ocrFormats	PDF, PNG, JPG, WebP ou BMP · até 40 MB
+docTitle	Converter documento em texto
+docIntro	Obtenha texto editável de ficheiros DOCX, ODT, PDF ou de texto simples.
+docGuide	Abra um documento e extraia o texto. Descarregue TXT ou envie o resultado para outra ferramenta. A paginação não é preservada.
+otherFormats	DOCX, ODT, TXT, MD ou CSV · até 10 MB. PDF · até 40 MB.
+comparePageTitle	Comparar dois textos
+compareIntro	Compare por linhas, palavras ou caracteres e navegue pelas diferenças.
+compareGuide	Cole duas versões ou abra dois documentos. Selecione o nível de comparação e oculte os blocos iguais para rever um texto longo.
+compareAction	Comparar textos
+compareBy	Comparar por
+compareLines	Linhas
+ignoreSpace	Ignorar espaços
+changesOnly	Mostrar apenas alterações
+previousChange	Alteração anterior
+nextChange	Alteração seguinte
+cleanerGuide	Cole o texto ou abra um documento. Ajuste as opções e reveja o resultado antes de copiar ou descarregar.
+cleanupSettings	Opções de limpeza
+cleanupWrap	Juntar linhas quebradas
+cleanupSpaces	Remover espaços em excesso
+cleanupBlank	Reduzir linhas em branco
+cleanupTabs	Converter tabulações em espaços
+cleanupInvisible	Remover caracteres de formatação invisíveis
+duplicatesLabel	Remover linhas duplicadas
+sortLines	Ordenar linhas
+ascending	Ascendente
+descending	Descendente
+sortHelp	Ao ordenar, as linhas permanecem separadas e a junção é desativada.
+caseLabel	Maiúsculas e minúsculas
+uppercase	MAIÚSCULAS
+lowercase	minúsculas
+titleCase	Iniciais Maiúsculas
+findLabel	Encontrar texto
+replaceLabel	Substituir por
+matchCase	Distinguir maiúsculas
+rewriteGuide	Escolha um modo e reveja cada sugestão. Proteja nomes, datas, valores, ligações ou termos escolhidos.
+rewriteMode	Modo de edição
+rewriteRepeat	Remover palavras repetidas
+rewriteTypography	Ajustar a tipografia
+protectedTerms	Proteger termos
+protectAutomatic	Proteger possíveis nomes, datas, valores e ligações
+protectCustom	Termos a preservar, um por linha
+acceptAll	Aceitar todas as alterações
+undoAll	Anular todas as alterações
+signalLong	Frases com mais de 30 palavras
+signalDoubled	Palavras repetidas consecutivamente
+signalMixed	Palavras com letras latinas e cirílicas
+signalFormats	Formatos de números ou datas diferentes
+signalExtra	Outros pontos a rever
+styleAdvice	Divida frases longas, reduza repetições e use um formato coerente para datas e números. Reveja os termos com alfabetos misturados.
+counterIntro	Conte palavras, caracteres, frases e parágrafos e estime o tempo de leitura e apresentação.
+counterGuide	Cole o texto e selecione o idioma. Defina um limite de caracteres ou ajuste a velocidade de leitura e apresentação.
+characterLimit	Limite de caracteres
+speedSettings	Estimativa de tempo
+readingRate	Palavras lidas por minuto
+speakingRate	Palavras faladas por minuto
+statParagraphs	Parágrafos
+readingTime	Tempo de leitura
+speakingTime	Tempo de apresentação
+frequentWords	Palavras mais frequentes
+tableTitle	CSV e listas
+tableIntro	Pré-visualize CSV, remova duplicados e exporte CSV ou uma tabela Markdown.
+tableGuide	Abra um CSV ou cole uma lista. Escolha o separador e a codificação. A pré-visualização mostra até 31 linhas e 12 colunas.
+tableHeader	A primeira linha é o cabeçalho
+listMode	Um item por linha
+separatorLabel	Separador
+encodingLabel	Codificação do ficheiro
+tablePreview	Pré-visualização da tabela
+markdownTitle	Pré-visualização de Markdown
+markdownIntro	Veja Markdown formatado e descarregue o resultado em HTML.
+markdownGuide	Cole Markdown ou abra um ficheiro MD. Suporta títulos, listas, tabelas e blocos de código. As imagens externas aparecem como texto alternativo.
+imageTitle	Redimensionar e converter imagens
+imageIntro	Redimensione e comprima JPG, PNG ou WebP. Compare o tamanho dos ficheiros antes de descarregar.
+imageGuide	Abra uma imagem, escolha a largura e a altura ou mantenha as proporções. Selecione o formato e ajuste a qualidade para JPG ou WebP.
+imageFormats	JPG, PNG ou WebP · até 40 MB
+imageWidth	Largura (px)
+imageHeight	Altura (px)
+imageRatio	Manter as proporções
+qualityLabel	Qualidade
+convertImage	Converter imagem
+batchTitle	Processar documentos em lote
+batchIntro	Limpe vários textos ou extraia texto e páginas de PDF para um ZIP.
+batchGuide	Escolha uma operação e adicione os ficheiros. Reveja cada resultado e descarregue os ficheiros concluídos num ZIP.
+batchMax	Até 24 ficheiros e 80 MB no total.
+batchOperation	Operação
+batchExtractPages	Extrair páginas selecionadas do PDF
+batchRun	Processar ficheiros
+msgFailed	Não foi possível processar. Verifique os dados e tente novamente.
+msgLarge	Os dados excedem o limite de tamanho ou complexidade.
+msgNoText	Não foi encontrado texto legível.
+msgFileType	Escolha um ficheiro com formato suportado.
+msgRangeError	Indique páginas ou intervalos válidos neste PDF.
+msgProtectedPdf	O PDF tem palavra-passe. Abra uma cópia desbloqueada.
+msgCsvError	Não foi possível ler o CSV. Verifique o separador e as aspas.
+msgDimensions	Indique dimensões de 1 a 8192 píxeis e até 32 milhões de píxeis no total.
+msgImageFormat	O navegador não exporta este formato. Experimente PNG ou JPG.
+msgServe	Abra o site num servidor local ou no alojamento para usar esta função.
+msgCompareLimit	As versões têm demasiadas diferenças. Compare por partes.
+msgWorking	A processar…
+msgCancelled	Processamento cancelado.
+msgPageProgress	Página {page} · {current} de {total}
+msgTextReady	Texto pronto. Páginas processadas: {total}.
+msgFileProgress	Ficheiro {current} de {total}
+msgFileLoaded	Foi aberto {file}.
+msgFileReady	Ficheiro pronto. Páginas: {total}.
+msgExampleReady	Exemplo carregado.
+msgCatalogResults	Ferramentas encontradas: {total}
+msgCatalogEmpty	Sem resultados. Altere a pesquisa ou a categoria.
+msgClearForExample	Limpe o campo para carregar o exemplo.
+msgCleanReady	Limpeza concluída. Alterações: {total}.
+msgDiffCount	Blocos alterados: {total}.
+msgDiffPosition	Alteração {current} de {total}.
+msgNoChanges	Não foram encontradas alterações.
+msgTableReady	Linhas: {rows}, colunas: {columns}, duplicados removidos: {duplicates}.
+msgPreviewReady	Pré-visualização pronta.
+msgImageReady	Imagem pronta para descarregar.
+msgQueued	Em espera
+msgDone	Concluído
+msgBatchReady	Ficheiros processados: {done}. Erros: {failed}.
+msgRemoved	Removido
+msgApplied	Alterações aceites.
+msgUndoAll	Todas as alterações foram anuladas.
+msgOverLimit	Limite excedido em {total} caracteres.
+msgRemaining	Restam {total} caracteres.
+sampleCleanup	Um texto copiado  de um PDF\npode trazer quebras de linha extra.\n\n• Manter este item\n• Manter este item
+sampleCompareLeft	O relatório é para sexta-feira.\nO orçamento é de 120 CHF.
+sampleCompareRight	O relatório é para segunda-feira.\nO orçamento é de 150 CHF.
+sampleText	No momento atual podemos começar com o objetivo de preparar o relatório. O relatório inclui o o orçamento.\n\nÉ importante notar que o preço continua a ser 120 CHF.
+detectorTitle	Análise de estilo
+detectorIntro	Identifique frases longas, repetições, expressões comuns e formatos incoerentes.
+detectorCaveat	Os destaques assinalam aspetos a rever. Não determinam quem escreveu o texto.
+detectorHelp	Cole um rascunho, escolha o idioma e reveja os destaques no contexto.
+cleanTitle	Limpeza de texto
+cleanIntro	Remova quebras, espaços e duplicados. Ordene linhas ou substitua texto.
+rewriteIntro	Simplifique expressões, remova repetições ou ajuste a tipografia, revendo cada alteração.
+search-text-cleaner	remover espaços quebras procurar substituir ordenar duplicados
+msgPageSelection	Páginas selecionadas: {current} de {total}.
+saveSettings	Guardar as definições neste dispositivo
+resetSettings	Repor definições
+batchUsesSettings	A limpeza em lote usa as definições de limpeza guardadas.
+msgSettingsSaved	Definições guardadas neste dispositivo.
+msgSettingsReset	Definições predefinidas repostas.
+msgStorageUnavailable	O navegador não permitiu guardar as definições.
+previewFlowHeadline	De PDF para texto editável
+flowStepFile	Escolha um ficheiro e as páginas
+flowStepClean	Remova quebras e espaços em excesso
+flowStepExport	Guarde uma versão editável
+recognizeEnglish	Reconhecer também texto em inglês

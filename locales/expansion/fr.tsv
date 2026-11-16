@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	Outils populaires
+searchTools	Trouver un outil
+searchExample	Essayez PDF, comparer ou supprimer les espaces
+filterCategory	Catégories d’outils
+allTools	Tous les outils
+categoryText	Texte
+categoryData	Documents et données
+categoryImage	Images
+howItWorks	Comment utiliser cet outil
+tryExample	Essayer un exemple
+chooseDrop	Choisissez un fichier ou déposez-le ici
+workingLabel	Progression
+cancelRun	Annuler
+downloadFile	Télécharger le fichier
+downloadHtml	Télécharger en HTML
+downloadZip	Télécharger le ZIP
+previewAction	Prévisualiser
+previewTitleLabel	Aperçu
+outputFormat	Format de sortie
+automatic	Automatique
+none	Aucun
+goCleaner	Ouvrir dans le nettoyeur de texte
+goCompare	Comparer les versions
+revisedText	Texte révisé
+applyEdits	Appliquer les modifications
+pdfTextTitle	Extraire le texte d’un PDF
+pdfTextIntro	Ouvrez un PDF pour copier, modifier ou exporter son texte sélectionnable.
+pdfTextGuide	Ouvrez un PDF et indiquez éventuellement les pages. Vérifiez le résultat, notamment si le document contient des colonnes ou des tableaux. Utilisez l’OCR pour les scans.
+pdfTextRun	Extraire le texte
+pdfFormats	PDF · jusqu’à 40 Mo par fichier
+pagesLabel	Pages
+pagesHelp	Laissez vide pour toutes les pages. Exemple : 1–3, 5.
+emptyPdfPages	Pages sans texte sélectionnable
+pdfPagesTitle	Organiser les pages PDF
+pdfPagesIntro	Fusionnez des PDF, sélectionnez et réorganisez les pages, faites-les pivoter ou enregistrez-les séparément.
+pdfPagesGuide	Ajoutez un ou plusieurs PDF. Choisissez les pages et leur ordre pour chaque fichier. Téléchargez un PDF combiné ou des pages séparées dans un ZIP.
+pdfPagesRun	Créer le PDF
+pageOrdering	Les pages suivent l’ordre saisi. Par exemple, 3, 1–2 place la troisième page en premier.
+combinePdf	Un seul PDF combiné
+splitPdf	Un PDF par page dans un ZIP
+rotatePages	Faire pivoter les pages
+moveUp	Monter
+moveDown	Descendre
+removeFile	Retirer le fichier
+ocrTitle	OCR pour PDF et images
+ocrIntro	Reconnaissez le texte de scans, photos et captures d’écran.
+ocrGuide	Ouvrez une image ou un PDF scanné. Sélectionnez la langue, lancez la reconnaissance et relisez le résultat avant de l’exporter.
+ocrRun	Reconnaître le texte
+ocrFormats	PDF, PNG, JPG, WebP ou BMP · jusqu’à 40 Mo
+docTitle	Convertir un document en texte
+docIntro	Obtenez du texte modifiable à partir de fichiers DOCX, ODT, PDF ou texte.
+docGuide	Ouvrez un document pour en extraire le texte. Téléchargez un TXT ou passez le résultat à un autre outil. La mise en page n’est pas conservée.
+otherFormats	DOCX, ODT, TXT, MD ou CSV · jusqu’à 10 Mo. PDF · jusqu’à 40 Mo.
+comparePageTitle	Comparer deux textes
+compareIntro	Comparez par lignes, mots ou caractères et passez d’une différence à l’autre.
+compareGuide	Collez deux versions ou ouvrez deux documents. Choisissez le niveau de comparaison et masquez les parties identiques pour relire les textes longs.
+compareAction	Comparer les textes
+compareBy	Comparer par
+compareLines	Lignes
+ignoreSpace	Ignorer les espaces
+changesOnly	Afficher uniquement les changements
+previousChange	Changement précédent
+nextChange	Changement suivant
+cleanerGuide	Collez du texte ou ouvrez un document. Ajustez les réglages et vérifiez le résultat avant de le copier ou de le télécharger.
+cleanupSettings	Réglages de nettoyage
+cleanupWrap	Joindre les lignes coupées
+cleanupSpaces	Supprimer les espaces superflus
+cleanupBlank	Réduire les lignes vides
+cleanupTabs	Convertir les tabulations en espaces
+cleanupInvisible	Supprimer les caractères de mise en forme invisibles
+duplicatesLabel	Supprimer les lignes en double
+sortLines	Trier les lignes
+ascending	Croissant
+descending	Décroissant
+sortHelp	Le tri garde les lignes séparées et désactive leur fusion.
+caseLabel	Casse des lettres
+uppercase	MAJUSCULES
+lowercase	minuscules
+titleCase	Initiales Majuscules
+findLabel	Rechercher du texte
+replaceLabel	Remplacer par
+matchCase	Respecter la casse
+rewriteGuide	Choisissez un mode et relisez chaque suggestion. Protégez les noms, dates, montants, liens ou termes de votre choix.
+rewriteMode	Mode de révision
+rewriteRepeat	Supprimer les mots répétés
+rewriteTypography	Corriger la typographie
+protectedTerms	Protéger des termes
+protectAutomatic	Protéger les noms détectés, dates, montants et liens
+protectCustom	Termes à conserver, un par ligne
+acceptAll	Accepter toutes les modifications
+undoAll	Annuler toutes les modifications
+signalLong	Phrases de plus de 30 mots
+signalDoubled	Mots répétés à la suite
+signalMixed	Mots mêlant lettres latines et cyrilliques
+signalFormats	Formats de nombres ou de dates incohérents
+signalExtra	Autres points à vérifier
+styleAdvice	Scindez les phrases longues, réduisez les répétitions et choisissez un format cohérent pour les dates et nombres. Vérifiez les termes mêlant plusieurs alphabets.
+counterIntro	Comptez les mots, caractères, phrases et paragraphes et estimez le temps de lecture ou de prise de parole.
+counterGuide	Collez le texte et sélectionnez sa langue. Définissez une limite de caractères ou ajustez les vitesses de lecture et de parole.
+characterLimit	Limite de caractères
+speedSettings	Estimation du temps
+readingRate	Mots lus par minute
+speakingRate	Mots prononcés par minute
+statParagraphs	Paragraphes
+readingTime	Temps de lecture
+speakingTime	Temps de parole
+frequentWords	Mots les plus fréquents
+tableTitle	CSV et listes
+tableIntro	Prévisualisez un CSV, supprimez les doublons et exportez en CSV ou en tableau Markdown.
+tableGuide	Ouvrez un CSV ou collez une liste. Choisissez le séparateur et l’encodage. L’aperçu affiche jusqu’à 31 lignes et 12 colonnes.
+tableHeader	La première ligne est l’en-tête
+listMode	Un élément par ligne
+separatorLabel	Séparateur
+encodingLabel	Encodage du fichier
+tablePreview	Aperçu du tableau
+markdownTitle	Aperçu Markdown
+markdownIntro	Prévisualisez Markdown et téléchargez le résultat en HTML.
+markdownGuide	Collez du Markdown ou ouvrez un fichier MD. Les titres, listes, tableaux et blocs de code sont pris en charge. Les images externes apparaissent sous forme de texte alternatif.
+imageTitle	Redimensionner et convertir une image
+imageIntro	Redimensionnez et compressez des JPG, PNG ou WebP. Comparez la taille des fichiers.
+imageGuide	Ouvrez une image, choisissez sa largeur et sa hauteur ou gardez les proportions. Sélectionnez le format et réglez la qualité pour JPG ou WebP.
+imageFormats	JPG, PNG ou WebP · jusqu’à 40 Mo
+imageWidth	Largeur (px)
+imageHeight	Hauteur (px)
+imageRatio	Garder les proportions
+qualityLabel	Qualité
+convertImage	Convertir l’image
+batchTitle	Traiter des documents par lot
+batchIntro	Nettoyez plusieurs textes ou extrayez du texte et des pages de PDF dans un ZIP.
+batchGuide	Choisissez une opération et ajoutez des fichiers. Vérifiez le résultat pour chaque fichier puis téléchargez le ZIP.
+batchMax	Jusqu’à 24 fichiers et 80 Mo au total.
+batchOperation	Opération
+batchExtractPages	Extraire les pages PDF sélectionnées
+batchRun	Traiter les fichiers
+msgFailed	Échec du traitement. Vérifiez les données et réessayez.
+msgLarge	Les données dépassent la limite de taille ou de complexité.
+msgNoText	Aucun texte lisible trouvé.
+msgFileType	Choisissez un fichier dans un format pris en charge.
+msgRangeError	Indiquez des pages ou des plages valides dans ce PDF.
+msgProtectedPdf	Ce PDF est protégé par mot de passe. Ouvrez une copie déverrouillée.
+msgCsvError	Impossible de lire le CSV. Vérifiez le séparateur et les guillemets.
+msgDimensions	Saisissez des dimensions entre 1 et 8192 pixels, avec 32 millions de pixels au total au maximum.
+msgImageFormat	Ce navigateur ne peut pas exporter ce format. Essayez PNG ou JPG.
+msgServe	Ouvrez le site sur le serveur local ou l’hébergement pour utiliser cette fonction.
+msgCompareLimit	Ces versions sont trop différentes. Comparez-les par sections.
+msgWorking	Traitement en cours…
+msgCancelled	Traitement annulé.
+msgPageProgress	Page {page} · {current} sur {total}
+msgTextReady	Texte prêt. Pages traitées : {total}.
+msgFileProgress	Fichier {current} sur {total}
+msgFileLoaded	Fichier {file} chargé.
+msgFileReady	Fichier prêt. Pages : {total}.
+msgExampleReady	Exemple chargé.
+msgCatalogResults	Outils trouvés : {total}
+msgCatalogEmpty	Aucun résultat. Changez la recherche ou la catégorie.
+msgClearForExample	Videz le champ pour charger l’exemple.
+msgCleanReady	Nettoyage terminé. Modifications : {total}.
+msgDiffCount	Blocs modifiés : {total}.
+msgDiffPosition	Modification {current} sur {total}.
+msgNoChanges	Aucune modification trouvée.
+msgTableReady	Lignes : {rows}, colonnes : {columns}, doublons supprimés : {duplicates}.
+msgPreviewReady	Aperçu prêt.
+msgImageReady	Image prête à télécharger.
+msgQueued	En attente
+msgDone	Terminé
+msgBatchReady	Fichiers traités : {done}. Erreurs : {failed}.
+msgRemoved	Supprimé
+msgApplied	Modifications acceptées.
+msgUndoAll	Toutes les modifications ont été annulées.
+msgOverLimit	Limite dépassée de {total} caractères.
+msgRemaining	Caractères restants : {total}.
+sampleCleanup	Un texte copié  d’un PDF\npeut contenir des retours à la ligne en trop.\n\n• Garder cet élément\n• Garder cet élément
+sampleCompareLeft	Le rapport est attendu vendredi.\nLe budget est de 120 CHF.
+sampleCompareRight	Le rapport est attendu lundi.\nLe budget est de 150 CHF.
+sampleText	À l’heure actuelle, nous pouvons avancer dans le but de préparer le rapport. Le rapport contient le le budget actualisé.\n\nIl convient de noter que le prix reste de 120 CHF.
+detectorTitle	Analyse du style
+detectorIntro	Repérez les phrases longues, répétitions, formules courantes et formats incohérents.
+detectorCaveat	Les passages surlignés indiquent des points à revoir. Ils ne permettent pas de déterminer qui a écrit le texte.
+detectorHelp	Collez un brouillon, choisissez sa langue et examinez les passages surlignés dans leur contexte.
+cleanTitle	Nettoyeur de texte
+cleanIntro	Supprimez les retours à la ligne, espaces et doublons. Triez les lignes ou remplacez du texte.
+rewriteIntro	Simplifiez les formulations, supprimez les répétitions ou ajustez la typographie en gardant la main sur chaque modification.
+search-text-cleaner	supprimer espaces retours rechercher remplacer trier doublons
+msgPageSelection	Pages sélectionnées : {current} sur {total}.
+saveSettings	Enregistrer les réglages sur cet appareil
+resetSettings	Réinitialiser les réglages
+batchUsesSettings	Le nettoyage par lot reprend les réglages enregistrés dans le nettoyeur.
+msgSettingsSaved	Réglages enregistrés sur cet appareil.
+msgSettingsReset	Réglages par défaut rétablis.
+msgStorageUnavailable	Le navigateur n’a pas permis d’enregistrer les réglages.
+previewFlowHeadline	Du PDF au texte modifiable
+flowStepFile	Choisissez un fichier et les pages
+flowStepClean	Supprimez les retours et espaces superflus
+flowStepExport	Enregistrez une version modifiable
+recognizeEnglish	Reconnaître aussi le texte anglais

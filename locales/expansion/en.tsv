@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	Popular tools
+searchTools	Find a tool
+searchExample	Try PDF, compare or remove spaces
+filterCategory	Tool categories
+allTools	All tools
+categoryText	Text
+categoryData	Documents & data
+categoryImage	Images
+howItWorks	How to use this tool
+tryExample	Try an example
+chooseDrop	Choose a file or drop it here
+workingLabel	Processing progress
+cancelRun	Cancel
+downloadFile	Download file
+downloadHtml	Download HTML
+downloadZip	Download ZIP
+previewAction	Preview
+previewTitleLabel	Preview
+outputFormat	Output format
+automatic	Automatic
+none	None
+goCleaner	Open in text cleaner
+goCompare	Compare versions
+revisedText	Revised text
+applyEdits	Apply edits
+pdfTextTitle	Extract text from PDF
+pdfTextIntro	Open a PDF and copy, edit or export its selectable text.
+pdfTextGuide	Choose a PDF and optionally enter page numbers. Review the output before exporting, especially for columns and tables. Use OCR for scanned pages.
+pdfTextRun	Extract text
+pdfFormats	PDF · up to 40 MB per file
+pagesLabel	Pages
+pagesHelp	Leave blank for all pages. Use numbers and ranges, such as 1–3, 5.
+emptyPdfPages	Pages without selectable text
+pdfPagesTitle	Organize PDF pages
+pdfPagesIntro	Merge PDFs, select and reorder pages, rotate them, or split them into files.
+pdfPagesGuide	Add one or more PDFs. Use the page field for each file to select or reorder pages, then choose a combined PDF or separate PDFs in a ZIP archive.
+pdfPagesRun	Create PDF
+pageOrdering	Pages follow the order you enter. For example, 3, 1–2 puts page 3 first.
+combinePdf	One combined PDF
+splitPdf	One PDF per page in a ZIP
+rotatePages	Rotate pages
+moveUp	Move up
+moveDown	Move down
+removeFile	Remove file
+ocrTitle	OCR for PDFs and images
+ocrIntro	Recognize text on scanned pages, photos and screenshots.
+ocrGuide	Choose an image or a scanned PDF. Select the language of the text, run recognition, and proofread the result before exporting.
+ocrRun	Recognize text
+ocrFormats	PDF, PNG, JPG, WebP or BMP · up to 40 MB
+docTitle	Convert a document to text
+docIntro	Get editable text from DOCX, ODT, PDF or plain-text files.
+docGuide	Open a document to read its text. Download TXT or pass the result to a related tool. Page layout is not retained.
+otherFormats	DOCX, ODT, TXT, MD or CSV · up to 10 MB. PDF · up to 40 MB.
+comparePageTitle	Compare two texts
+compareIntro	Compare two versions by line, word or character and jump between differences.
+compareGuide	Paste two versions or open two documents. Choose the comparison level and hide unchanged blocks to review a long document faster.
+compareAction	Compare texts
+compareBy	Compare by
+compareLines	Lines
+ignoreSpace	Ignore whitespace
+changesOnly	Only show changes
+previousChange	Previous change
+nextChange	Next change
+cleanerGuide	Paste text or open a document. Adjust formatting under Cleanup settings, then review the result before copying or exporting.
+cleanupSettings	Cleanup settings
+cleanupWrap	Join wrapped lines
+cleanupSpaces	Remove extra spaces
+cleanupBlank	Collapse extra blank lines
+cleanupTabs	Convert tabs to spaces
+cleanupInvisible	Remove invisible formatting characters
+duplicatesLabel	Remove duplicate lines
+sortLines	Sort lines
+ascending	Ascending
+descending	Descending
+sortHelp	Sorting keeps lines separate and turns off line joining while a sort order is selected.
+caseLabel	Letter case
+uppercase	UPPERCASE
+lowercase	lowercase
+titleCase	Title Case
+findLabel	Find text
+replaceLabel	Replace with
+matchCase	Match case
+rewriteGuide	Choose a mode and review every suggested edit. Protect names, links, dates, amounts or your own terms to keep them intact.
+rewriteMode	Editing mode
+rewriteRepeat	Remove repeated words
+rewriteTypography	Polish typography
+protectedTerms	Protect terms
+protectAutomatic	Protect likely names, dates, amounts and links
+protectCustom	Terms to keep, one per line
+acceptAll	Accept all edits
+undoAll	Undo all edits
+signalLong	Sentences over 30 words
+signalDoubled	Consecutive repeated words
+signalMixed	Words mixing Latin and Cyrillic
+signalFormats	Inconsistent number or date formatting
+signalExtra	Other editing signals
+styleAdvice	Try splitting long sentences, removing nearby repetitions and choosing one format for dates and numbers. Review mixed scripts in names and terms.
+counterIntro	Count words, characters, sentences and paragraphs, and estimate reading and speaking time.
+counterGuide	Paste your text and select its language for word counting. Set a character limit or adjust the reading and speaking rates for your task.
+characterLimit	Character limit
+speedSettings	Time estimates
+readingRate	Reading words per minute
+speakingRate	Speaking words per minute
+statParagraphs	Paragraphs
+readingTime	Reading time
+speakingTime	Speaking time
+frequentWords	Most frequent words
+tableTitle	CSV and lists
+tableIntro	Preview CSV, remove duplicate rows and export CSV or a Markdown table.
+tableGuide	Open a CSV or paste a list. Choose the delimiter and encoding for imported files. The preview shows up to 31 rows and 12 columns.
+tableHeader	First row is a header
+listMode	One list item per line
+separatorLabel	Delimiter
+encodingLabel	File encoding
+tablePreview	Table preview
+markdownTitle	Markdown preview
+markdownIntro	Preview Markdown and download the formatted result as HTML.
+markdownGuide	Paste Markdown or open an MD file. The preview supports headings, lists, tables and code blocks. Remote images are displayed as alternative text.
+imageTitle	Resize and convert images
+imageIntro	Resize and compress JPG, PNG or WebP and compare file sizes before downloading.
+imageGuide	Open an image, choose width and height or keep the aspect ratio, then select the output format and adjust quality for JPG or WebP.
+imageFormats	JPG, PNG or WebP · up to 40 MB
+imageWidth	Width (px)
+imageHeight	Height (px)
+imageRatio	Keep aspect ratio
+qualityLabel	Quality
+convertImage	Convert image
+batchTitle	Batch document processing
+batchIntro	Clean multiple text files or extract text and pages from PDFs into a ZIP archive.
+batchGuide	Choose an operation and add files. Review the status for each file and download the completed results in a ZIP archive.
+batchMax	Up to 24 files and 80 MB total.
+batchOperation	Operation
+batchExtractPages	Extract selected PDF pages
+batchRun	Process files
+msgFailed	Something went wrong. Check the input and try again.
+msgLarge	This input exceeds the size or complexity limit for this tool.
+msgNoText	No readable text was found.
+msgFileType	Choose a file in one of the supported formats.
+msgRangeError	Enter valid page numbers or ranges within this PDF.
+msgProtectedPdf	This PDF is password protected. Open an unlocked copy.
+msgCsvError	The CSV could not be parsed. Check the delimiter and quoted fields.
+msgDimensions	Enter dimensions between 1 and 8,192 pixels with at most 32 million pixels in total.
+msgImageFormat	Your browser cannot export this image format. Try PNG or JPG.
+msgServe	Open the site through the local server or hosting to use this feature.
+msgCompareLimit	These versions have too many differences to compare at once. Try smaller sections.
+msgWorking	Processing…
+msgCancelled	Processing cancelled.
+msgPageProgress	Page {page} · {current} of {total}
+msgTextReady	Text ready. Pages processed: {total}.
+msgFileProgress	File {current} of {total}
+msgFileLoaded	Loaded {file}.
+msgFileReady	File ready. Pages: {total}.
+msgExampleReady	Example loaded.
+msgCatalogResults	Tools found: {total}
+msgCatalogEmpty	No tools match. Try another search or category.
+msgClearForExample	Clear the input to load the example.
+msgCleanReady	Cleanup complete. Edits applied: {total}.
+msgDiffCount	Changed blocks: {total}.
+msgDiffPosition	Change {current} of {total}.
+msgNoChanges	No changes found.
+msgTableReady	Rows: {rows}, columns: {columns}, duplicates removed: {duplicates}.
+msgPreviewReady	Preview ready.
+msgImageReady	Image ready to download.
+msgQueued	Waiting
+msgDone	Done
+msgBatchReady	Files processed: {done}. Errors: {failed}.
+msgRemoved	Removed
+msgApplied	Edits accepted.
+msgUndoAll	All edits undone.
+msgOverLimit	{total} characters over the limit.
+msgRemaining	{total} characters remaining.
+sampleCleanup	A report copied  from a PDF\ncan arrive with extra line breaks.\n\n• Keep this item\n• Keep this item
+sampleCompareLeft	The report is due on Friday.\nThe budget is 120 CHF.
+sampleCompareRight	The report is due on Monday.\nThe budget is 150 CHF.
+sampleText	At this point in time, we can proceed in order to prepare the report. The report includes the the revised budget.\n\nIt is important to note that the price stays at 120 CHF.
+detectorTitle	Text style analysis
+detectorIntro	Review long sentences, repeats, familiar phrases and inconsistent formatting.
+detectorCaveat	The highlighted patterns are cues for editing. They do not establish who wrote the text.
+detectorHelp	Paste a draft and select its language. Review the highlighted phrases in context.
+cleanTitle	Text cleaner
+cleanIntro	Remove unwanted line breaks, spaces and duplicates, or sort and replace text.
+rewriteIntro	Simplify phrasing, remove repeated words or polish typography while keeping control of each edit.
+search-text-cleaner	remove spaces remove line breaks find replace sort deduplicate
+msgPageSelection	Selected {current} of {total} pages.
+saveSettings	Save settings on this device
+resetSettings	Reset settings
+batchUsesSettings	Batch text cleanup reuses your saved cleanup settings.
+msgSettingsSaved	Settings saved on this device.
+msgSettingsReset	Default settings restored.
+msgStorageUnavailable	This browser did not allow saving settings.
+previewFlowHeadline	From PDF to editable text
+flowStepFile	Choose a file and its pages
+flowStepClean	Remove unwanted line breaks and spaces
+flowStepExport	Save a version you can edit
+recognizeEnglish	Also recognize English text

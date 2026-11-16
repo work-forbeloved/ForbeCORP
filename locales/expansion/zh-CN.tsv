@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	热门工具
+searchTools	查找工具
+searchExample	搜索 PDF、对比文本或去除空格
+filterCategory	工具分类
+allTools	全部工具
+categoryText	文本
+categoryData	文档与数据
+categoryImage	图像
+howItWorks	使用说明
+tryExample	加载示例
+chooseDrop	将文件拖到此处，或点击选择文件
+workingLabel	处理进度
+cancelRun	取消
+downloadFile	下载文件
+downloadHtml	下载 HTML
+downloadZip	下载 ZIP
+previewAction	查看预览
+previewTitleLabel	预览
+outputFormat	输出格式
+automatic	自动
+none	无
+goCleaner	转到文本清理
+goCompare	比较版本
+revisedText	修改后的文本
+applyEdits	应用修改
+pdfTextTitle	PDF 转文本
+pdfTextIntro	提取 PDF 中可选中的文字。提取后可编辑、复制，或下载为 TXT 或 DOCX 文件。
+pdfTextGuide	选择 PDF 和要提取的页码，留空则处理全部页面。多栏排版和表格的阅读顺序可能与原文件不同，请核对结果。扫描版 PDF 请使用 OCR 文字识别。
+pdfTextRun	提取文本
+pdfFormats	每个 PDF 文件不超过 40 MB
+pagesLabel	页码
+pagesHelp	输入页码或范围，如 1–3、5。多个页码用逗号或顿号分隔。留空处理全部页面。
+emptyPdfPages	未找到可提取文字的页码
+pdfPagesTitle	管理 PDF 页面
+pdfPagesIntro	合并 PDF 文件、提取或旋转页面、调整顺序，也可以按页拆分。
+pdfPagesGuide	添加一个或多个 PDF，为每个文件选择页码和旋转角度。可调整文件顺序，再将选定页面合并为一个 PDF，或将各页分别保存为 PDF 并打包成 ZIP。
+pdfPagesRun	生成文件
+pageOrdering	页面按输入顺序输出。输入 3、1–2 会依次输出第 3、1、2 页。留空则保留该文件的全部页面。
+combinePdf	合并为一个 PDF
+splitPdf	拆分为单页 PDF（ZIP 打包）
+rotatePages	页面旋转角度
+moveUp	上移文件
+moveDown	下移文件
+removeFile	移除文件
+ocrTitle	OCR 文字识别
+ocrIntro	识别扫描版 PDF、照片和截图中的文字，并将其转换为可编辑的文本。
+ocrGuide	打开图片或扫描版 PDF，再选择原文语言。文件包含英文时，可勾选「同时识别英文」。下载前请校对结果，尤其是数字和表格。
+ocrRun	开始识别
+ocrFormats	支持 PDF、PNG、JPG、WebP 和 BMP，每个文件不超过 40 MB。
+docTitle	文档转纯文本
+docIntro	从 PDF、DOCX、ODT 等文件中提取可编辑的纯文本。
+docGuide	打开文档提取文字，再下载 TXT 或在其他工具中继续处理。转换时不保留原版式。扫描版 PDF 请使用 OCR 文字识别。
+otherFormats	DOCX、ODT、TXT、MD 和 CSV 文件不超过 10 MB，PDF 文件不超过 40 MB。
+comparePageTitle	对比两段文本
+compareIntro	按行、词或字符对比两个版本，可逐处查看不同。
+compareGuide	粘贴两个版本，或打开两个文档（如 PDF）。可按行、词或字符比较提取出的文本，也可隐藏相同部分。
+compareAction	比较文本
+compareBy	比较粒度
+compareLines	行
+ignoreSpace	忽略空白
+changesOnly	仅显示更改
+previousChange	上一处更改
+nextChange	下一处更改
+cleanerGuide	粘贴文本或打开文档。按需勾选清理选项，复制或导出前检查结果。
+cleanupSettings	清理设置
+cleanupWrap	合并段内断行
+cleanupSpaces	删除多余空格
+cleanupBlank	压缩多余空行
+cleanupTabs	将制表符转换为空格
+cleanupInvisible	删除不可见的格式字符
+duplicatesLabel	去除重复行
+sortLines	行排序
+ascending	升序
+descending	降序
+sortHelp	排序时保留各行，并暂停合并断行。
+caseLabel	字母大小写
+uppercase	全部大写
+lowercase	全部小写
+titleCase	词首大写
+findLabel	查找文本
+replaceLabel	替换为
+matchCase	区分大小写
+rewriteGuide	选择编辑模式并查看每条建议。可保护姓名、链接、日期、金额和自定义词语。
+rewriteMode	编辑模式
+rewriteRepeat	删除重复词
+rewriteTypography	调整标点与排版
+protectedTerms	保护词语
+protectAutomatic	保护已识别的姓名、日期、金额和链接
+protectCustom	每行输入一个要保护的词语
+acceptAll	接受全部修改
+undoAll	撤销全部修改
+signalLong	超过 30 词的句子
+signalDoubled	连续重复的词
+signalMixed	混用拉丁与西里尔字母的词
+signalFormats	数字或日期格式不统一
+signalExtra	其他编辑提示
+styleAdvice	尝试拆分长句、删除重复词，并统一数字与日期格式。检查名称与术语中是否适合混用字母。
+counterIntro	统计词、字符、句子和段落，并估算阅读与演讲时间。
+counterGuide	粘贴文本并选择语言，按需要设置字符上限或调整阅读与演讲速度。
+characterLimit	字符上限
+speedSettings	时间估算
+readingRate	每分钟阅读词数
+speakingRate	每分钟演讲词数
+statParagraphs	段落
+readingTime	阅读时间
+speakingTime	演讲时间
+frequentWords	高频词
+tableTitle	CSV 与列表
+tableIntro	预览 CSV、去除重复行，导出 CSV 或 Markdown 表格。
+tableGuide	打开 CSV 或粘贴列表。可调整分隔符与编码。预览最多显示 31 行和 12 列。
+tableHeader	首行为表头
+listMode	每行一个列表项
+separatorLabel	分隔符
+encodingLabel	文件编码
+tablePreview	表格预览
+markdownTitle	Markdown 预览
+markdownIntro	预览 Markdown，并将排版后的结果下载为 HTML。
+markdownGuide	粘贴 Markdown 或打开 MD 文件。支持标题、列表、表格和代码块。外部图片仅显示替代文字。
+imageTitle	调整和转换图像
+imageIntro	缩放、压缩 JPG、PNG 或 WebP，并比较文件大小。
+imageGuide	打开图片，设置宽度和高度或保持原比例。选择输出格式，JPG 和 WebP 可调整质量。
+imageFormats	JPG、PNG 或 WebP · 不超过 40 MB
+imageWidth	宽度（像素）
+imageHeight	高度（像素）
+imageRatio	保持宽高比
+qualityLabel	质量
+convertImage	转换图像
+batchTitle	批量处理文档
+batchIntro	批量清理文本、提取 PDF 文字或选定页面，处理结果打包成 ZIP 下载。
+batchGuide	选择操作后添加文件。批量处理 PDF 时，输入的页码范围将应用于每个文件。可分别查看处理结果，再将成功处理的文件打包下载。
+batchMax	最多添加 24 个文件，总大小不超过 80 MB。
+batchOperation	处理方式
+batchExtractPages	提取 PDF 的指定页面
+batchRun	处理文件
+msgFailed	处理失败。请检查文件和设置后重试。
+msgLarge	文件或内容超出此工具的处理上限。
+msgNoText	未找到可提取的文字。
+msgFileType	请选择受支持的文件格式。
+msgRangeError	页码格式有误或超出范围。请输入该 PDF 的有效页码，如 1–3、5。
+msgProtectedPdf	此 PDF 受密码保护。请打开已解除密码保护的副本。
+msgCsvError	无法解析 CSV。请检查分隔符和引号。
+msgDimensions	边长应在 1 到 8192 像素之间，总像素数不超过 3200 万。
+msgImageFormat	浏览器无法导出这种格式。可试试 PNG 或 JPG。
+msgServe	请通过本地预览服务器或已发布的网站使用此功能。
+msgCompareLimit	两版差异太多，请试着分段比较。
+msgWorking	正在处理…
+msgCancelled	处理已取消。
+msgPageProgress	正在处理第 {page} 页（{current}/{total}）
+msgTextReady	已处理 {total} 页，结果可编辑或下载。
+msgFileProgress	正在处理第 {current} 个文件，共 {total} 个
+msgFileLoaded	已打开「{file}」。
+msgFileReady	文件已生成，共 {total} 页，可以下载。
+msgExampleReady	示例已加载。
+msgCatalogResults	找到 {total} 个工具
+msgCatalogEmpty	没有匹配的工具。请更换搜索词或分类。
+msgClearForExample	请先清空输入，再加载示例。
+msgCleanReady	清理完成，共修改 {total} 处。
+msgDiffCount	有 {total} 处变更。
+msgDiffPosition	第 {current} 处变更，共 {total} 处。
+msgNoChanges	未发现更改。
+msgTableReady	{rows} 行，{columns} 列，已去除 {duplicates} 个重复项。
+msgPreviewReady	预览已就绪。
+msgImageReady	图片已可下载。
+msgQueued	待处理
+msgDone	处理成功
+msgBatchReady	处理完成。成功 {done} 个文件，失败 {failed} 个。
+msgRemoved	已删除
+msgApplied	已接受修改。
+msgUndoAll	已撤销全部修改。
+msgOverLimit	超出上限 {total} 个字符。
+msgRemaining	还能输入 {total} 个字符。
+sampleCleanup	从 PDF  复制的文字\n常带有多余的换行和空格。\n\n• 保留这项\n• 保留这项
+sampleCompareLeft	报告请在周五交付。\n预算是 120 CHF。
+sampleCompareRight	报告请在周一交付。\n预算是 150 CHF。
+sampleText	在当前这个阶段，我们可以进行详细说明。预算已更新。\n\n值得注意的是，价格仍为 120 CHF。
+detectorTitle	文本风格分析
+detectorIntro	查看长句、重复、常见套语和不一致的格式。
+detectorCaveat	高亮内容供编辑参考，无法据此认定作者。
+detectorHelp	粘贴草稿并选择语言，结合上下文查看高亮内容。
+cleanTitle	文本清理
+cleanIntro	清理断行、空格和重复内容，也支持排序和查找替换。
+rewriteIntro	简化措辞、删除重复词或调整标点，逐项检查修改。
+search-text-cleaner	删除空格 去掉换行 删除重复 查找替换 排序
+msgPageSelection	已选 {current} 页，文件共 {total} 页。
+saveSettings	将设置保存在此设备
+resetSettings	重置设置
+batchUsesSettings	批量清理会使用已保存的清理设置。
+msgSettingsSaved	设置已保存在此设备。
+msgSettingsReset	已恢复默认设置。
+msgStorageUnavailable	浏览器未允许保存设置。
+previewFlowHeadline	从 PDF 提取并编辑文字
+flowStepFile	选择文件和页码
+flowStepClean	去除多余的换行和空格
+flowStepExport	保存可编辑的版本
+recognizeEnglish	同时识别英文

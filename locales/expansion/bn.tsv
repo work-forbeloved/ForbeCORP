@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	জনপ্রিয় টুল
+searchTools	টুল খুঁজুন
+searchExample	PDF, তুলনা বা ফাঁক সরানো খুঁজুন
+filterCategory	টুলের বিভাগ
+allTools	সব টুল
+categoryText	লেখা
+categoryData	নথি ও ডেটা
+categoryImage	ছবি
+howItWorks	এই টুল ব্যবহারের পদ্ধতি
+tryExample	উদাহরণ দেখুন
+chooseDrop	ফাইল বাছুন অথবা এখানে টেনে আনুন
+workingLabel	প্রক্রিয়ার অগ্রগতি
+cancelRun	বাতিল
+downloadFile	ফাইল ডাউনলোড করুন
+downloadHtml	HTML ডাউনলোড করুন
+downloadZip	ZIP ডাউনলোড করুন
+previewAction	পূর্বরূপ দেখুন
+previewTitleLabel	পূর্বরূপ
+outputFormat	ফলাফলের ফরম্যাট
+automatic	স্বয়ংক্রিয়
+none	কোনোটিই নয়
+goCleaner	লেখা পরিষ্কারের টুলে খুলুন
+goCompare	সংস্করণ তুলনা করুন
+revisedText	সংশোধিত লেখা
+applyEdits	পরিবর্তন প্রয়োগ করুন
+pdfTextTitle	PDF থেকে লেখা নিন
+pdfTextIntro	PDF খুলে নির্বাচনযোগ্য লেখা কপি, সম্পাদনা বা রপ্তানি করুন।
+pdfTextGuide	একটি PDF খুলুন এবং প্রয়োজনে পৃষ্ঠা বেছে নিন। কলাম বা টেবিল থাকলে ফল মিলিয়ে দেখুন। স্ক্যান করা পৃষ্ঠার জন্য OCR ব্যবহার করুন।
+pdfTextRun	লেখা নিন
+pdfFormats	PDF · ফাইলপ্রতি সর্বোচ্চ 40 MB
+pagesLabel	পৃষ্ঠা
+pagesHelp	সব পৃষ্ঠার জন্য ফাঁকা রাখুন। উদাহরণ: 1–3, 5।
+emptyPdfPages	নির্বাচনযোগ্য লেখা নেই এমন পৃষ্ঠা
+pdfPagesTitle	PDF পৃষ্ঠা সাজান
+pdfPagesIntro	PDF মিলিয়ে নিন, পৃষ্ঠা বাছুন, ক্রম বদলান বা ঘুরিয়ে আলাদা ফাইলে রাখুন।
+pdfPagesGuide	এক বা একাধিক PDF যোগ করুন। প্রতি ফাইলের পৃষ্ঠা ও ক্রম ঠিক করুন। একটি PDF অথবা আলাদা পৃষ্ঠার ZIP ডাউনলোড করুন।
+pdfPagesRun	PDF তৈরি করুন
+pageOrdering	দেওয়া ক্রমে পৃষ্ঠা সাজানো হবে। 3, 1–2 দিলে তৃতীয় পৃষ্ঠা আগে আসবে।
+combinePdf	একটি মিলিত PDF
+splitPdf	প্রতি পৃষ্ঠার একটি PDF, এক ZIP-এ
+rotatePages	পৃষ্ঠা ঘোরান
+moveUp	ওপরে নিন
+moveDown	নিচে নিন
+removeFile	ফাইল সরান
+ocrTitle	PDF ও ছবির জন্য OCR
+ocrIntro	স্ক্যান, ছবি ও স্ক্রিনশটের লেখা চিনুন।
+ocrGuide	ছবি বা স্ক্যান করা PDF খুলে লেখার ভাষা বাছুন। OCR চালিয়ে রপ্তানির আগে ফল যাচাই করুন।
+ocrRun	লেখা চিনুন
+ocrFormats	PDF, PNG, JPG, WebP বা BMP · 40 MB পর্যন্ত
+docTitle	নথিকে লেখায় রূপান্তর করুন
+docIntro	DOCX, ODT, PDF বা টেক্সট ফাইল থেকে সম্পাদনাযোগ্য লেখা বের করুন।
+docGuide	নথি খুলে লেখা নিন। TXT ডাউনলোড করুন অথবা অন্য টুলে পাঠান। পাতার বিন্যাস থাকবে না।
+otherFormats	DOCX, ODT, TXT, MD বা CSV · 10 MB পর্যন্ত। PDF · 40 MB পর্যন্ত।
+comparePageTitle	দুটি লেখা তুলনা করুন
+compareIntro	লাইন, শব্দ বা অক্ষর ধরে তুলনা করুন এবং পার্থক্যে যান।
+compareGuide	দুটি সংস্করণ পেস্ট করুন বা দুটি নথি খুলুন। তুলনার স্তর বাছুন। একই অংশ লুকিয়ে দীর্ঘ লেখা দ্রুত পর্যালোচনা করুন।
+compareAction	লেখা তুলনা করুন
+compareBy	তুলনার স্তর
+compareLines	লাইন
+ignoreSpace	ফাঁক উপেক্ষা করুন
+changesOnly	শুধু পরিবর্তন দেখান
+previousChange	আগের পরিবর্তন
+nextChange	পরের পরিবর্তন
+cleanerGuide	লেখা পেস্ট করুন বা নথি খুলুন। পরিষ্কারের সেটিং ঠিক করে কপি বা ডাউনলোডের আগে ফল দেখুন।
+cleanupSettings	পরিষ্কারের সেটিং
+cleanupWrap	ভাঙা লাইন জুড়ুন
+cleanupSpaces	অতিরিক্ত ফাঁক সরান
+cleanupBlank	অতিরিক্ত খালি লাইন কমান
+cleanupTabs	ট্যাবকে স্পেসে বদলান
+cleanupInvisible	অদৃশ্য ফরম্যাট চিহ্ন সরান
+duplicatesLabel	একই লাইন বারবার থাকলে সরান
+sortLines	লাইন সাজান
+ascending	ঊর্ধ্বক্রম
+descending	নিম্নক্রম
+sortHelp	সাজানোর সময় লাইনগুলো আলাদা থাকে, লাইন জোড়া বন্ধ হয়।
+caseLabel	বড় ও ছোট হাতের অক্ষর
+uppercase	বড় হাতের অক্ষর
+lowercase	ছোট হাতের অক্ষর
+titleCase	প্রথম অক্ষর বড় করুন
+findLabel	লেখা খুঁজুন
+replaceLabel	যা দিয়ে বদলাবেন
+matchCase	বড় ও ছোট হাতের অক্ষর আলাদা ধরুন
+rewriteGuide	সম্পাদনার ধরন বাছুন এবং প্রতিটি পরামর্শ যাচাই করুন। নাম, তারিখ, টাকার পরিমাণ, লিংক বা পছন্দের শব্দ অপরিবর্তিত রাখুন।
+rewriteMode	সম্পাদনার ধরন
+rewriteRepeat	বারবার আসা শব্দ সরান
+rewriteTypography	যতিচিহ্ন ও ফাঁক ঠিক করুন
+protectedTerms	শব্দ অপরিবর্তিত রাখুন
+protectAutomatic	চেনা নাম, তারিখ, পরিমাণ ও লিংক সুরক্ষিত রাখুন
+protectCustom	যা অপরিবর্তিত থাকবে, প্রতি লাইনে একটি
+acceptAll	সব পরিবর্তন গ্রহণ করুন
+undoAll	সব পরিবর্তন ফিরিয়ে নিন
+signalLong	30 শব্দের বেশি লম্বা বাক্য
+signalDoubled	পরপর পুনরাবৃত্ত শব্দ
+signalMixed	লাতিন ও সিরিলিক অক্ষর মেশানো শব্দ
+signalFormats	তারিখ বা সংখ্যার ফরম্যাটে অমিল
+signalExtra	সম্পাদনার অন্য সূত্র
+styleAdvice	লম্বা বাক্য ভাঙুন, পুনরাবৃত্তি কমান এবং তারিখ ও সংখ্যার একই ধরন বেছে নিন। নাম ও শব্দে ভিন্ন লিপির মিশ্রণ যাচাই করুন।
+counterIntro	শব্দ, অক্ষর, বাক্য ও অনুচ্ছেদ গুনুন এবং পড়া ও বলার সময়ের ধারণা নিন।
+counterGuide	লেখা পেস্ট করে ভাষা বাছুন। অক্ষরের সীমা এবং পড়া বা বলার গতি ঠিক করুন।
+characterLimit	অক্ষরের সীমা
+speedSettings	সময়ের অনুমান
+readingRate	পড়ার শব্দ প্রতি মিনিট
+speakingRate	বলার শব্দ প্রতি মিনিট
+statParagraphs	অনুচ্ছেদ
+readingTime	পড়ার সময়
+speakingTime	বলার সময়
+frequentWords	সবচেয়ে বেশি আসা শব্দ
+tableTitle	CSV ও তালিকা
+tableIntro	CSV দেখুন, একই সারি বাদ দিন এবং CSV বা Markdown টেবিল রপ্তানি করুন।
+tableGuide	CSV খুলুন বা তালিকা পেস্ট করুন। বিভাজক ও এনকোডিং বেছে নিন। পূর্বরূপে সর্বোচ্চ 31 সারি ও 12 কলাম দেখা যায়।
+tableHeader	প্রথম সারি শিরোনাম
+listMode	প্রতি লাইনে তালিকার একটি আইটেম
+separatorLabel	বিভাজক
+encodingLabel	ফাইল এনকোডিং
+tablePreview	টেবিলের পূর্বরূপ
+markdownTitle	Markdown পূর্বরূপ
+markdownIntro	Markdown দেখুন এবং বিন্যস্ত ফল HTML-এ নিন।
+markdownGuide	Markdown পেস্ট করুন বা MD খুলুন। শিরোনাম, তালিকা, টেবিল ও কোড দেখা যায়। বাইরের ছবির জায়গায় বিকল্প লেখা দেখা যায়।
+imageTitle	ছবির আকার ও ফরম্যাট বদলান
+imageIntro	JPG, PNG বা WebP ছবির আকার বদলান, সংকুচিত করুন ও ফাইলের আকার মিলিয়ে দেখুন।
+imageGuide	ছবি খুলে প্রস্থ ও উচ্চতা ঠিক করুন অথবা অনুপাত রাখুন। ফরম্যাট বাছুন এবং JPG বা WebP-এর গুণমান ঠিক করুন।
+imageFormats	JPG, PNG বা WebP · 40 MB পর্যন্ত
+imageWidth	প্রস্থ (পিক্সেল)
+imageHeight	উচ্চতা (পিক্সেল)
+imageRatio	অনুপাত রাখুন
+qualityLabel	গুণমান
+convertImage	ছবি রূপান্তর করুন
+batchTitle	একসঙ্গে একাধিক নথি প্রসেস করুন
+batchIntro	একাধিক লেখা পরিষ্কার করুন বা PDF থেকে লেখা ও পৃষ্ঠা নিয়ে ZIP-এ রাখুন।
+batchGuide	কাজ বেছে ফাইল যোগ করুন। প্রতি ফাইলের ফল দেখুন এবং সম্পন্ন ফাইলগুলো ZIP-এ নামান।
+batchMax	সর্বোচ্চ 24 ফাইল ও মোট 80 MB।
+batchOperation	কাজের ধরন
+batchExtractPages	বাছাই করা PDF পৃষ্ঠা নিন
+batchRun	ফাইল প্রসেস করুন
+msgFailed	প্রক্রিয়া সম্পন্ন হয়নি। ইনপুট যাচাই করে আবার চেষ্টা করুন।
+msgLarge	আকার বা জটিলতার সীমা পেরিয়ে গেছে।
+msgNoText	পড়ার মতো লেখা পাওয়া যায়নি।
+msgFileType	সমর্থিত ফরম্যাটের ফাইল বাছুন।
+msgRangeError	এই PDF-এর বৈধ পৃষ্ঠা নম্বর বা পরিসর দিন।
+msgProtectedPdf	এই PDF পাসওয়ার্ড দিয়ে সুরক্ষিত। আনলক করা কপি খুলুন।
+msgCsvError	CSV পড়া যায়নি। বিভাজক ও উদ্ধৃতি চিহ্ন পরীক্ষা করুন।
+msgDimensions	আকার 1 থেকে 8192 পিক্সেল এবং মোট সর্বোচ্চ 3.2 কোটি পিক্সেল দিন।
+msgImageFormat	ব্রাউজার এই ফরম্যাটে রপ্তানি করতে পারে না। PNG বা JPG নিন।
+msgServe	এই সুবিধার জন্য লোকাল সার্ভার বা হোস্টিং দিয়ে সাইট খুলুন।
+msgCompareLimit	খুব বেশি পার্থক্য আছে। ছোট অংশের তুলনা করুন।
+msgWorking	প্রক্রিয়া চলছে…
+msgCancelled	প্রক্রিয়া বাতিল করা হয়েছে।
+msgPageProgress	পৃষ্ঠা {page} · {total}-এর মধ্যে {current}
+msgTextReady	লেখা প্রস্তুত। প্রসেস করা পৃষ্ঠা: {total}।
+msgFileProgress	ফাইল {current} / {total}
+msgFileLoaded	{file} খোলা হয়েছে।
+msgFileReady	ফাইল প্রস্তুত। পৃষ্ঠা: {total}।
+msgExampleReady	উদাহরণ লোড হয়েছে।
+msgCatalogResults	মেলানো টুল: {total}
+msgCatalogEmpty	কোনো টুল মেলেনি। অন্য কিছু খুঁজুন বা বিভাগ বদলান।
+msgClearForExample	উদাহরণ খুলতে ঘরটি খালি করুন।
+msgCleanReady	পরিষ্কার শেষ। পরিবর্তন: {total}।
+msgDiffCount	বদলানো অংশ: {total}।
+msgDiffPosition	পরিবর্তন {current} / {total}।
+msgNoChanges	কোনো পরিবর্তন মেলেনি।
+msgTableReady	সারি: {rows}, কলাম: {columns}, সরানো একই সারি: {duplicates}।
+msgPreviewReady	পূর্বরূপ প্রস্তুত।
+msgImageReady	ছবি ডাউনলোডের জন্য প্রস্তুত।
+msgQueued	অপেক্ষায়
+msgDone	শেষ
+msgBatchReady	প্রসেস করা ফাইল: {done}। ত্রুটি: {failed}।
+msgRemoved	সরানো হয়েছে
+msgApplied	পরিবর্তন গ্রহণ করা হয়েছে।
+msgUndoAll	সব পরিবর্তন ফিরিয়ে নেওয়া হয়েছে।
+msgOverLimit	সীমার চেয়ে {total} অক্ষর বেশি।
+msgRemaining	আর {total} অক্ষর লেখা যাবে।
+sampleCleanup	PDF থেকে কপি করা  লেখায়\nঅতিরিক্ত লাইন ভাঙা থাকতে পারে।\n\n• এই আইটেম রাখুন\n• এই আইটেম রাখুন
+sampleCompareLeft	প্রতিবেদন শুক্রবার জমা দিতে হবে।\nবাজেট 120 CHF।
+sampleCompareRight	প্রতিবেদন সোমবার জমা দিতে হবে।\nবাজেট 150 CHF।
+sampleText	বর্তমান সময়ে আমরা প্রতিবেদন তৈরি করতে পারি। এতে বাজেট বাজেট হালনাগাদ করা হয়েছে।\n\nএটা লক্ষণীয় যে দাম 120 CHF থাকছে।
+detectorTitle	লেখার শৈলী বিশ্লেষণ
+detectorIntro	লম্বা বাক্য, পুনরাবৃত্তি, প্রচলিত বাক্যাংশ এবং ফরম্যাটের অমিল দেখুন।
+detectorCaveat	হাইলাইটগুলো সম্পাদনার পরামর্শ দেয়। কে লিখেছে তা নির্ধারণ করে না।
+detectorHelp	খসড়া পেস্ট করে ভাষা বাছুন এবং হাইলাইট করা অংশ প্রসঙ্গসহ দেখুন।
+cleanTitle	লেখা পরিষ্কার করুন
+cleanIntro	অতিরিক্ত ফাঁক, লাইন ভাঙা ও পুনরাবৃত্তি সরান। লাইন সাজান বা লেখা বদলান।
+rewriteIntro	বাক্যাংশ সহজ করুন, পুনরাবৃত্তি সরান বা বিন্যাস ঠিক করুন এবং প্রতিটি পরিবর্তন যাচাই করুন।
+search-text-cleaner	ফাঁক সরানো নতুন লাইন মুছুন খুঁজুন বদলান সাজান পুনরাবৃত্তি
+msgPageSelection	বাছাই করা পৃষ্ঠা: {current} / {total}।
+saveSettings	এই ডিভাইসে সেটিং রাখুন
+resetSettings	সেটিং রিসেট করুন
+batchUsesSettings	একসঙ্গে একাধিক লেখা পরিষ্কার করতে রাখা সেটিং ব্যবহার হবে।
+msgSettingsSaved	সেটিং এই ডিভাইসে রাখা হয়েছে।
+msgSettingsReset	ডিফল্ট সেটিং ফিরিয়ে আনা হয়েছে।
+msgStorageUnavailable	ব্রাউজার সেটিং রাখতে দেয়নি।
+previewFlowHeadline	PDF থেকে সম্পাদনাযোগ্য লেখা
+flowStepFile	ফাইল ও পৃষ্ঠা বেছে নিন
+flowStepClean	অতিরিক্ত লাইন ভাঙা ও ফাঁক সরান
+flowStepExport	সম্পাদনাযোগ্য সংস্করণ রাখুন
+recognizeEnglish	ইংরেজি লেখাও চিনুন

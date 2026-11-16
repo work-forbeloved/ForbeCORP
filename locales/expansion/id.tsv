@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	Alat populer
+searchTools	Cari alat
+searchExample	Coba PDF, bandingkan, atau hapus spasi
+filterCategory	Kategori alat
+allTools	Semua alat
+categoryText	Teks
+categoryData	Dokumen dan data
+categoryImage	Gambar
+howItWorks	Cara menggunakan alat ini
+tryExample	Coba contoh
+chooseDrop	Pilih berkas atau seret ke sini
+workingLabel	Progres pemrosesan
+cancelRun	Batalkan
+downloadFile	Unduh berkas
+downloadHtml	Unduh HTML
+downloadZip	Unduh ZIP
+previewAction	Tampilkan pratinjau
+previewTitleLabel	Pratinjau
+outputFormat	Format keluaran
+automatic	Otomatis
+none	Tidak ada
+goCleaner	Buka di pembersih teks
+goCompare	Bandingkan versi
+revisedText	Teks revisi
+applyEdits	Terapkan perubahan
+pdfTextTitle	Ekstrak teks dari PDF
+pdfTextIntro	Buka PDF untuk menyalin, menyunting, atau mengekspor teks yang dapat dipilih.
+pdfTextGuide	Buka PDF dan tentukan halaman jika perlu. Periksa hasil, terutama jika ada kolom atau tabel. Gunakan OCR untuk halaman hasil pindai.
+pdfTextRun	Ekstrak teks
+pdfFormats	PDF · hingga 40 MB per berkas
+pagesLabel	Halaman
+pagesHelp	Kosongkan untuk semua halaman. Contoh: 1–3, 5.
+emptyPdfPages	Halaman tanpa teks yang dapat dipilih
+pdfPagesTitle	Atur halaman PDF
+pdfPagesIntro	Gabungkan PDF, pilih, urutkan ulang, putar, atau simpan halaman secara terpisah.
+pdfPagesGuide	Tambahkan satu atau beberapa PDF. Pilih halaman dan urutan tiap berkas. Unduh PDF gabungan atau halaman terpisah dalam ZIP.
+pdfPagesRun	Buat PDF
+pageOrdering	Halaman mengikuti urutan masukan. Misalnya, 3, 1–2 menempatkan halaman 3 di awal.
+combinePdf	Satu PDF gabungan
+splitPdf	Satu PDF per halaman dalam ZIP
+rotatePages	Putar halaman
+moveUp	Pindahkan ke atas
+moveDown	Pindahkan ke bawah
+removeFile	Hapus berkas
+ocrTitle	OCR untuk PDF dan gambar
+ocrIntro	Kenali teks dari hasil pindai, foto, dan tangkapan layar.
+ocrGuide	Buka gambar atau PDF hasil pindai. Pilih bahasa teks, jalankan pengenalan, dan periksa hasil sebelum mengekspor.
+ocrRun	Kenali teks
+ocrFormats	PDF, PNG, JPG, WebP, atau BMP · hingga 40 MB
+docTitle	Ubah dokumen menjadi teks
+docIntro	Ambil teks yang dapat disunting dari DOCX, ODT, PDF, atau berkas teks.
+docGuide	Buka dokumen dan ambil teksnya. Unduh TXT atau teruskan hasilnya ke alat lain. Tata letak halaman tidak dipertahankan.
+otherFormats	DOCX, ODT, TXT, MD, atau CSV · hingga 10 MB. PDF · hingga 40 MB.
+comparePageTitle	Bandingkan dua teks
+compareIntro	Bandingkan versi berdasarkan baris, kata, atau karakter dan lompat ke perubahan.
+compareGuide	Tempel dua versi atau buka dua dokumen. Pilih tingkat perbandingan dan sembunyikan bagian yang sama agar lebih mudah meninjau teks panjang.
+compareAction	Bandingkan teks
+compareBy	Bandingkan berdasarkan
+compareLines	Baris
+ignoreSpace	Abaikan spasi
+changesOnly	Hanya tampilkan perubahan
+previousChange	Perubahan sebelumnya
+nextChange	Perubahan berikutnya
+cleanerGuide	Tempel teks atau buka dokumen. Sesuaikan pengaturan lalu periksa hasilnya sebelum menyalin atau mengunduh.
+cleanupSettings	Pengaturan pembersihan
+cleanupWrap	Gabungkan baris yang terputus
+cleanupSpaces	Hapus spasi berlebih
+cleanupBlank	Kurangi baris kosong
+cleanupTabs	Ubah tab menjadi spasi
+cleanupInvisible	Hapus karakter format yang tidak terlihat
+duplicatesLabel	Hapus baris duplikat
+sortLines	Urutkan baris
+ascending	Menaik
+descending	Menurun
+sortHelp	Saat diurutkan, baris tetap terpisah dan penggabungan baris dinonaktifkan.
+caseLabel	Huruf besar dan kecil
+uppercase	HURUF BESAR
+lowercase	huruf kecil
+titleCase	Huruf Awal Kapital
+findLabel	Cari teks
+replaceLabel	Ganti dengan
+matchCase	Cocokkan huruf besar dan kecil
+rewriteGuide	Pilih mode dan tinjau setiap saran. Lindungi nama, tanggal, nilai, tautan, atau istilah pilihan.
+rewriteMode	Mode penyuntingan
+rewriteRepeat	Hapus kata yang berulang
+rewriteTypography	Rapikan tipografi
+protectedTerms	Lindungi istilah
+protectAutomatic	Lindungi nama, tanggal, nilai, dan tautan yang dikenali
+protectCustom	Istilah yang dipertahankan, satu per baris
+acceptAll	Terima semua perubahan
+undoAll	Batalkan semua perubahan
+signalLong	Kalimat lebih dari 30 kata
+signalDoubled	Kata yang berulang berturut-turut
+signalMixed	Kata dengan huruf Latin dan Kiril
+signalFormats	Format angka atau tanggal tidak seragam
+signalExtra	Saran penyuntingan lain
+styleAdvice	Coba bagi kalimat panjang, kurangi pengulangan, lalu gunakan format tanggal dan angka yang konsisten. Tinjau nama dan istilah dengan abjad campuran.
+counterIntro	Hitung kata, karakter, kalimat, dan paragraf serta perkirakan waktu membaca dan berbicara.
+counterGuide	Tempel teks dan pilih bahasanya. Tetapkan batas karakter atau sesuaikan kecepatan membaca dan berbicara.
+characterLimit	Batas karakter
+speedSettings	Perkiraan waktu
+readingRate	Jumlah kata dibaca per menit
+speakingRate	Jumlah kata diucapkan per menit
+statParagraphs	Paragraf
+readingTime	Waktu membaca
+speakingTime	Waktu berbicara
+frequentWords	Kata yang sering muncul
+tableTitle	CSV dan daftar
+tableIntro	Pratinjau CSV, hapus baris duplikat, lalu ekspor CSV atau tabel Markdown.
+tableGuide	Buka CSV atau tempel daftar. Pilih pemisah dan pengodean berkas. Pratinjau menampilkan hingga 31 baris dan 12 kolom.
+tableHeader	Baris pertama sebagai tajuk
+listMode	Satu butir daftar per baris
+separatorLabel	Pemisah
+encodingLabel	Pengodean berkas
+tablePreview	Pratinjau tabel
+markdownTitle	Pratinjau Markdown
+markdownIntro	Lihat Markdown dan unduh hasilnya sebagai HTML.
+markdownGuide	Tempel Markdown atau buka MD. Judul, daftar, tabel, dan blok kode didukung. Gambar eksternal ditampilkan sebagai teks alternatif.
+imageTitle	Ubah ukuran dan format gambar
+imageIntro	Ubah ukuran dan kompres JPG, PNG, atau WebP, lalu bandingkan ukuran berkas.
+imageGuide	Buka gambar. Pilih lebar dan tinggi atau pertahankan proporsi. Pilih format dan atur kualitas JPG atau WebP.
+imageFormats	JPG, PNG, atau WebP · hingga 40 MB
+imageWidth	Lebar (px)
+imageHeight	Tinggi (px)
+imageRatio	Pertahankan proporsi
+qualityLabel	Kualitas
+convertImage	Konversi gambar
+batchTitle	Pemrosesan dokumen sekaligus
+batchIntro	Bersihkan beberapa teks atau ekstrak teks dan halaman PDF ke dalam ZIP.
+batchGuide	Pilih tindakan dan tambahkan berkas. Periksa hasil tiap berkas, lalu unduh hasil yang selesai dalam ZIP.
+batchMax	Hingga 24 berkas dan total 80 MB.
+batchOperation	Tindakan
+batchExtractPages	Ekstrak halaman PDF pilihan
+batchRun	Proses berkas
+msgFailed	Pemrosesan gagal. Periksa masukan dan coba lagi.
+msgLarge	Masukan melebihi batas ukuran atau kerumitan.
+msgNoText	Tidak ditemukan teks yang dapat dibaca.
+msgFileType	Pilih berkas dalam format yang didukung.
+msgRangeError	Masukkan nomor atau rentang halaman yang ada dalam PDF ini.
+msgProtectedPdf	PDF dilindungi sandi. Buka salinan yang tidak terkunci.
+msgCsvError	CSV tidak dapat dibaca. Periksa pemisah dan tanda kutip.
+msgDimensions	Masukkan dimensi 1–8192 piksel, dengan total paling banyak 32 juta piksel.
+msgImageFormat	Peramban tidak dapat mengekspor format ini. Coba PNG atau JPG.
+msgServe	Buka situs melalui server lokal atau hosting untuk menggunakan fitur ini.
+msgCompareLimit	Perbedaannya terlalu banyak. Bandingkan bagian yang lebih kecil.
+msgWorking	Memproses…
+msgCancelled	Pemrosesan dibatalkan.
+msgPageProgress	Halaman {page} · {current} dari {total}
+msgTextReady	Teks siap. Halaman diproses: {total}.
+msgFileProgress	Berkas {current} dari {total}
+msgFileLoaded	Membuka {file}.
+msgFileReady	Berkas siap. Halaman: {total}.
+msgExampleReady	Contoh dimuat.
+msgCatalogResults	Alat yang ditemukan: {total}
+msgCatalogEmpty	Tidak ada hasil. Ubah pencarian atau kategori.
+msgClearForExample	Kosongkan masukan untuk memuat contoh.
+msgCleanReady	Pembersihan selesai. Perubahan: {total}.
+msgDiffCount	Bagian yang berubah: {total}.
+msgDiffPosition	Perubahan {current} dari {total}.
+msgNoChanges	Tidak ada perubahan.
+msgTableReady	Baris: {rows}, kolom: {columns}, duplikat dihapus: {duplicates}.
+msgPreviewReady	Pratinjau siap.
+msgImageReady	Gambar siap diunduh.
+msgQueued	Menunggu
+msgDone	Selesai
+msgBatchReady	Berkas diproses: {done}. Galat: {failed}.
+msgRemoved	Dihapus
+msgApplied	Perubahan diterima.
+msgUndoAll	Semua perubahan dibatalkan.
+msgOverLimit	Melebihi batas sebesar {total} karakter.
+msgRemaining	Sisa karakter: {total}.
+sampleCleanup	Teks yang disalin  dari PDF\nmungkin memiliki jeda baris berlebih.\n\n• Pertahankan butir ini\n• Pertahankan butir ini
+sampleCompareLeft	Laporan dikumpulkan hari Jumat.\nAnggaran 120 CHF.
+sampleCompareRight	Laporan dikumpulkan hari Senin.\nAnggaran 150 CHF.
+sampleText	Pada saat ini kami dapat mulai dengan tujuan untuk menyiapkan laporan. Laporan berisi anggaran anggaran baru.\n\nPerlu dicatat bahwa harga tetap 120 CHF.
+detectorTitle	Analisis gaya tulisan
+detectorIntro	Periksa kalimat panjang, pengulangan, ungkapan umum, dan format yang tidak seragam.
+detectorCaveat	Sorotan memberi petunjuk penyuntingan. Sorotan tidak menentukan siapa penulisnya.
+detectorHelp	Tempel draf, pilih bahasa teks, lalu lihat sorotan dalam konteks.
+cleanTitle	Pembersih teks
+cleanIntro	Hapus jeda baris, spasi berlebih dan duplikat, urutkan baris, atau ganti teks.
+rewriteIntro	Sederhanakan ungkapan, hapus pengulangan atau rapikan tipografi sambil meninjau tiap perubahan.
+search-text-cleaner	hapus spasi hapus jeda baris cari ganti duplikat urutkan
+msgPageSelection	Halaman dipilih: {current} dari {total}.
+saveSettings	Simpan pengaturan di perangkat ini
+resetSettings	Atur ulang pengaturan
+batchUsesSettings	Pembersihan sekaligus memakai pengaturan pembersihan yang tersimpan.
+msgSettingsSaved	Pengaturan tersimpan di perangkat ini.
+msgSettingsReset	Pengaturan bawaan dipulihkan.
+msgStorageUnavailable	Peramban tidak mengizinkan penyimpanan pengaturan.
+previewFlowHeadline	Dari PDF ke teks yang bisa disunting
+flowStepFile	Pilih berkas dan halamannya
+flowStepClean	Hapus jeda baris dan spasi berlebih
+flowStepExport	Simpan versi yang bisa disunting
+recognizeEnglish	Kenali juga teks berbahasa Inggris

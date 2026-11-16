@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	인기 도구
+searchTools	도구 찾기
+searchExample	PDF, 비교, 공백 제거 등을 입력하세요
+filterCategory	도구 분류
+allTools	모든 도구
+categoryText	텍스트
+categoryData	문서와 데이터
+categoryImage	이미지
+howItWorks	도구 사용법
+tryExample	예시로 사용해 보기
+chooseDrop	파일을 선택하거나 여기로 끌어오세요
+workingLabel	처리 진행률
+cancelRun	취소
+downloadFile	파일 다운로드
+downloadHtml	HTML 다운로드
+downloadZip	ZIP 다운로드
+previewAction	미리 보기
+previewTitleLabel	미리 보기
+outputFormat	출력 형식
+automatic	자동
+none	없음
+goCleaner	텍스트 정리에서 열기
+goCompare	두 버전 비교
+revisedText	수정한 텍스트
+applyEdits	수정 적용
+pdfTextTitle	PDF에서 텍스트 추출
+pdfTextIntro	PDF를 열어 선택할 수 있는 글을 복사하거나 편집하고 내보내세요.
+pdfTextGuide	PDF를 열고 필요한 페이지를 선택하세요. 단이나 표가 있다면 결과를 확인하세요. 스캔에는 OCR을 사용하세요.
+pdfTextRun	텍스트 추출
+pdfFormats	PDF · 파일당 최대 40 MB
+pagesLabel	페이지
+pagesHelp	모든 페이지는 비워 두세요. 예: 1–3, 5.
+emptyPdfPages	선택할 수 있는 텍스트가 없는 페이지
+pdfPagesTitle	PDF 페이지 정리
+pdfPagesIntro	PDF를 합치거나 원하는 페이지를 선택, 재정렬, 회전하고 별도로 저장하세요.
+pdfPagesGuide	PDF를 추가하고 각 파일에서 페이지와 순서를 정하세요. 하나의 PDF 또는 개별 페이지를 담은 ZIP을 다운로드할 수 있습니다.
+pdfPagesRun	PDF 만들기
+pageOrdering	입력한 순서가 출력 순서입니다. 3, 1–2를 입력하면 3페이지가 먼저 나옵니다.
+combinePdf	하나의 PDF로 합치기
+splitPdf	페이지별 PDF를 ZIP에 저장
+rotatePages	페이지 회전
+moveUp	위로 이동
+moveDown	아래로 이동
+removeFile	파일 제거
+ocrTitle	PDF 및 이미지 문자 인식
+ocrIntro	스캔, 사진, 스크린샷에서 텍스트를 인식하세요.
+ocrGuide	이미지나 스캔 PDF를 열고 언어를 지정하세요. 인식된 결과를 검토한 후 내보내세요.
+ocrRun	텍스트 인식
+ocrFormats	PDF, PNG, JPG, WebP, BMP · 최대 40 MB
+docTitle	문서를 텍스트로 변환
+docIntro	DOCX, ODT, PDF 또는 텍스트 파일에서 편집 가능한 글을 추출하세요.
+docGuide	문서를 열어 글을 추출한 후 TXT로 저장하거나 다른 도구로 보내세요. 기존 페이지의 레이아웃은 유지되지 않습니다.
+otherFormats	DOCX, ODT, TXT, MD, CSV · 최대 10 MB. PDF · 최대 40 MB.
+comparePageTitle	두 텍스트 비교
+compareIntro	줄, 단어, 문자 단위로 두 버전을 비교하고 변경 위치를 찾으세요.
+compareGuide	두 버전을 붙여 넣거나 문서를 두 개 여세요. 비교 단위를 선택하고 동일한 부분은 숨길 수 있습니다.
+compareAction	텍스트 비교
+compareBy	비교 단위
+compareLines	줄
+ignoreSpace	공백 무시
+changesOnly	변경 사항만 표시
+previousChange	이전 변경
+nextChange	다음 변경
+cleanerGuide	텍스트를 붙여 넣거나 문서를 여세요. 옵션을 조정한 뒤 결과를 확인하세요.
+cleanupSettings	정리 설정
+cleanupWrap	끊어진 줄 합치기
+cleanupSpaces	불필요한 공백 제거
+cleanupBlank	여분의 빈 줄 줄이기
+cleanupTabs	탭을 공백으로 변환
+cleanupInvisible	보이지 않는 서식 문자 제거
+duplicatesLabel	중복 줄 제거
+sortLines	줄 정렬
+ascending	오름차순
+descending	내림차순
+sortHelp	정렬 중에는 줄이 유지되며 줄 합치기가 비활성화됩니다.
+caseLabel	영문 대소문자
+uppercase	대문자
+lowercase	소문자
+titleCase	첫 글자만 대문자
+findLabel	찾을 텍스트
+replaceLabel	바꿀 텍스트
+matchCase	대소문자 구분
+rewriteGuide	방식을 정한 뒤 제안을 하나씩 확인하세요. 이름, 날짜, 금액, 링크, 특정 구문을 보호할 수 있습니다.
+rewriteMode	편집 방식
+rewriteRepeat	반복 단어 제거
+rewriteTypography	문장 부호와 서식 다듬기
+protectedTerms	구문 보호
+protectAutomatic	인식된 이름, 날짜, 금액, 링크 보호
+protectCustom	보호할 구문을 한 줄에 하나씩 입력
+acceptAll	모든 수정 수락
+undoAll	모든 수정 취소
+signalLong	30단어보다 긴 문장
+signalDoubled	연속으로 반복된 단어
+signalMixed	라틴 문자와 키릴 문자가 섞인 단어
+signalFormats	일관되지 않은 날짜 또는 숫자 형식
+signalExtra	기타 편집 힌트
+styleAdvice	긴 문장을 나누고 반복을 줄인 뒤 날짜와 숫자 형식을 통일해 보세요. 이름과 용어에서 문자가 섞인 부분도 살펴보세요.
+counterIntro	단어, 문자, 문장과 문단을 세고 예상 읽기 시간과 발표 시간을 확인하세요.
+counterGuide	텍스트를 붙여 넣고 언어를 선택하세요. 문자 수 제한, 읽기 속도, 발표 속도를 설정할 수 있습니다.
+characterLimit	문자 수 제한
+speedSettings	시간 추정
+readingRate	분당 읽는 단어 수
+speakingRate	분당 말하는 단어 수
+statParagraphs	문단
+readingTime	읽기 시간
+speakingTime	발표 시간
+frequentWords	자주 나오는 단어
+tableTitle	CSV와 목록
+tableIntro	CSV를 미리 보고 중복을 제거한 뒤 CSV 또는 Markdown 표로 내보내세요.
+tableGuide	CSV를 열거나 목록을 붙여 넣으세요. 구분 기호와 인코딩을 선택하면 최대 31줄과 12열을 미리 봅니다.
+tableHeader	첫 번째 줄을 제목으로 사용
+listMode	한 줄에 항목 한 개
+separatorLabel	구분 기호
+encodingLabel	파일 인코딩
+tablePreview	표 미리 보기
+markdownTitle	Markdown 미리 보기
+markdownIntro	Markdown을 확인하고 서식이 적용된 결과를 HTML로 받으세요.
+markdownGuide	Markdown을 붙여 넣거나 MD 파일을 여세요. 제목, 목록, 표와 코드 블록을 지원하며 외부 이미지 대신 대체 텍스트를 표시합니다.
+imageTitle	이미지 크기 조정과 변환
+imageIntro	JPG, PNG, WebP의 크기를 바꾸고 압축한 뒤 파일 용량을 비교하세요.
+imageGuide	이미지를 열고 너비와 높이를 지정하거나 비율을 유지하세요. 출력 형식과 JPG 또는 WebP 품질을 선택할 수 있습니다.
+imageFormats	JPG, PNG, WebP · 최대 40 MB
+imageWidth	너비(px)
+imageHeight	높이(px)
+imageRatio	가로세로 비율 유지
+qualityLabel	품질
+convertImage	이미지 변환
+batchTitle	문서 일괄 처리
+batchIntro	여러 텍스트를 정리하거나 PDF의 글과 페이지를 추출하여 ZIP으로 받으세요.
+batchGuide	작업을 선택하고 파일을 추가하세요. 파일별 결과를 확인한 후 ZIP을 다운로드하세요.
+batchMax	최대 24개 파일, 총 80 MB.
+batchOperation	작업
+batchExtractPages	선택한 PDF 페이지 추출
+batchRun	파일 처리
+msgFailed	처리하지 못했습니다. 입력을 확인하고 다시 시도하세요.
+msgLarge	크기 또는 복잡도 제한을 초과했습니다.
+msgNoText	읽을 수 있는 텍스트가 없습니다.
+msgFileType	지원되는 형식의 파일을 선택하세요.
+msgRangeError	이 PDF에 있는 페이지 번호나 범위를 입력하세요.
+msgProtectedPdf	암호로 보호된 PDF입니다. 잠금이 해제된 사본을 여세요.
+msgCsvError	CSV를 읽을 수 없습니다. 구분 기호와 따옴표를 확인하세요.
+msgDimensions	너비와 높이는 1~8192픽셀, 전체는 3200만 픽셀 이하여야 합니다.
+msgImageFormat	브라우저의 출력 형식이 지원되지 않습니다. PNG나 JPG를 사용하세요.
+msgServe	로컬 서버나 호스팅 주소로 사이트를 열어 주세요.
+msgCompareLimit	차이가 너무 많습니다. 더 작은 부분을 비교하세요.
+msgWorking	처리 중…
+msgCancelled	처리가 취소되었습니다.
+msgPageProgress	{page}페이지 · {current}/{total}
+msgTextReady	텍스트가 준비되었습니다. 처리한 페이지: {total}.
+msgFileProgress	파일 {current}/{total}
+msgFileLoaded	{file}을 불러왔습니다.
+msgFileReady	파일이 준비되었습니다. 페이지: {total}.
+msgExampleReady	예시를 불러왔습니다.
+msgCatalogResults	찾은 도구: {total}개
+msgCatalogEmpty	일치하는 도구가 없습니다. 검색어나 분류를 바꾸세요.
+msgClearForExample	입력을 비우고 예시를 불러오세요.
+msgCleanReady	정리 완료. 수정: {total}개.
+msgDiffCount	변경된 부분: {total}개.
+msgDiffPosition	{total}개 중 {current}번째 변경.
+msgNoChanges	변경된 부분이 없습니다.
+msgTableReady	{rows}행, {columns}열, 중복 제거: {duplicates}.
+msgPreviewReady	미리 보기가 준비되었습니다.
+msgImageReady	이미지를 다운로드할 수 있습니다.
+msgQueued	대기 중
+msgDone	완료
+msgBatchReady	처리한 파일: {done}. 오류: {failed}.
+msgRemoved	제거됨
+msgApplied	수정 사항을 적용했습니다.
+msgUndoAll	모든 수정을 취소했습니다.
+msgOverLimit	{total}자 초과했습니다.
+msgRemaining	{total}자 더 입력할 수 있습니다.
+sampleCleanup	PDF에서 복사한  글에\n불필요한 줄바꿈이 생길 수 있습니다.\n\n• 이 항목 유지\n• 이 항목 유지
+sampleCompareLeft	보고서 마감은 금요일입니다.\n예산은 120 CHF입니다.
+sampleCompareRight	보고서 마감은 월요일입니다.\n예산은 150 CHF입니다.
+sampleText	현 시점에서 검토를 실시하다 보면 항목이 줄어듭니다. 그와 같은 이유로 다시 확인합니다.\n\n주목할 점은 가격이 120 CHF로 유지된다는 것입니다.
+detectorTitle	문체 분석
+detectorIntro	긴 문장, 반복, 상투 표현과 일정하지 않은 형식을 확인하세요.
+detectorCaveat	편집이 필요한 부분을 알려 줍니다. 작성자가 누구인지는 판별하지 않습니다.
+detectorHelp	초안을 붙여 넣고 언어를 고른 뒤 강조 표시를 문맥에서 검토하세요.
+cleanTitle	텍스트 정리
+cleanIntro	줄바꿈, 공백과 중복을 제거하거나 텍스트를 정렬하고 바꾸세요.
+rewriteIntro	딱딱한 표현을 간결하게 바꾸고, 반복을 줄이며 문장 부호를 조정한 뒤 수정 사항을 검토하세요.
+search-text-cleaner	공백 제거 줄바꿈 삭제 검색 치환 중복 정렬
+msgPageSelection	선택한 페이지: {current} / {total}.
+saveSettings	이 기기에 설정 저장
+resetSettings	설정 초기화
+batchUsesSettings	일괄 정리는 저장한 텍스트 정리 설정을 사용합니다.
+msgSettingsSaved	이 기기에 설정을 저장했습니다.
+msgSettingsReset	기본 설정을 복원했습니다.
+msgStorageUnavailable	브라우저에서 설정을 저장할 수 없습니다.
+previewFlowHeadline	PDF를 편집 가능한 텍스트로
+flowStepFile	파일과 페이지 선택
+flowStepClean	불필요한 줄바꿈과 공백 제거
+flowStepExport	편집 가능한 버전 저장
+recognizeEnglish	영어 텍스트도 인식

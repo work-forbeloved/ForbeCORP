@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	أدوات شائعة
+searchTools	ابحث عن أداة
+searchExample	جرّب PDF أو المقارنة أو إزالة المسافات
+filterCategory	فئات الأدوات
+allTools	كل الأدوات
+categoryText	النصوص
+categoryData	المستندات والبيانات
+categoryImage	الصور
+howItWorks	كيفية استخدام الأداة
+tryExample	جرّب مثالًا
+chooseDrop	اختر ملفًا أو اسحبه إلى هنا
+workingLabel	تقدم المعالجة
+cancelRun	إلغاء
+downloadFile	تنزيل الملف
+downloadHtml	تنزيل HTML
+downloadZip	تنزيل ZIP
+previewAction	معاينة
+previewTitleLabel	المعاينة
+outputFormat	صيغة الإخراج
+automatic	تلقائي
+none	بلا تغيير
+goCleaner	فتح في أداة تنظيف النص
+goCompare	مقارنة النسختين
+revisedText	النص المعدّل
+applyEdits	تطبيق التعديلات
+pdfTextTitle	استخراج النص من PDF
+pdfTextIntro	افتح ملف PDF وانسخ النص القابل للتحديد أو عدّله أو صدّره.
+pdfTextGuide	اختر ملف PDF وحدّد الصفحات عند الحاجة. راجع الناتج، خصوصًا في الصفحات التي تتضمن أعمدة أو جداول. استخدم OCR للصفحات الممسوحة ضوئيًا.
+pdfTextRun	استخراج النص
+pdfFormats	PDF · حتى 40 ميغابايت لكل ملف
+pagesLabel	الصفحات
+pagesHelp	اترك الحقل فارغًا لمعالجة جميع الصفحات. مثال: 1–3, 5.
+emptyPdfPages	صفحات بلا نص قابل للتحديد
+pdfPagesTitle	تنظيم صفحات PDF
+pdfPagesIntro	ادمج ملفات PDF وحدّد الصفحات وأعد ترتيبها أو دوّرها أو احفظها منفصلة.
+pdfPagesGuide	أضف ملفات PDF واختر صفحات كل ملف وترتيبها. نزّل ملفًا مدمجًا أو صفحات منفصلة في ZIP.
+pdfPagesRun	إنشاء PDF
+pageOrdering	تُرتّب الصفحات كما تكتبها. مثلًا، 3, 1–2 تضع الصفحة الثالثة أولًا.
+combinePdf	ملف PDF مدمج
+splitPdf	ملف PDF لكل صفحة في ZIP
+rotatePages	تدوير الصفحات
+moveUp	نقل لأعلى
+moveDown	نقل لأسفل
+removeFile	إزالة الملف
+ocrTitle	التعرّف على النص من PDF والصور
+ocrIntro	استخرج النص من المسوح الضوئية والصور ولقطات الشاشة.
+ocrGuide	افتح صورة أو ملف PDF ممسوحًا ضوئيًا. اختر لغة النص وابدأ التعرّف عليه ثم راجع الناتج قبل تصديره.
+ocrRun	التعرّف على النص
+ocrFormats	PDF أو PNG أو JPG أو WebP أو BMP · حتى 40 ميغابايت
+docTitle	تحويل مستند إلى نص
+docIntro	احصل على نص قابل للتعديل من DOCX أو ODT أو PDF أو ملفات نصية.
+docGuide	افتح مستندًا واستخرج نصه. نزّل TXT أو مرّر الناتج إلى أداة أخرى. لا يُحفظ تنسيق الصفحات.
+otherFormats	DOCX أو ODT أو TXT أو MD أو CSV · حتى 10 ميغابايت. PDF · حتى 40 ميغابايت.
+comparePageTitle	مقارنة نصين
+compareIntro	قارن بالسطر أو الكلمة أو الحرف وانتقل بين مواضع الاختلاف.
+compareGuide	الصق نسختين أو افتح مستندين. اختر مستوى المقارنة وأخفِ المقاطع المتطابقة لتسهيل مراجعة النص الطويل.
+compareAction	مقارنة النصوص
+compareBy	المقارنة بحسب
+compareLines	الأسطر
+ignoreSpace	تجاهل المسافات
+changesOnly	عرض التغييرات فقط
+previousChange	التغيير السابق
+nextChange	التغيير التالي
+cleanerGuide	الصق نصًا أو افتح مستندًا. اضبط خيارات التنظيف وراجع الناتج قبل النسخ أو التنزيل.
+cleanupSettings	إعدادات التنظيف
+cleanupWrap	ضم الأسطر المقطوعة
+cleanupSpaces	إزالة المسافات الزائدة
+cleanupBlank	تقليص الأسطر الفارغة
+cleanupTabs	استبدال علامات الجدولة بمسافات
+cleanupInvisible	إزالة محارف التنسيق غير المرئية
+duplicatesLabel	إزالة الأسطر المكرّرة
+sortLines	فرز الأسطر
+ascending	تصاعدي
+descending	تنازلي
+sortHelp	يبقي الفرز الأسطر منفصلة ويوقف ضمّها.
+caseLabel	حالة الأحرف
+uppercase	أحرف كبيرة
+lowercase	أحرف صغيرة
+titleCase	تكبير أوائل الكلمات
+findLabel	البحث عن نص
+replaceLabel	الاستبدال بـ
+matchCase	مطابقة حالة الأحرف
+rewriteGuide	اختر وضع التحرير وراجع كل اقتراح. يمكنك حماية الأسماء والتواريخ والمبالغ والروابط وعبارات تختارها.
+rewriteMode	وضع التحرير
+rewriteRepeat	إزالة تكرار الكلمات
+rewriteTypography	تنسيق علامات الترقيم والمسافات
+protectedTerms	حماية العبارات
+protectAutomatic	حماية الأسماء والتواريخ والمبالغ والروابط المكتشفة
+protectCustom	عبارة واحدة في كل سطر
+acceptAll	قبول كل التعديلات
+undoAll	التراجع عن كل التعديلات
+signalLong	جمل تتجاوز 30 كلمة
+signalDoubled	كلمات مكررة متتالية
+signalMixed	كلمات تمزج الحروف اللاتينية والسيريلية
+signalFormats	اختلاف صيغ الأرقام أو التواريخ
+signalExtra	مؤشرات تحرير أخرى
+styleAdvice	جرّب تقسيم الجمل الطويلة وحذف التكرار وتوحيد صيغ التواريخ والأرقام. راجع استخدام أكثر من أبجدية في الأسماء والمصطلحات.
+counterIntro	احسب الكلمات والحروف والجمل والفقرات وقدّر وقت القراءة والإلقاء.
+counterGuide	الصق النص واختر لغته. عيّن حد الحروف أو عدّل سرعة القراءة والإلقاء حسب الحاجة.
+characterLimit	حد الحروف
+speedSettings	تقدير الوقت
+readingRate	كلمات القراءة في الدقيقة
+speakingRate	كلمات الإلقاء في الدقيقة
+statParagraphs	الفقرات
+readingTime	وقت القراءة
+speakingTime	وقت الإلقاء
+frequentWords	الكلمات الأكثر تكرارًا
+tableTitle	ملفات CSV والقوائم
+tableIntro	عاين CSV واحذف الصفوف المكرّرة وصدّر النتيجة إلى CSV أو جدول Markdown.
+tableGuide	افتح CSV أو الصق قائمة واختر الفاصل والترميز. تعرض المعاينة حتى 31 صفًا و12 عمودًا.
+tableHeader	الصف الأول عنوان
+listMode	عنصر واحد في السطر
+separatorLabel	الفاصل
+encodingLabel	ترميز الملف
+tablePreview	معاينة الجدول
+markdownTitle	معاينة Markdown
+markdownIntro	استعرض Markdown ونزّل الناتج المنسّق بصيغة HTML.
+markdownGuide	الصق Markdown أو افتح ملف MD. تظهر العناوين والقوائم والجداول وكتل التعليمات البرمجية. يُعرض النص البديل للصور الخارجية.
+imageTitle	تغيير حجم الصور وتحويلها
+imageIntro	غيّر حجم صور JPG وPNG وWebP واضغطها وقارن أحجامها.
+imageGuide	افتح صورة وحدد عرضها وارتفاعها أو حافظ على نسبتها. اختر الصيغة واضبط الجودة لملفات JPG أو WebP.
+imageFormats	JPG أو PNG أو WebP · حتى 40 ميغابايت
+imageWidth	العرض (بكسل)
+imageHeight	الارتفاع (بكسل)
+imageRatio	الحفاظ على نسبة الأبعاد
+qualityLabel	الجودة
+convertImage	تحويل الصورة
+batchTitle	معالجة المستندات دفعة واحدة
+batchIntro	نظّف عدة نصوص أو استخرج نصوص وصفحات PDF في أرشيف ZIP.
+batchGuide	اختر إجراءً وأضف الملفات. راجع نتيجة كل ملف ثم نزّل النتائج في أرشيف ZIP.
+batchMax	حتى 24 ملفًا و80 ميغابايت إجمالًا.
+batchOperation	الإجراء
+batchExtractPages	استخراج صفحات PDF المحددة
+batchRun	معالجة الملفات
+msgFailed	تعذرت المعالجة. راجع المدخلات وحاول مجددًا.
+msgLarge	تتجاوز المدخلات حد الحجم أو التعقيد.
+msgNoText	لم يُعثر على نص مقروء.
+msgFileType	اختر ملفًا بصيغة مدعومة.
+msgRangeError	أدخل أرقام صفحات أو نطاقات صالحة في هذا الملف.
+msgProtectedPdf	ملف PDF محمي بكلمة مرور. افتح نسخة غير مقفلة.
+msgCsvError	تعذرت قراءة CSV. راجع الفاصل وعلامات الاقتباس.
+msgDimensions	أدخل بعدًا بين 1 و8192 بكسل وألا يتجاوز الإجمالي 32 مليون بكسل.
+msgImageFormat	لا يدعم المتصفح التصدير إلى هذه الصيغة. جرّب PNG أو JPG.
+msgServe	افتح الموقع بواسطة الخادم المحلي أو الاستضافة لاستخدام هذه الميزة.
+msgCompareLimit	هناك اختلافات كثيرة. جرّب المقارنة على أجزاء أصغر.
+msgWorking	جارٍ العمل…
+msgCancelled	تم إلغاء المعالجة.
+msgPageProgress	الصفحة {page} · {current} من {total}
+msgTextReady	النص جاهز. الصفحات المعالَجة: {total}.
+msgFileProgress	الملف {current} من {total}
+msgFileLoaded	تم فتح {file}.
+msgFileReady	الملف جاهز. الصفحات: {total}.
+msgExampleReady	تم تحميل المثال.
+msgCatalogResults	الأدوات المطابقة: {total}
+msgCatalogEmpty	لم يُعثر على أداة مطابقة. جرّب بحثًا أو فئة أخرى.
+msgClearForExample	أفرغ الحقل لتحميل المثال.
+msgCleanReady	اكتمل التنظيف. التعديلات: {total}.
+msgDiffCount	المقاطع المعدّلة: {total}.
+msgDiffPosition	التغيير {current} من {total}.
+msgNoChanges	لا توجد تغييرات.
+msgTableReady	الصفوف: {rows}، الأعمدة: {columns}، التكرار المحذوف: {duplicates}.
+msgPreviewReady	المعاينة جاهزة.
+msgImageReady	الصورة جاهزة للتنزيل.
+msgQueued	بانتظار المعالجة
+msgDone	اكتمل
+msgBatchReady	الملفات المعالَجة: {done}. الأخطاء: {failed}.
+msgRemoved	تمت الإزالة
+msgApplied	تم قبول التعديلات.
+msgUndoAll	تم التراجع عن جميع التعديلات.
+msgOverLimit	تجاوز الحد بمقدار {total} حرفًا.
+msgRemaining	عدد الحروف المتبقية: {total}.
+sampleCleanup	قد يتضمّن النص المنسوخ  من PDF\nفواصل أسطر زائدة.\n\n• احتفظ بهذا العنصر\n• احتفظ بهذا العنصر
+sampleCompareLeft	موعد التقرير يوم الجمعة.\nالميزانية 120 CHF.
+sampleCompareRight	موعد التقرير يوم الاثنين.\nالميزانية 150 CHF.
+sampleText	في الوقت الراهن يمكن إعداد التقرير من أجل أن يراجعه الفريق. يتضمّن التقرير التقرير الميزانية المحدّثة.\n\nتجدر الإشارة إلى أن السعر يبقى 120 CHF.
+detectorTitle	تحليل أسلوب النص
+detectorIntro	راجع الجمل الطويلة والتكرار والعبارات الشائعة وعدم اتساق التنسيق.
+detectorCaveat	التظليل يوضح ما يمكن تحريره. ولا يحدد من كتب النص.
+detectorHelp	الصق مسودة واختر لغتها، ثم راجع الأجزاء المظللة في سياقها.
+cleanTitle	تنظيف النص
+cleanIntro	أزل فواصل الأسطر والمسافات والتكرار، أو افرز الأسطر واستبدل النص.
+rewriteIntro	بسّط العبارات وأزل التكرار واضبط التنسيق مع إمكانية مراجعة كل تعديل.
+search-text-cleaner	إزالة المسافات حذف الأسطر المكررة بحث واستبدال فرز
+msgPageSelection	الصفحات المحددة: {current} من {total}.
+saveSettings	حفظ الإعدادات على هذا الجهاز
+resetSettings	إعادة ضبط الإعدادات
+batchUsesSettings	يستخدم التنظيف الدفعي إعدادات التنظيف المحفوظة.
+msgSettingsSaved	تم حفظ الإعدادات على هذا الجهاز.
+msgSettingsReset	أُعيدت الإعدادات الافتراضية.
+msgStorageUnavailable	لم يسمح المتصفح بحفظ الإعدادات.
+previewFlowHeadline	من PDF إلى نص قابل للتعديل
+flowStepFile	اختر الملف والصفحات
+flowStepClean	أزل فواصل الأسطر والمسافات الزائدة
+flowStepExport	احفظ نسخة قابلة للتعديل
+recognizeEnglish	التعرّف أيضًا على النص الإنجليزي

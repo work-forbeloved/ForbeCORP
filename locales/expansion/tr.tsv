@@ -1,0 +1,196 @@
+categoryPdf	PDF
+featuredTools	Popüler araçlar
+searchTools	Araç ara
+searchExample	PDF, karşılaştırma veya boşluk silme yazın
+filterCategory	Araç kategorileri
+allTools	Tüm araçlar
+categoryText	Metin
+categoryData	Belgeler ve veriler
+categoryImage	Görseller
+howItWorks	Bu araç nasıl kullanılır
+tryExample	Örneği dene
+chooseDrop	Dosya seçin veya buraya bırakın
+workingLabel	İşlem ilerlemesi
+cancelRun	İptal et
+downloadFile	Dosyayı indir
+downloadHtml	HTML indir
+downloadZip	ZIP indir
+previewAction	Önizle
+previewTitleLabel	Önizleme
+outputFormat	Çıktı biçimi
+automatic	Otomatik
+none	Yok
+goCleaner	Metin temizleyicide aç
+goCompare	Sürümleri karşılaştır
+revisedText	Düzenlenmiş metin
+applyEdits	Düzenlemeleri uygula
+pdfTextTitle	PDF’den metin çıkar
+pdfTextIntro	PDF açın; seçilebilir metni kopyalayın, düzenleyin veya dışa aktarın.
+pdfTextGuide	Bir PDF seçin ve gerekirse sayfaları girin. Özellikle sütun ve tablo varsa sonucu kontrol edin. Taranmış sayfalar için OCR kullanın.
+pdfTextRun	Metni çıkar
+pdfFormats	PDF · dosya başına en fazla 40 MB
+pagesLabel	Sayfalar
+pagesHelp	Tüm sayfalar için boş bırakın. Örnek: 1–3, 5.
+emptyPdfPages	Seçilebilir metin olmayan sayfalar
+pdfPagesTitle	PDF sayfalarını düzenle
+pdfPagesIntro	PDF’leri birleştirin, sayfaları seçin, sıralayın, döndürün veya ayrı kaydedin.
+pdfPagesGuide	Bir veya daha fazla PDF ekleyin. Her dosyanın sayfa sırasını girin. Birleştirilmiş bir PDF veya ayrı sayfaları ZIP olarak indirin.
+pdfPagesRun	PDF oluştur
+pageOrdering	Sayfalar girilen sırayı izler. Örneğin 3, 1–2, üçüncü sayfayı başa alır.
+combinePdf	Birleştirilmiş tek PDF
+splitPdf	ZIP içinde her sayfa için ayrı PDF
+rotatePages	Sayfaları döndür
+moveUp	Yukarı taşı
+moveDown	Aşağı taşı
+removeFile	Dosyayı kaldır
+ocrTitle	PDF ve görseller için OCR
+ocrIntro	Tarama, fotoğraf ve ekran görüntülerinden metin tanıyın.
+ocrGuide	Bir görsel veya taranmış PDF açın. Metnin dilini seçin, tanımayı başlatın ve sonucu dışa aktarmadan önce kontrol edin.
+ocrRun	Metni tanı
+ocrFormats	PDF, PNG, JPG, WebP veya BMP · en fazla 40 MB
+docTitle	Belgeyi metne dönüştür
+docIntro	DOCX, ODT, PDF veya düz metin dosyasından düzenlenebilir metin alın.
+docGuide	Bir belge açın ve metnini çıkarın. TXT olarak indirin veya sonucu başka bir araca gönderin. Sayfa yerleşimi korunmaz.
+otherFormats	DOCX, ODT, TXT, MD veya CSV · en fazla 10 MB. PDF · en fazla 40 MB.
+comparePageTitle	İki metni karşılaştır
+compareIntro	Sürümleri satır, kelime veya karakter düzeyinde karşılaştırın ve farklara gidin.
+compareGuide	İki sürümü yapıştırın veya iki belge açın. Karşılaştırma düzeyini seçin ve uzun metinlerde değişmeyen bölümleri gizleyin.
+compareAction	Metinleri karşılaştır
+compareBy	Karşılaştırma düzeyi
+compareLines	Satırlar
+ignoreSpace	Boşlukları yok say
+changesOnly	Yalnızca değişiklikleri göster
+previousChange	Önceki değişiklik
+nextChange	Sonraki değişiklik
+cleanerGuide	Metni yapıştırın veya bir belge açın. Temizleme seçeneklerini ayarlayın ve kopyalamadan veya indirmeden önce sonucu kontrol edin.
+cleanupSettings	Temizleme ayarları
+cleanupWrap	Bölünmüş satırları birleştir
+cleanupSpaces	Fazla boşlukları kaldır
+cleanupBlank	Fazla boş satırları azalt
+cleanupTabs	Sekmeleri boşluğa dönüştür
+cleanupInvisible	Görünmeyen biçim karakterlerini kaldır
+duplicatesLabel	Yinelenen satırları kaldır
+sortLines	Satırları sırala
+ascending	Artan
+descending	Azalan
+sortHelp	Sıralama yapılırken satırlar ayrı kalır ve satır birleştirme kapanır.
+caseLabel	Büyük ve küçük harf
+uppercase	BÜYÜK HARF
+lowercase	küçük harf
+titleCase	Kelime Başları Büyük
+findLabel	Metni bul
+replaceLabel	Şununla değiştir
+matchCase	Büyük ve küçük harfi ayırt et
+rewriteGuide	Bir mod seçin ve her öneriyi inceleyin. Adları, tarihleri, tutarları, bağlantıları veya seçtiğiniz ifadeleri koruyun.
+rewriteMode	Düzenleme modu
+rewriteRepeat	Yinelenen kelimeleri kaldır
+rewriteTypography	Noktalama ve boşlukları düzenle
+protectedTerms	İfadeleri koru
+protectAutomatic	Algılanan adları, tarihleri, tutarları ve bağlantıları koru
+protectCustom	Korunacak ifadeler, her satıra bir tane
+acceptAll	Tüm düzenlemeleri kabul et
+undoAll	Tüm düzenlemeleri geri al
+signalLong	30 kelimeden uzun cümleler
+signalDoubled	Arka arkaya yinelenen kelimeler
+signalMixed	Latin ve Kiril harflerini karıştıran kelimeler
+signalFormats	Tutarsız sayı veya tarih biçimleri
+signalExtra	Diğer düzenleme ipuçları
+styleAdvice	Uzun cümleleri ayırın, tekrarları azaltın, tarih ve sayı biçimlerini birleştirin. Ad ve terimlerde karışık alfabeleri kontrol edin.
+counterIntro	Kelime, karakter, cümle ve paragrafları sayın. Okuma ve konuşma süresini tahmin edin.
+counterGuide	Metni yapıştırıp dilini seçin. Karakter sınırı belirleyin veya okuma ve konuşma hızını ayarlayın.
+characterLimit	Karakter sınırı
+speedSettings	Süre tahmini
+readingRate	Dakikada okunan kelime
+speakingRate	Dakikada söylenen kelime
+statParagraphs	Paragraflar
+readingTime	Okuma süresi
+speakingTime	Konuşma süresi
+frequentWords	En sık kullanılan kelimeler
+tableTitle	CSV ve listeler
+tableIntro	CSV’yi önizleyin, yinelenen satırları kaldırın ve CSV veya Markdown tablosu olarak dışa aktarın.
+tableGuide	CSV açın veya liste yapıştırın. Ayırıcıyı ve kodlamayı seçin. Önizleme en fazla 31 satır ve 12 sütun gösterir.
+tableHeader	İlk satır başlık
+listMode	Satır başına bir liste öğesi
+separatorLabel	Ayırıcı
+encodingLabel	Dosya kodlaması
+tablePreview	Tablo önizleme
+markdownTitle	Markdown önizleme
+markdownIntro	Markdown’u önizleyin ve biçimlendirilmiş sonucu HTML olarak indirin.
+markdownGuide	Markdown yapıştırın veya bir MD dosyası açın. Başlıklar, listeler, tablolar ve kod blokları desteklenir. Harici görseller yerine alternatif metin gösterilir.
+imageTitle	Görselleri boyutlandır ve dönüştür
+imageIntro	JPG, PNG veya WebP dosyalarını yeniden boyutlandırın, sıkıştırın ve dosya boyutlarını karşılaştırın.
+imageGuide	Bir görsel açıp genişliği ve yüksekliği seçin veya oranı koruyun. Çıktı biçimini ve JPG ya da WebP kalitesini ayarlayın.
+imageFormats	JPG, PNG veya WebP · en fazla 40 MB
+imageWidth	Genişlik (px)
+imageHeight	Yükseklik (px)
+imageRatio	En boy oranını koru
+qualityLabel	Kalite
+convertImage	Görseli dönüştür
+batchTitle	Belgeleri toplu işle
+batchIntro	Birden çok metni temizleyin ya da PDF metinlerini ve sayfalarını ZIP dosyasına çıkarın.
+batchGuide	Bir işlem seçip dosyaları ekleyin. Her dosyanın durumunu kontrol edip sonuçları ZIP olarak indirin.
+batchMax	En fazla 24 dosya ve toplam 80 MB.
+batchOperation	İşlem
+batchExtractPages	Seçilen PDF sayfalarını çıkar
+batchRun	Dosyaları işle
+msgFailed	İşlem başarısız oldu. Girdiyi kontrol edip tekrar deneyin.
+msgLarge	Girdi boyut veya karmaşıklık sınırını aşıyor.
+msgNoText	Okunabilir metin bulunamadı.
+msgFileType	Desteklenen biçimde bir dosya seçin.
+msgRangeError	Bu PDF’de bulunan sayfa numaralarını veya aralıkları girin.
+msgProtectedPdf	PDF parola korumalıdır. Kilidi açılmış bir kopya kullanın.
+msgCsvError	CSV okunamadı. Ayırıcı ve tırnak işaretlerini kontrol edin.
+msgDimensions	1–8192 piksel arası ölçüler girin. Toplam en fazla 32 milyon piksel olabilir.
+msgImageFormat	Tarayıcı bu biçimi dışa aktaramıyor. PNG veya JPG deneyin.
+msgServe	Bu özellik için siteyi yerel sunucu veya barındırma adresi üzerinden açın.
+msgCompareLimit	Çok fazla fark var. Daha küçük bölümleri karşılaştırın.
+msgWorking	İşleniyor…
+msgCancelled	İşlem iptal edildi.
+msgPageProgress	Sayfa {page} · {current}/{total}
+msgTextReady	Metin hazır. İşlenen sayfa: {total}.
+msgFileProgress	Dosya {current}/{total}
+msgFileLoaded	{file} açıldı.
+msgFileReady	Dosya hazır. Sayfa: {total}.
+msgExampleReady	Örnek yüklendi.
+msgCatalogResults	Bulunan araç: {total}
+msgCatalogEmpty	Sonuç yok. Aramayı veya kategoriyi değiştirin.
+msgClearForExample	Örneği açmak için girişi temizleyin.
+msgCleanReady	Temizleme tamam. Değişiklik: {total}.
+msgDiffCount	Değişen bölüm: {total}.
+msgDiffPosition	Değişiklik {current}/{total}.
+msgNoChanges	Değişiklik bulunamadı.
+msgTableReady	Satır: {rows}, sütun: {columns}, kaldırılan tekrar: {duplicates}.
+msgPreviewReady	Önizleme hazır.
+msgImageReady	Görsel indirilmeye hazır.
+msgQueued	Bekliyor
+msgDone	Tamamlandı
+msgBatchReady	İşlenen dosya: {done}. Hata: {failed}.
+msgRemoved	Kaldırıldı
+msgApplied	Değişiklikler kabul edildi.
+msgUndoAll	Tüm değişiklikler geri alındı.
+msgOverLimit	Sınır {total} karakter aşıldı.
+msgRemaining	Kalan karakter: {total}.
+sampleCleanup	PDF’den kopyalanan  metinde\nfazladan satır sonları olabilir.\n\n• Bu öğeyi tut\n• Bu öğeyi tut
+sampleCompareLeft	Rapor cuma günü teslim edilecek.\nBütçe 120 CHF.
+sampleCompareRight	Rapor pazartesi günü teslim edilecek.\nBütçe 150 CHF.
+sampleText	Şu an itibarıyla raporu hazırlayabiliriz. Bu sebepten dolayı bütçe bütçe güncellendi.\n\nBelirtmek gerekir ki fiyat 120 CHF olarak kalıyor.
+detectorTitle	Metin üslubunu incele
+detectorIntro	Uzun cümleleri, tekrarları, kalıp ifadeleri ve tutarsız biçimleri bulun.
+detectorCaveat	Vurgular, metni düzenlemek için ipucu verir. Metni kimin yazdığını belirlemez.
+detectorHelp	Taslağı yapıştırın, dilini seçin ve vurgulanan bölümleri bağlamıyla inceleyin.
+cleanTitle	Metin temizleyici
+cleanIntro	Fazla satır sonları, boşluklar ve tekrarları kaldırın. Satırları sıralayın veya metin değiştirin.
+rewriteIntro	İfadeleri sadeleştirin, tekrarları kaldırın veya noktalama ve biçimi düzenleyip her değişikliği inceleyin.
+search-text-cleaner	boşluk silme satır sonu kaldırma bul değiştir tekrarları sıralama
+msgPageSelection	Seçilen sayfa: {current} / {total}.
+saveSettings	Ayarları bu cihazda kaydet
+resetSettings	Ayarları sıfırla
+batchUsesSettings	Toplu metin temizliği kaydedilmiş temizleme ayarlarını kullanır.
+msgSettingsSaved	Ayarlar bu cihaza kaydedildi.
+msgSettingsReset	Varsayılan ayarlar geri yüklendi.
+msgStorageUnavailable	Tarayıcı ayarların kaydedilmesine izin vermedi.
+previewFlowHeadline	PDF’den düzenlenebilir metne
+flowStepFile	Dosyayı ve sayfaları seçin
+flowStepClean	Fazla satır sonlarını ve boşlukları kaldırın
+flowStepExport	Düzenlenebilir bir sürüm kaydedin
+recognizeEnglish	İngilizce metni de tanı
