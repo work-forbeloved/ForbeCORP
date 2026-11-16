@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html data-theme="light" dir="{{dir}}" lang="{{lang}}">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#f6f6f7" name="theme-color"/>
+<meta content="{{metaDescription}}" name="description"/>
+<title>{{metaTitle}}</title>
+{{verification}}
+
+
+<link href="{{assetRoot}}styles.css" rel="stylesheet"/><link href="{{canonical}}" rel="canonical"/>{{alternateLinks}}<script>try{let t=localStorage.getItem("forbecorp-theme");document.documentElement.dataset.theme=t==="dark"||t==="light"?t:(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch(e){}</script></head>
+<body data-tool="{{toolSlug}}">
+<a class="skip-link" href="#main">{{skip}}</a>
+<header class="site-header">
+<div class="container">
+<nav aria-label="{{navAria}}" class="header-inner glass">
+<a aria-label="{{homeAria}}" class="brand" href="{{home}}#top">
+<span aria-hidden="true" class="brand-mark">
+<svg fill="none" viewbox="0 0 24 24"><path d="M8 5h9M8 5v14M8 12h7" stroke="currentColor" stroke-linecap="round" stroke-width="2.4"></path></svg>
+</span>
+          ForbeCORP
+        </a>
+<div class="nav-links">
+<a href="{{home}}#tools">{{navTools}}</a>
+<a href="{{home}}#benefits">{{navBenefits}}</a>
+<a href="{{home}}#about">{{navAbout}}</a>
+</div>
+<div class="header-actions">
+<div class="language-control" id="desktop-language">
+<svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c-3 3-3 15 0 18M12 3c3 3 3 15 0 18"></path></svg>
+<label class="sr-only" for="language-select-desktop">{{languageLabel}}</label>
+<select aria-label="{{languageLabel}}" class="language-select" id="language-select-desktop">{{languageOptions}}</select>
+</div>
+<button aria-label="{{themeDark}}" aria-pressed="false" class="theme-toggle" data-label-dark="{{themeDark}}" data-label-light="{{themeLight}}" id="theme-toggle" title="{{themeDark}}" type="button">
+<svg aria-hidden="true" class="sun" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+<svg aria-hidden="true" class="moon" viewbox="0 0 24 24"><path d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.3 8.3 0 1 0 10.2 10.2Z"></path></svg>
+</button>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="{{menuOpen}}" class="menu-toggle" data-label-close="{{menuClose}}" data-label-open="{{menuOpen}}" id="menu-toggle" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+</button>
+</div>
+</nav>
+<div class="mobile-links glass" hidden="" id="mobile-menu">
+<div class="mobile-language">
+<label for="language-select-mobile">{{languageLabel}}</label>
+<div class="language-control">
+<svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c-3 3-3 15 0 18M12 3c3 3 3 15 0 18"></path></svg>
+<select aria-label="{{languageLabel}}" class="language-select" id="language-select-mobile">{{languageOptions}}</select>
+</div>
+</div>
+<a href="{{home}}#tools">{{navTools}}</a>
+<a href="{{home}}#benefits">{{navBenefits}}</a>
+<a href="{{home}}#about">{{navAbout}}</a>
+</div>
+</div>
+</header>
+<main id="main" tabindex="-1">
+{{bodyContent}}
+</main>
+{{toolMessages}}
+<footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="{{home}}#top">ForbeCORP</a><span class="footer-note">© <span id="year">{{year}}</span> ForbeCORP. <span>{{footerNote}}</span></span><div class="footer-links"><a href="{{home}}#tools">{{navTools}}</a><a href="{{home}}#about">{{navAbout}}</a></div></div></footer>
+
+<script defer src="{{assetRoot}}app.js"></script>
+{{toolScripts}}</body>
+</html>
