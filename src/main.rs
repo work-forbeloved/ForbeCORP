@@ -188,7 +188,7 @@ impl Site {
         let origin = env::var("FORBECORP_SITE_URL")
             .ok()
             .filter(|value| !value.trim().is_empty())
-            .map(|value| normalize_origin(&value))
+            .map(|value| normalize_site_url(&value))
             .transpose()?;
         let google_verification = env::var("FORBECORP_GOOGLE_SITE_VERIFICATION")
             .ok()
@@ -223,6 +223,28 @@ impl Site {
             "index.html"
         }
     }
+}
+
+fn normalize_site_url(input: &str) -> Result<String, String> {
+    let invalid = || {
+        "FORBECORP_SITE_URL must be a public HTTPS URL such as https://example.com or https://example.com/ForbeCORP.".to_string()
+    };
+    let rest = input.trim().strip_prefix("https://").ok_or_else(invalid)?;
+    let rest = rest.strip_suffix('/').unwrap_or(rest);
+    let Some((host, path)) = rest.split_once('/') else {
+        return normalize_origin(&format!("https://{rest}"));
+    };
+    if path.split('/').any(|segment| {
+        segment.is_empty()
+            || matches!(segment, "." | "..")
+            || !segment
+                .bytes()
+                .all(|byte| byte.is_ascii_alphanumeric() || b"-._~".contains(&byte))
+    }) {
+        return Err(invalid());
+    }
+    let origin = normalize_origin(&format!("https://{host}"))?;
+    Ok(format!("{origin}/{path}"))
 }
 
 fn normalize_origin(input: &str) -> Result<String, String> {

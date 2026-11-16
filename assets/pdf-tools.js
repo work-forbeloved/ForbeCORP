@@ -232,7 +232,7 @@
   }
 
   async function editPages(entries, split, signal, report) {
-    const api = await W.abortable(W.library('vendor/pdf-lib/pdf-lib.min.js', 'PDFLib'), signal);
+    const api = await W.abortable(W.library('vendor/pdflib/pdf-lib.min.js', 'PDFLib'), signal);
     const combined = split ? null : await api.PDFDocument.create();
     const archive = Object.create(null);
     let count = 0;
