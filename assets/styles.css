@@ -466,14 +466,10 @@ h1,h2,h3,p { overflow-wrap: break-word; }
   .journey-step { padding: 17px 20px; }
 
   .main-with-ads {
-    --ad-width: 120px;
-    --ad-gap: 20px;
+    --side-field-min: 164px;
+    --center-width: min(1510px, calc(100% - 2 * var(--side-field-min)));
     display: grid;
-    --hero-width: 1510px;
-    grid-template-columns: var(--ad-width) minmax(0, 1fr) var(--ad-width);
-    gap: var(--ad-gap);
-    inline-size: min(calc(100% - 48px), calc(var(--hero-width) + 2 * (var(--ad-width) + var(--ad-gap))));
-    margin-inline: auto;
+    grid-template-columns: minmax(0, 1fr) var(--center-width) minmax(0, 1fr);
   }
   /* Reserve the center track even if a browser extension hides either ad slot. */
   .main-content { grid-area: 1 / 2; min-inline-size: 0; }
@@ -484,6 +480,8 @@ h1,h2,h3,p { overflow-wrap: break-word; }
   .placement-preview {
     display: block;
     align-self: stretch;
+    justify-self: center;
+    inline-size: min(400px, calc(100% - 72px));
     border-radius: 24px;
     background: color-mix(in srgb, var(--placement-color) 26%, var(--solid));
     border: 1px solid color-mix(in srgb, var(--placement-color) 52%, var(--solid));
