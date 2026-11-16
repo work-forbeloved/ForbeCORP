@@ -369,7 +369,7 @@ h1,h2,h3,p { overflow-wrap: break-word; }
 .analysis-signals dt { color: var(--muted); }
 .analysis-signals dd { margin: 0; max-width: 15ch; text-align: end; font-weight: 700; overflow-wrap: anywhere; }
 
-.ad-slot { display: none; }
+.placement-preview { display: none; }
 #rewrite-language, #analysis-language { max-inline-size: 100%; }
 
 @view-transition { navigation: auto; }
@@ -461,7 +461,6 @@ h1,h2,h3,p { overflow-wrap: break-word; }
 }
 
 @media (min-width: 1440px) {
-  .hero .container { width: min(calc(100% - 112px), 1510px); }
   .hero-art { min-height: clamp(510px, 37vw, 640px); }
   .preview { padding: clamp(30px, 2.55vw, 42px); }
   .journey-step { padding: 17px 20px; }
@@ -470,25 +469,24 @@ h1,h2,h3,p { overflow-wrap: break-word; }
     --ad-width: 120px;
     --ad-gap: 20px;
     display: grid;
-    grid-template-columns: var(--ad-width) minmax(0, var(--site-width)) var(--ad-width);
+    --hero-width: 1510px;
+    grid-template-columns: var(--ad-width) minmax(0, 1fr) var(--ad-width);
     gap: var(--ad-gap);
-    inline-size: min(calc(100% - 48px), calc(var(--site-width) + 2 * (var(--ad-width) + var(--ad-gap))));
+    inline-size: min(calc(100% - 48px), calc(var(--hero-width) + 2 * (var(--ad-width) + var(--ad-gap))));
     margin-inline: auto;
   }
   /* Reserve the center track even if a browser extension hides either ad slot. */
   .main-content { grid-area: 1 / 2; min-inline-size: 0; }
-  #ad-slot-start { grid-area: 1 / 1; }
-  #ad-slot-end { grid-area: 1 / 3; }
-  .main-content > .section > .container { width: 100%; }
-  .ad-slot {
+  .main-content > .hero > .container { width: 100%; }
+  .main-content > .section > .container { width: min(100%, var(--site-width)); }
+  .placement-preview-start { grid-area: 1 / 1; --placement-color: #568ac7; }
+  .placement-preview-end { grid-area: 1 / 3; --placement-color: #c67355; }
+  .placement-preview {
     display: block;
-    align-self: start;
-    block-size: 600px;
-    margin-block-start: 18px;
-    border-radius: 18px;
-    overflow: hidden;
-    background: var(--glass);
-    box-shadow: inset 0 0 0 1px var(--line);
+    align-self: stretch;
+    border-radius: 24px;
+    background: color-mix(in srgb, var(--placement-color) 26%, var(--solid));
+    border: 1px solid color-mix(in srgb, var(--placement-color) 52%, var(--solid));
   }
 }
 @media (max-width: 1060px) {
