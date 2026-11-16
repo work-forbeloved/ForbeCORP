@@ -1,0 +1,12 @@
+[package]
+name = "forbecorp"
+version = "0.1.0"
+edition = "2021"
+description = "Fast, zero-dependency localized static site generator and development server for ForbeCORP"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
+opt-level = "z"
+panic = "abort"
