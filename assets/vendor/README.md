@@ -17,6 +17,7 @@ Vendored npm distributions. Package archives were verified using the registry SH
 | @tesseract.js-data/deu | 1.0.0 | sha512-3ter1p2gFAiCd5CMC+PodZ9YY2UDomkKj+ytlKeeZqOUmhLx1SDnYPf5zog0g5MBbxYveW+8omI3PUflqHfZ4Q== |
 | @tesseract.js-data/por | 1.0.0 | sha512-sQ7GqYUgKaMmV0vNujYoXLlXUp2e5RGGkJxQ3L59kUOaupIugLJeb1dqhrfgyb71XQw7ltdSuXdQIoaoS/rpsQ== |
 | @tesseract.js-data/rus | 1.0.0 | sha512-GVOaLultru90gsuVGjXyPCKsg4SMeExnqSnzb8Gb+9zZ0F4wbA6bgWu/metQlcmU7OwTnYVd4UdSH9D4yBMZEA== |
+| @tesseract.js-data/ukr | 1.0.0 | sha512-W/i5g9xbyBHJxklEb0mU2iLENBzU9CgXk1LVg82aQ95IaRwNFjY1z5y0vMcydEHQLx/TeawGrHiqlWoyXWCDzA== |
 | @tesseract.js-data/chi_sim | 1.0.0 | sha512-iuErURkPbECDUazgsLn/r3c+tU2y5o5S/w14d0A/YiagfsjYyZKgTo75RUpsGJ311qtu0dIX4hqnXAAjmqf2CA== |
 | @tesseract.js-data/ara | 1.0.0 | sha512-bB60Av6dsv9LRUrlaM6SgnAwjUpdbanw9Jf3mbhDCZAhX7Cp8u7YjI8EWfCvMhH3R2QJT/2EA8cijqPANOhwaA== |
 | @tesseract.js-data/hin | 1.0.0 | sha512-MB6WY6g4SAtrs+Xuyz5JDDsLFCykCwIESV7M9KkyxF71bxBqhLa8e7GJi5yGa/Wl6V4nuC7LWX/EMdSyTINTvg== |

@@ -15,6 +15,7 @@ const LANGUAGES: &[(&str, &str)] = &[
     ("de", "Deutsch"),
     ("pt", "Português"),
     ("ru", "Русский"),
+    ("uk", "Українська"),
     ("zh-CN", "简体中文"),
     ("ar", "العربية"),
     ("hi", "हिन्दी"),
@@ -320,19 +321,34 @@ fn load_locale(file: &Path) -> Result<BTreeMap<String, String>, String> {
     Ok(map)
 }
 
-fn language_options(current: &str) -> String {
-    LANGUAGES
-        .iter()
-        .map(|(code, name)| {
+fn language_options(current: &str, dict: &BTreeMap<String, String>) -> String {
+    let mut options = String::new();
+    for region in [
+        "regionEuropeAmericas",
+        "regionAsia",
+        "regionMiddleEastAfrica",
+    ] {
+        let label = escape_html(&dict[region]);
+        options.push_str(&format!("<optgroup label=\"{label}\">\n"));
+        for (code, name) in LANGUAGES {
+            let group = match *code {
+                "ar" => "regionMiddleEastAfrica",
+                "bn" | "hi" | "id" | "ja" | "ko" | "tr" | "zh-CN" => "regionAsia",
+                _ => "regionEuropeAmericas",
+            };
+            if group != region {
+                continue;
+            }
             let selected = if *code == current { " selected" } else { "" };
             let dir = if *code == "ar" { "rtl" } else { "ltr" };
-            format!(
-                "<option value=\"{code}\" lang=\"{code}\" dir=\"{dir}\"{selected}>{}</option>",
+            options.push_str(&format!(
+                "<option value=\"{code}\" lang=\"{code}\" dir=\"{dir}\"{selected}>{}</option>\n",
                 escape_html(name)
-            )
-        })
-        .collect::<Vec<_>>()
-        .join("\n")
+            ));
+        }
+        options.push_str("</optgroup>\n");
+    }
+    options
 }
 
 fn alternates(site: &Site, prefix: &str, suffix: &str) -> String {
@@ -496,7 +512,7 @@ fn render(
                 "ltr".into()
             },
         ),
-        ("{{languageOptions}}", language_options(locale)),
+        ("{{languageOptions}}", language_options(locale, dict)),
         ("{{alternateLinks}}", alternates(site, prefix, &suffix)),
         ("{{canonical}}", site.route(prefix, locale, &suffix)),
         ("{{verification}}", verification),
@@ -812,8 +828,8 @@ mod tests {
         assert_eq!(safe_path("/en/").unwrap(), PathBuf::from("en/index.html"));
     }
     #[test]
-    fn all_15_locales_defined() {
-        assert_eq!(LANGUAGES.len(), 15);
+    fn all_16_locales_defined() {
+        assert_eq!(LANGUAGES.len(), 16);
     }
 
     #[test]

@@ -5,7 +5,7 @@
   const W = window.ForbeWork;
   const C = window.ForbeCore;
   const languages = {
-    en: 'eng', es: 'spa', fr: 'fra', de: 'deu', pt: 'por', ru: 'rus', 'zh-CN': 'chi_sim',
+    en: 'eng', es: 'spa', fr: 'fra', de: 'deu', pt: 'por', ru: 'rus', uk: 'ukr', 'zh-CN': 'chi_sim',
     ar: 'ara', hi: 'hin', ja: 'jpn', ko: 'kor', it: 'ita', id: 'ind', tr: 'tur', bn: 'ben'
   };
   const frame = () => new Promise(resolve => setTimeout(resolve, 0));
