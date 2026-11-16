@@ -1,0 +1,51 @@
+detectorTitle	AI text detector
+detectorIntro	Inspect patterns in pasted text or a document.
+workLocal	Processed on this device
+workInput	Original text
+detectorHelp	Use at least 100 words and 5 sentences for a style analysis.
+workFile	Open a document
+workFormats	DOCX, ODT, TXT, MD or CSV · up to 10 MB and 200,000 characters. Opening a file replaces the text above.
+detectorAction	Analyze text
+detectorSend	Open in humanizer
+detectorResults	Style analysis
+detectorCaveat	These are writing patterns. They cannot establish whether a text was written by AI or by a person.
+signalWords	Words
+signalSentences	Sentences
+signalSpread	Sentence lengths (words, shortest to longest)
+signalRepeats	Sentences with a repeated two-word opening
+signalPhrases	Stock phrases
+fileLoading	Reading the file…
+fileLoaded	Text loaded from {file}.
+fileError	Could not read the document. Paste the text or try another file.
+fileEmpty	No readable text was found in the document.
+fileLarge	The file exceeds 10 MB or the text exceeds 200,000 characters.
+fileType	Choose a DOCX, ODT, TXT, MD or CSV file, or paste the text.
+analysisShort	This is a short sample. For a fuller reading, use at least 100 words and 5 sentences.
+analysisReady	Review the patterns below alongside the original text.
+analysisMissing	Paste text or open a document to begin.
+rewriteTitle	Text humanizer
+rewriteIntro	Simplify stiff wording and edit the result yourself.
+rewriteHelp	Applies a small set of language rules. Review the result before using it.
+rewriteLanguage	Text language
+rewriteAction	Simplify text
+rewriteOutput	Editable result
+rewriteCopy	Copy
+rewriteDownload	Download TXT
+rewriteReady	Simplified text is ready to review.
+rewriteTransferred	Text transferred from another tool.
+rewriteSame	No matching phrases to simplify. You can edit the result directly.
+rewriteCopied	Copied to clipboard.
+rewriteCopyError	Copy is unavailable. Select the result and copy it manually.
+cleanTitle	PDF text cleaner
+cleanIntro	Remove broken lines and extra spaces from text copied out of a PDF.
+cleanHelp	Paste text copied from a PDF. Blank lines and list items are preserved.
+cleanAction	Clean text
+cleanReady	The cleaned text is ready to review.
+cleanSame	No extra spaces or broken lines found.
+openCounter	Open in text counter
+highlightTitle	Highlighted patterns
+compareTitle	Compare changes
+undoChange	Undo change
+changeUndone	Change undone.
+exportDocx	Download DOCX
+transferError	Text transfer is unavailable. Copy and paste the text into the other tool.

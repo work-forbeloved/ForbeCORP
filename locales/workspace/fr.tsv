@@ -1,0 +1,51 @@
+detectorTitle	Détecteur de texte IA
+detectorIntro	Examinez les motifs d’un texte collé ou d’un document.
+workLocal	Traité sur cet appareil
+workInput	Texte original
+detectorHelp	Pour une analyse plus complète, utilisez au moins 100 mots et 5 phrases.
+workFile	Ouvrir un document
+workFormats	DOCX, ODT, TXT, MD ou CSV · jusqu’à 10 Mo et 200 000 caractères. Le fichier remplace le texte ci-dessus.
+detectorAction	Analyser le texte
+detectorSend	Ouvrir dans l’éditeur
+detectorResults	Analyse du style
+detectorCaveat	Ces motifs d’écriture ne permettent pas de déterminer si le texte a été écrit par une IA ou par une personne.
+signalWords	Mots
+signalSentences	Phrases
+signalSpread	Longueur des phrases (de la plus courte à la plus longue, en mots)
+signalRepeats	Phrases qui commencent par les deux mêmes mots
+signalPhrases	Formules courantes
+fileLoading	Lecture du fichier…
+fileLoaded	Texte chargé depuis {file}.
+fileError	Impossible de lire le document. Collez le texte ou essayez un autre fichier.
+fileEmpty	Le document ne contient aucun texte lisible.
+fileLarge	Le fichier dépasse 10 Mo ou le texte dépasse 200 000 caractères.
+fileType	Choisissez un fichier DOCX, ODT, TXT, MD ou CSV, ou collez le texte.
+analysisShort	L’extrait est court. Pour une analyse plus complète, utilisez au moins 100 mots et 5 phrases.
+analysisReady	Comparez les motifs au texte original.
+analysisMissing	Collez un texte ou ouvrez un document pour commencer.
+rewriteTitle	Éditeur de texte
+rewriteIntro	Simplifiez les formulations rigides et modifiez le résultat.
+rewriteHelp	Applique quelques règles linguistiques. Relisez le résultat avant de l’utiliser.
+rewriteLanguage	Langue du texte
+rewriteAction	Simplifier le texte
+rewriteOutput	Résultat modifiable
+rewriteCopy	Copier
+rewriteDownload	Télécharger en TXT
+rewriteReady	Le texte simplifié est prêt à être relu.
+rewriteTransferred	Texte transféré depuis un autre outil.
+rewriteSame	Aucune formulation à simplifier n’a été trouvée. Vous pouvez modifier le résultat.
+rewriteCopied	Copié dans le presse-papiers.
+rewriteCopyError	Copie indisponible. Sélectionnez et copiez le résultat manuellement.
+cleanTitle	Nettoyer un texte de PDF
+cleanIntro	Supprimez les espaces superflus et les retours à la ligne du texte copié d’un PDF.
+cleanHelp	Collez le texte copié du PDF. Les lignes vides et les éléments de liste sont conservés.
+cleanAction	Nettoyer le texte
+cleanReady	Le texte nettoyé est prêt à être relu.
+cleanSame	Aucun espace superflu ni retour à la ligne inutile n’a été trouvé.
+openCounter	Ouvrir dans le compteur de texte
+highlightTitle	Motifs surlignés
+compareTitle	Comparer les modifications
+undoChange	Annuler la modification
+changeUndone	Modification annulée.
+exportDocx	Télécharger en DOCX
+transferError	Le transfert est indisponible. Copiez et collez le texte dans l’autre outil.

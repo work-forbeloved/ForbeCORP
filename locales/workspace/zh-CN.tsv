@@ -1,0 +1,51 @@
+detectorTitle	AI 文本检测器
+detectorIntro	查看粘贴文本或文档中的写作模式。
+workLocal	在当前设备上处理
+workInput	原文
+detectorHelp	如需更全面的分析，请使用至少 100 个词和 5 个句子。
+workFile	选择文件
+workFormats	支持 DOCX、ODT、TXT、MD 或 CSV，最多 10 MB 和 20 万字符。导入的文档会替换上方文本。
+detectorAction	分析文本
+detectorSend	在文本编辑器中打开
+detectorResults	风格分析
+detectorCaveat	这些写作模式无法判定文本由 AI 还是人撰写。
+signalWords	词数
+signalSentences	句数
+signalSpread	句长（按词数由短到长）
+signalRepeats	开头两个词重复的句子
+signalPhrases	常见套语
+fileLoading	正在读取文件…
+fileLoaded	已从 {file} 载入文本。
+fileError	无法读取文档。请粘贴文本或尝试其他文件。
+fileEmpty	文档中没有可读取的文本。
+fileLarge	文件超过 10 MB 或文本超过 20 万字符。
+fileType	请选择 DOCX、ODT、TXT、MD 或 CSV 文件，或直接粘贴文本。
+analysisShort	样本较短。如需更全面的分析，请提供至少 100 个词和 5 个句子。
+analysisReady	对照原文查看写作模式。
+analysisMissing	请粘贴文本或打开文档。
+rewriteTitle	文本编辑器
+rewriteIntro	简化生硬的措辞，并自行编辑结果。
+rewriteHelp	使用基本语言规则。请在使用前检查结果。
+rewriteLanguage	文本语言
+rewriteAction	简化文本
+rewriteOutput	处理结果
+rewriteCopy	复制
+rewriteDownload	下载 TXT
+rewriteReady	简化后的文本已可查看。
+rewriteTransferred	文本已从其他工具转入。
+rewriteSame	没有找到可简化的词句。你可以直接编辑结果。
+rewriteCopied	已复制到剪贴板。
+rewriteCopyError	无法自动复制。请选中结果并手动复制。
+cleanTitle	清理 PDF 文本
+cleanIntro	去除从 PDF 复制的文本中多余的换行和空格。
+cleanHelp	粘贴从 PDF 复制的文本。空行和列表项将保留。
+cleanAction	清理文本
+cleanReady	清理后的文本已可查看。
+cleanSame	没有发现多余的空格或换行。
+openCounter	在文本计数器中打开
+highlightTitle	高亮的写作模式
+compareTitle	比较修改
+undoChange	撤销此处修改
+changeUndone	已撤销修改。
+exportDocx	下载 DOCX
+transferError	无法转移文本。请复制文本并粘贴到其他工具中。

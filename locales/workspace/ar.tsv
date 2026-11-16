@@ -1,0 +1,51 @@
+detectorTitle	كاشف نصوص الذكاء الاصطناعي
+detectorIntro	افحص أنماط الكتابة في نص ملصق أو مستند.
+workLocal	تتم المعالجة على هذا الجهاز
+workInput	النص الأصلي
+detectorHelp	لتحليل أشمل استخدم ١٠٠ كلمة و٥ جمل على الأقل.
+workFile	فتح مستند
+workFormats	DOCX أو ODT أو TXT أو MD أو CSV · حتى ١٠ ميغابايت و٢٠٠٬٠٠٠ حرف. يحل الملف محل النص أعلاه.
+detectorAction	تحليل النص
+detectorSend	فتح في محرر النص
+detectorResults	تحليل الأسلوب
+detectorCaveat	لا تكفي هذه الأنماط لتحديد ما إذا كان النص من كتابة إنسان أو ذكاء اصطناعي.
+signalWords	الكلمات
+signalSentences	الجمل
+signalSpread	طول الجمل بالكلمات، من الأقصر إلى الأطول
+signalRepeats	جمل تبدأ بالكلمتين نفسيهما
+signalPhrases	عبارات شائعة
+fileLoading	جارٍ قراءة الملف…
+fileLoaded	تم تحميل النص من {file}.
+fileError	تعذرت قراءة المستند. الصق النص أو جرّب ملفًا آخر.
+fileEmpty	لم يُعثر على نص قابل للقراءة في المستند.
+fileLarge	يتجاوز الملف ١٠ ميغابايت أو يتجاوز النص ٢٠٠٬٠٠٠ حرف.
+fileType	اختر ملف DOCX أو ODT أو TXT أو MD أو CSV أو الصق النص.
+analysisShort	العينة قصيرة. لتحليل أشمل استخدم ١٠٠ كلمة و٥ جمل على الأقل.
+analysisReady	راجع الأنماط إلى جانب النص الأصلي.
+analysisMissing	الصق النص أو افتح مستندًا للبدء.
+rewriteTitle	محرر النص
+rewriteIntro	بسّط الصياغات المتكلّفة وعدّل النتيجة بنفسك.
+rewriteHelp	تُطبّق قواعد لغوية بسيطة. راجع النص قبل استخدامه.
+rewriteLanguage	لغة النص
+rewriteAction	تبسيط النص
+rewriteOutput	نتيجة قابلة للتعديل
+rewriteCopy	نسخ
+rewriteDownload	تنزيل TXT
+rewriteReady	النص المبسّط جاهز للمراجعة.
+rewriteTransferred	تم نقل النص من أداة أخرى.
+rewriteSame	لم يُعثر على عبارات مناسبة للتبسيط. يمكنك تعديل النتيجة مباشرةً.
+rewriteCopied	تم النسخ إلى الحافظة.
+rewriteCopyError	تعذّر النسخ. حدّد النتيجة وانسخها يدويًا.
+cleanTitle	تنظيف نص PDF
+cleanIntro	أزل فواصل الأسطر والمسافات الزائدة من نص منسوخ من ملف PDF.
+cleanHelp	الصق النص المنسوخ من ملف PDF. تُحفظ الأسطر الفارغة وعناصر القوائم.
+cleanAction	تنظيف النص
+cleanReady	النص بعد التنظيف جاهز للمراجعة.
+cleanSame	لم يُعثر على مسافات أو فواصل أسطر زائدة.
+openCounter	فتح في عدّاد النص
+highlightTitle	الأنماط المميّزة
+compareTitle	مقارنة التغييرات
+undoChange	التراجع عن التغيير
+changeUndone	تم التراجع عن التغيير.
+exportDocx	تنزيل DOCX
+transferError	تعذّر نقل النص. انسخه والصقه في الأداة الأخرى.

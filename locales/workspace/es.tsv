@@ -1,0 +1,51 @@
+detectorTitle	Detector de texto con IA
+detectorIntro	Examina patrones en el texto pegado o en un documento.
+workLocal	Procesado en este dispositivo
+workInput	Texto original
+detectorHelp	Para un análisis más completo, usa al menos 100 palabras y 5 frases.
+workFile	Abrir un documento
+workFormats	DOCX, ODT, TXT, MD o CSV · hasta 10 MB y 200 000 caracteres. El archivo sustituye al texto anterior.
+detectorAction	Analizar texto
+detectorSend	Abrir en el editor
+detectorResults	Análisis de estilo
+detectorCaveat	Estos patrones de escritura no determinan si el texto lo escribió una IA o una persona.
+signalWords	Palabras
+signalSentences	Frases
+signalSpread	Longitud de las frases (de menor a mayor, en palabras)
+signalRepeats	Frases que repiten las dos primeras palabras
+signalPhrases	Expresiones habituales
+fileLoading	Leyendo el archivo…
+fileLoaded	Texto cargado desde {file}.
+fileError	No se pudo leer el documento. Pega el texto o prueba otro archivo.
+fileEmpty	El documento no contiene texto legible.
+fileLarge	El archivo supera los 10 MB o el texto supera los 200 000 caracteres.
+fileType	Elige un DOCX, ODT, TXT, MD o CSV, o pega el texto.
+analysisShort	La muestra es breve. Para un análisis más completo, usa al menos 100 palabras y 5 frases.
+analysisReady	Revisa los patrones junto al texto original.
+analysisMissing	Pega texto o abre un documento para empezar.
+rewriteTitle	Editor de texto
+rewriteIntro	Simplifica expresiones rígidas y edita el resultado.
+rewriteHelp	Aplica reglas básicas del idioma. Revisa el resultado antes de usarlo.
+rewriteLanguage	Idioma del texto
+rewriteAction	Simplificar texto
+rewriteOutput	Resultado editable
+rewriteCopy	Copiar
+rewriteDownload	Descargar TXT
+rewriteReady	El texto simplificado está listo para revisar.
+rewriteTransferred	Texto transferido desde otra herramienta.
+rewriteSame	No se encontraron expresiones que simplificar. Puedes editar el resultado.
+rewriteCopied	Copiado al portapapeles.
+rewriteCopyError	No se pudo copiar. Selecciona y copia el resultado manualmente.
+cleanTitle	Limpiar texto de PDF
+cleanIntro	Elimina saltos de línea y espacios sobrantes del texto copiado de un PDF.
+cleanHelp	Pega el texto copiado del PDF. Se conservan las líneas en blanco y los elementos de lista.
+cleanAction	Limpiar texto
+cleanReady	El texto limpio está listo para revisar.
+cleanSame	No se encontraron espacios ni saltos de línea sobrantes.
+openCounter	Abrir en el contador de texto
+highlightTitle	Patrones resaltados
+compareTitle	Comparar cambios
+undoChange	Deshacer cambio
+changeUndone	Cambio deshecho.
+exportDocx	Descargar DOCX
+transferError	No se pudo transferir el texto. Cópialo y pégalo en la otra herramienta.

@@ -1,0 +1,51 @@
+detectorTitle	Pendeteksi teks AI
+detectorIntro	Periksa pola penulisan dalam teks yang ditempel atau dokumen.
+workLocal	Diproses di perangkat ini
+workInput	Teks asli
+detectorHelp	Untuk analisis lebih lengkap, gunakan minimal 100 kata dan 5 kalimat.
+workFile	Buka dokumen
+workFormats	DOCX, ODT, TXT, MD, atau CSV · maksimal 10 MB dan 200.000 karakter. Berkas menggantikan teks di atas.
+detectorAction	Analisis teks
+detectorSend	Buka di penyunting teks
+detectorResults	Analisis gaya tulisan
+detectorCaveat	Pola ini tidak dapat memastikan apakah teks ditulis oleh AI atau manusia.
+signalWords	Jumlah kata
+signalSentences	Jumlah kalimat
+signalSpread	Panjang kalimat (jumlah kata, terpendek hingga terpanjang)
+signalRepeats	Kalimat yang diawali dua kata yang sama
+signalPhrases	Ungkapan umum
+fileLoading	Membaca berkas…
+fileLoaded	Teks dimuat dari {file}.
+fileError	Dokumen tidak dapat dibaca. Tempel teks atau coba berkas lain.
+fileEmpty	Tidak ada teks yang dapat dibaca dalam dokumen.
+fileLarge	Ukuran berkas melebihi 10 MB atau teks melebihi 200.000 karakter.
+fileType	Pilih DOCX, ODT, TXT, MD, atau CSV, atau tempel teks.
+analysisShort	Cuplikan ini singkat. Untuk analisis lebih lengkap, gunakan minimal 100 kata dan 5 kalimat.
+analysisReady	Tinjau pola bersama teks asli.
+analysisMissing	Tempel teks atau buka dokumen untuk memulai.
+rewriteTitle	Penyunting teks
+rewriteIntro	Sederhanakan ungkapan yang kaku dan sunting hasilnya sendiri.
+rewriteHelp	Menggunakan beberapa aturan bahasa sederhana. Tinjau hasilnya sebelum digunakan.
+rewriteLanguage	Bahasa teks
+rewriteAction	Sederhanakan teks
+rewriteOutput	Hasil yang bisa disunting
+rewriteCopy	Salin
+rewriteDownload	Unduh TXT
+rewriteReady	Teks yang disederhanakan siap ditinjau.
+rewriteTransferred	Teks dipindahkan dari alat lain.
+rewriteSame	Tidak ditemukan ungkapan yang bisa disederhanakan. Anda bisa langsung menyunting hasilnya.
+rewriteCopied	Disalin ke papan klip.
+rewriteCopyError	Tidak bisa menyalin. Pilih hasilnya dan salin secara manual.
+cleanTitle	Pembersih teks PDF
+cleanIntro	Hapus jeda baris dan spasi berlebih dari teks yang disalin dari PDF.
+cleanHelp	Tempel teks yang disalin dari PDF. Baris kosong dan butir daftar tetap dipertahankan.
+cleanAction	Bersihkan teks
+cleanReady	Teks yang dibersihkan siap ditinjau.
+cleanSame	Tidak ada spasi atau jeda baris berlebih.
+openCounter	Buka di penghitung teks
+highlightTitle	Pola yang disorot
+compareTitle	Bandingkan perubahan
+undoChange	Urungkan perubahan
+changeUndone	Perubahan diurungkan.
+exportDocx	Unduh DOCX
+transferError	Teks tidak dapat dipindahkan. Salin dan tempel teks di alat lain.

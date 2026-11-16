@@ -1,0 +1,51 @@
+detectorTitle	KI-Textdetektor
+detectorIntro	Untersuche Muster in einem eingefügten Text oder Dokument.
+workLocal	Auf diesem Gerät verarbeitet
+workInput	Originaltext
+detectorHelp	Für eine ausführlichere Analyse nutze mindestens 100 Wörter und 5 Sätze.
+workFile	Dokument öffnen
+workFormats	DOCX, ODT, TXT, MD oder CSV · bis zu 10 MB und 200.000 Zeichen. Die Datei ersetzt den Text oben.
+detectorAction	Text analysieren
+detectorSend	Im Texteditor öffnen
+detectorResults	Stilanalyse
+detectorCaveat	Aus diesen Schreibmustern lässt sich nicht ableiten, ob eine KI oder ein Mensch den Text geschrieben hat.
+signalWords	Wörter
+signalSentences	Sätze
+signalSpread	Satzlänge (vom kürzesten zum längsten Satz, in Wörtern)
+signalRepeats	Sätze mit denselben ersten zwei Wörtern
+signalPhrases	Gängige Formulierungen
+fileLoading	Datei wird gelesen…
+fileLoaded	Text aus {file} geladen.
+fileError	Das Dokument konnte nicht gelesen werden. Füge den Text ein oder versuche es mit einer anderen Datei.
+fileEmpty	Das Dokument enthält keinen lesbaren Text.
+fileLarge	Die Datei ist größer als 10 MB oder der Text hat mehr als 200.000 Zeichen.
+fileType	Wähle DOCX, ODT, TXT, MD oder CSV oder füge den Text ein.
+analysisShort	Die Textprobe ist kurz. Für eine ausführlichere Analyse nutze mindestens 100 Wörter und 5 Sätze.
+analysisReady	Vergleiche die Muster mit dem Originaltext.
+analysisMissing	Füge Text ein oder öffne ein Dokument.
+rewriteTitle	Texteditor
+rewriteIntro	Vereinfache steife Formulierungen und bearbeite das Ergebnis.
+rewriteHelp	Wendet einige Sprachregeln an. Prüfe das Ergebnis vor der Verwendung.
+rewriteLanguage	Textsprache
+rewriteAction	Text vereinfachen
+rewriteOutput	Bearbeitbares Ergebnis
+rewriteCopy	Kopieren
+rewriteDownload	TXT herunterladen
+rewriteReady	Der vereinfachte Text kann jetzt geprüft werden.
+rewriteTransferred	Text aus einem anderen Werkzeug übernommen.
+rewriteSame	Keine passenden Formulierungen gefunden. Du kannst das Ergebnis bearbeiten.
+rewriteCopied	In die Zwischenablage kopiert.
+rewriteCopyError	Kopieren nicht möglich. Wähle das Ergebnis aus und kopiere es manuell.
+cleanTitle	PDF-Text bereinigen
+cleanIntro	Entferne störende Zeilenumbrüche und überflüssige Leerzeichen aus kopiertem PDF-Text.
+cleanHelp	Füge den aus einem PDF kopierten Text ein. Leerzeilen und Listenpunkte bleiben erhalten.
+cleanAction	Text bereinigen
+cleanReady	Der bereinigte Text kann jetzt geprüft werden.
+cleanSame	Keine überflüssigen Leerzeichen oder Zeilenumbrüche gefunden.
+openCounter	Im Textzähler öffnen
+highlightTitle	Markierte Muster
+compareTitle	Änderungen vergleichen
+undoChange	Änderung rückgängig machen
+changeUndone	Änderung rückgängig gemacht.
+exportDocx	DOCX herunterladen
+transferError	Textübertragung nicht verfügbar. Kopiere den Text und füge ihn im anderen Werkzeug ein.

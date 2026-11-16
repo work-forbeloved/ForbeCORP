@@ -1,0 +1,51 @@
+detectorTitle	Rilevatore di testi IA
+detectorIntro	Esamina i segnali stilistici in un testo o in un documento.
+workLocal	Elaborazione sul dispositivo
+workInput	Testo originale
+detectorHelp	Usa almeno 100 parole e 5 frasi per l’analisi dello stile.
+workFile	Apri un documento
+workFormats	DOCX, ODT, TXT, MD o CSV · fino a 10 MB e 200 000 caratteri. Il file sostituisce il testo nel campo.
+detectorAction	Analizza il testo
+detectorSend	Apri nel riscrittore
+detectorResults	Analisi dello stile
+detectorCaveat	Questi segnali descrivono lo stile. Non stabiliscono se il testo è stato scritto da una persona o dall’IA.
+signalWords	Parole
+signalSentences	Frasi
+signalSpread	Lunghezza delle frasi (min–max, in parole)
+signalRepeats	Frasi con le stesse due parole iniziali
+signalPhrases	Espressioni ricorrenti
+fileLoading	Lettura del file…
+fileLoaded	Testo caricato da {file}.
+fileError	Impossibile leggere il documento. Incolla il testo o prova con un altro file.
+fileEmpty	Il documento non contiene testo leggibile.
+fileLarge	Il file supera 10 MB o il testo supera 200 000 caratteri.
+fileType	Scegli un file DOCX, ODT, TXT, MD o CSV oppure incolla il testo.
+analysisShort	Il campione è breve. Per un’analisi più completa usa almeno 100 parole e 5 frasi.
+analysisReady	Confronta i segnali qui sotto con il testo originale.
+analysisMissing	Incolla il testo o apri un documento per iniziare.
+rewriteTitle	Riscrittore di testi
+rewriteIntro	Semplifica le formulazioni rigide e modifica il risultato.
+rewriteHelp	Applica un insieme di regole linguistiche. Rileggi il risultato prima di usarlo.
+rewriteLanguage	Lingua del testo
+rewriteAction	Semplifica il testo
+rewriteOutput	Risultato modificabile
+rewriteCopy	Copia
+rewriteDownload	Scarica TXT
+rewriteReady	Il testo semplificato è pronto per la revisione.
+rewriteTransferred	Testo trasferito da un altro strumento.
+rewriteSame	Nessuna espressione da semplificare. Puoi modificare il risultato a mano.
+rewriteCopied	Copiato negli appunti.
+rewriteCopyError	Copia automatica non disponibile. Seleziona il risultato e copialo a mano.
+cleanTitle	Pulizia testo da PDF
+cleanIntro	Rimuovi le interruzioni di riga e gli spazi superflui dal testo copiato da un PDF.
+cleanHelp	Incolla il testo copiato da un PDF. Le righe vuote e le voci degli elenchi vengono conservate.
+cleanAction	Pulisci il testo
+cleanReady	Il testo ripulito è pronto da controllare.
+cleanSame	Non sono stati trovati spazi superflui o interruzioni di riga.
+openCounter	Apri nel contatore di testo
+highlightTitle	Schemi evidenziati
+compareTitle	Confronta le modifiche
+undoChange	Annulla modifica
+changeUndone	Modifica annullata.
+exportDocx	Scarica DOCX
+transferError	Il trasferimento non è disponibile. Copia e incolla il testo nell’altro strumento.

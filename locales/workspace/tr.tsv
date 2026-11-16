@@ -1,0 +1,51 @@
+detectorTitle	Yapay zekâ metin dedektörü
+detectorIntro	Yapıştırılan metindeki veya belgedeki yazım örüntülerini inceleyin.
+workLocal	Bu cihazda işlenir
+workInput	Özgün metin
+detectorHelp	Daha kapsamlı bir analiz için en az 100 kelime ve 5 cümle kullanın.
+workFile	Belge aç
+workFormats	DOCX, ODT, TXT, MD veya CSV · en fazla 10 MB ve 200.000 karakter. Dosya yukarıdaki metnin yerini alır.
+detectorAction	Metni analiz et
+detectorSend	Metin düzenleyicide aç
+detectorResults	Üslup analizi
+detectorCaveat	Bu yazım örüntüleri, metni yapay zekânın mı yoksa bir insanın mı yazdığını belirleyemez.
+signalWords	Kelime sayısı
+signalSentences	Cümle sayısı
+signalSpread	Cümle uzunluğu (kısadan uzuna, kelime sayısı)
+signalRepeats	Aynı iki kelimeyle başlayan cümleler
+signalPhrases	Kalıplaşmış ifadeler
+fileLoading	Dosya okunuyor…
+fileLoaded	Metin {file} dosyasından yüklendi.
+fileError	Belge okunamadı. Metni yapıştırın veya başka bir dosya deneyin.
+fileEmpty	Belgede okunabilir metin bulunamadı.
+fileLarge	Dosya 10 MB’ı veya metin 200.000 karakteri aşıyor.
+fileType	DOCX, ODT, TXT, MD veya CSV dosyası seçin ya da metni yapıştırın.
+analysisShort	Örnek kısa. Daha kapsamlı bir analiz için en az 100 kelime ve 5 cümle kullanın.
+analysisReady	Örüntüleri özgün metinle birlikte inceleyin.
+analysisMissing	Başlamak için metni yapıştırın veya bir belge açın.
+rewriteTitle	Metin düzenleyici
+rewriteIntro	Ağır ifadeleri sadeleştirin ve sonucu kendiniz düzenleyin.
+rewriteHelp	Birkaç basit dil kuralı uygular. Kullanmadan önce sonucu gözden geçirin.
+rewriteLanguage	Metin dili
+rewriteAction	Metni sadeleştir
+rewriteOutput	Düzenlenebilir sonuç
+rewriteCopy	Kopyala
+rewriteDownload	TXT indir
+rewriteReady	Sadeleştirilen metin incelemeye hazır.
+rewriteTransferred	Metin başka bir araçtan aktarıldı.
+rewriteSame	Sadeleştirilecek ifade bulunamadı. Sonucu doğrudan düzenleyebilirsiniz.
+rewriteCopied	Panoya kopyalandı.
+rewriteCopyError	Kopyalanamadı. Sonucu seçip elle kopyalayın.
+cleanTitle	PDF metnini temizle
+cleanIntro	PDF’den kopyalanan metindeki gereksiz satır sonlarını ve boşlukları kaldırın.
+cleanHelp	PDF’den kopyaladığınız metni yapıştırın. Boş satırlar ve liste öğeleri korunur.
+cleanAction	Metni temizle
+cleanReady	Temizlenen metin incelemeye hazır.
+cleanSame	Gereksiz boşluk veya satır sonu bulunamadı.
+openCounter	Metin sayacında aç
+highlightTitle	Vurgulanan örüntüler
+compareTitle	Değişiklikleri karşılaştır
+undoChange	Değişikliği geri al
+changeUndone	Değişiklik geri alındı.
+exportDocx	DOCX indir
+transferError	Metin aktarılamadı. Metni kopyalayıp diğer araca yapıştırın.
