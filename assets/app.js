@@ -6,6 +6,7 @@
   const themeButton = document.getElementById('theme-toggle');
   const menuButton = document.getElementById('menu-toggle');
   const menu = document.getElementById('mobile-menu');
+  const header = document.querySelector('.site-header');
   const tool = document.body.dataset.tool;
   const localFile = location.protocol === 'file:';
   const pageFile = localFile ? 'index.html' : '';
@@ -86,6 +87,20 @@
     syncTheme();
   });
   syncTheme();
+
+  let lastScrollY = Math.max(0, window.scrollY);
+  window.addEventListener('scroll', () => {
+    const currentY = Math.max(0, window.scrollY);
+    const deltaY = currentY - lastScrollY;
+    if (currentY <= header.offsetHeight || !menu.hidden) {
+      header.classList.remove('is-scrolled-away');
+    } else if (deltaY < 0) {
+      header.classList.remove('is-scrolled-away');
+    } else if (deltaY > 0) {
+      header.classList.add('is-scrolled-away');
+    }
+    lastScrollY = currentY;
+  }, { passive: true });
 
   function closeMenu() {
     menu.hidden = true;
