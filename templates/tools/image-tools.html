@@ -1,0 +1,25 @@
+<section class="workspace glass text-workspace" aria-labelledby="work-title" id="image-work">
+  <div class="workspace-heading"><div><h1 id="work-title">{{imageTitle}}</h1><p>{{imageIntro}}</p></div><span class="workspace-label">{{workLocal}}</span></div>
+  <div class="workspace-content text-tool-grid rewrite-grid">
+    <div class="field-stack">
+      <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="image-source" type="file" accept=".jpg,.jpeg,.png,.webp,.gif,.bmp,.ico,.avif" data-job-lock aria-describedby="image-support"></label>
+      <p id="image-support" class="text-tool-note">{{imageFormats}}</p>
+      <div class="field-line">
+        <label for="image-width"><span>{{imageWidth}}</span><input class="field" type="number" inputmode="numeric" id="image-width" min="1" max="8192" data-job-lock></label>
+        <label for="image-height"><span>{{imageHeight}}</span><input class="field" type="number" inputmode="numeric" id="image-height" min="1" max="8192" data-job-lock></label>
+        <label for="image-format"><span>{{outputFormat}}</span><select id="image-format" class="field" data-job-lock><option value="image/webp">WebP</option><option value="image/jpeg">JPG</option><option value="image/png">PNG</option><option value="image/bmp">BMP</option><option value="image/x-icon">ICO</option></select></label>
+      </div>
+      <label class="check-field"><input id="image-ratio" type="checkbox" data-job-lock checked> {{imageRatio}}</label>
+      <label for="image-quality" class="editor-label">{{qualityLabel}} <output id="image-quality-value" for="image-quality">80%</output></label>
+      <input id="image-quality" type="range" min="0" max="100" value="80" style="--range-fill:80%" data-job-lock>
+      <div class="text-tool-actions"><button type="button" id="image-run" class="btn btn-primary" data-run disabled>{{convertImage}}</button> <button type="button" id="image-sample" class="btn btn-secondary" data-job-lock >{{tryExample}}</button> <button type="button" class="btn btn-secondary" data-cancel disabled hidden>{{cancelRun}}</button></div>
+      <progress data-progress max="1" aria-label="{{workingLabel}}" hidden></progress>
+      <p id="image-status" class="text-tool-note feedback" role="status" data-tool-status></p>
+    </div>
+    <div class="field-stack">
+      <figure class="image-preview"><figcaption>{{workInput}} <bdi id="image-before-meta"></bdi></figcaption><img id="image-original" alt="{{workInput}}" hidden></figure>
+      <figure class="image-preview"><figcaption>{{previewTitleLabel}} <bdi id="image-after-meta"></bdi></figcaption><img id="image-result" alt="{{previewTitleLabel}}" hidden></figure>
+      <div class="text-tool-actions"><button type="button" id="image-download" class="btn btn-secondary" disabled>{{downloadFile}}</button> <a href="../ocr/{{routeIndex}}" class="text-link" data-route>{{ocrTitle}}</a></div>
+    </div>
+  </div>
+</section>

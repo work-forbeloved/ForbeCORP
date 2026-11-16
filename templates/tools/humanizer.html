@@ -1,0 +1,54 @@
+<section aria-labelledby="rewrite-title" class="workspace glass text-workspace" id="humanizer">
+  <div class="workspace-heading">
+    <div><h1 id="rewrite-title">{{rewriteTitle}}</h1><p>{{rewriteIntro}}</p></div>
+    <span class="workspace-label">{{workLocal}}</span>
+  </div>
+  <div class="workspace-content text-tool-grid rewrite-grid">
+    <div>
+      <label class="editor-label" for="rewrite-input">{{workInput}}</label>
+      <textarea class="editor" dir="auto" id="rewrite-input" spellcheck="false" maxlength="200000" aria-describedby="rewrite-help"></textarea>
+      <p class="text-tool-note" id="rewrite-help">{{rewriteHelp}}</p>
+      <div class="field-line editor-settings">
+        <label><span>{{rewriteLanguage}}</span><select id="rewrite-language" class="field">{{languageOptions}}</select></label>
+        <label><span>{{rewriteMode}}</span><select id="rewrite-mode" class="field"><option value="simple">{{rewriteAction}}</option><option value="repeat">{{rewriteRepeat}}</option><option value="typography">{{rewriteTypography}}</option></select></label>
+      </div>
+      <details class="tool-options">
+        <summary>{{protectedTerms}}</summary>
+        <label class="check-field"><input id="rewrite-protect-auto" type="checkbox" checked> {{protectAutomatic}}</label>
+        <label class="editor-label" for="rewrite-protected">{{protectCustom}}</label>
+        <textarea id="rewrite-protected" class="field short-editor" maxlength="4000" dir="auto" spellcheck="false"></textarea>
+      </details>
+      <div class="text-tool-actions">
+        <button class="btn btn-primary" id="rewrite-text" type="button" disabled>{{applyEdits}}</button>
+        <button class="btn btn-secondary" type="button" data-example="rewrite-input" data-sample="{{sampleText}}">{{tryExample}}</button>
+      </div>
+    </div>
+    <div>
+      <label class="editor-label" for="rewrite-output">{{rewriteOutput}}</label>
+      <textarea class="editor" dir="auto" id="rewrite-output" spellcheck="false" maxlength="200000"></textarea>
+      <div class="text-tool-actions">
+        <button class="btn btn-secondary" data-copy="rewrite-output" type="button" disabled>{{rewriteCopy}}</button>
+        <button class="btn btn-secondary" data-download="txt" data-result="rewrite-output" type="button" disabled>{{rewriteDownload}}</button>
+        <button class="btn btn-secondary" data-download="docx" data-result="rewrite-output" type="button" disabled>{{exportDocx}}</button>
+      </div>
+      <div class="text-tool-actions">
+        <button class="btn btn-secondary" type="button" data-send="text-compare" data-result="rewrite-output" data-compare-with="rewrite-input" disabled>{{goCompare}}</button>
+        <button class="btn btn-secondary" type="button" data-send="text-counter" data-result="rewrite-output" disabled>{{openCounter}}</button>
+      </div>
+      <p class="text-tool-note feedback" id="rewrite-feedback" role="status"></p>
+    </div>
+  </div>
+  <div class="tool-detail" id="rewrite-comparison" hidden>
+    <h2>{{compareTitle}}</h2>
+    <div class="text-tool-actions review-actions">
+      <button type="button" id="rewrite-accept-all" class="btn btn-secondary">{{acceptAll}}</button>
+      <button type="button" id="rewrite-undo-all" class="btn btn-secondary">{{undoAll}}</button>
+    </div>
+    <div class="comparison-grid">
+      <div><h3>{{workInput}}</h3><div id="comparison-before" class="text-preview" dir="auto" tabindex="0" role="region" aria-label="{{workInput}}"></div></div>
+      <div><h3>{{rewriteOutput}}</h3><div id="comparison-after" class="text-preview" dir="auto" tabindex="0" role="region" aria-label="{{rewriteOutput}}"></div></div>
+    </div>
+    <ul class="rewrite-changes" id="rewrite-changes"></ul>
+  </div>
+  <span id="rewrite-messages" hidden data-ready="{{rewriteReady}}" data-input="{{rewriteTransferred}}" data-same="{{rewriteSame}}" data-undo="{{undoChange}}" data-undone="{{changeUndone}}"></span>
+</section>

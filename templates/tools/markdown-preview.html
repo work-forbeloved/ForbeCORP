@@ -1,0 +1,17 @@
+<section class="workspace glass text-workspace" aria-labelledby="work-title" id="markdown-work">
+  <div class="workspace-heading"><div><h1 id="work-title">{{markdownTitle}}</h1><p>{{markdownIntro}}</p></div><span class="workspace-label">{{workLocal}}</span></div>
+  <div class="workspace-content text-tool-grid rewrite-grid">
+    <div class="field-stack">
+      <label for="markdown-input" class="editor-label">{{workInput}}</label><textarea id="markdown-input" class="editor" dir="auto" maxlength="200000" spellcheck="false" data-job-lock></textarea>
+      <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="markdown-source" type="file" accept=".md,.markdown,.txt" data-job-lock ></label>
+      <div class="text-tool-actions"><button type="button" id="markdown-run" class="btn btn-primary" data-run disabled>{{previewAction}}</button> <button type="button" class="btn btn-secondary" data-example="markdown-input" data-sample="# {{markdownTitle}}\n\n- **Markdown**\n- `HTML`" data-job-lock>{{tryExample}}</button></div>
+      <progress data-progress max="1" aria-label="{{workingLabel}}" hidden></progress>
+      <p id="markdown-status" class="text-tool-note feedback" role="status" data-tool-status></p>
+    </div>
+    <div class="field-stack">
+      <h2 class="editor-label">{{previewTitleLabel}}</h2>
+      <div id="markdown-output" class="markdown-preview text-preview" role="region" aria-label="{{previewTitleLabel}}" tabindex="0" hidden></div>
+      <div class="text-tool-actions"><button type="button" id="markdown-download" class="btn btn-secondary" disabled>{{downloadHtml}}</button></div>
+    </div>
+  </div>
+</section>

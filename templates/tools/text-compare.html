@@ -1,0 +1,32 @@
+<section class="workspace glass text-workspace" aria-labelledby="work-title" id="compare-work">
+  <div class="workspace-heading"><div><h1 id="work-title">{{comparePageTitle}}</h1><p>{{compareIntro}}</p></div><span class="workspace-label">{{workLocal}}</span></div>
+  <div class="workspace-content text-tool-grid rewrite-grid">
+    <div class="field-stack"><label for="compare-left" class="editor-label">{{workInput}}</label><textarea id="compare-left" class="editor" dir="auto" maxlength="200000" spellcheck="false" data-job-lock></textarea> <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="compare-left-file" type="file" accept=".txt,.md,.csv,.docx,.odt,.pdf" data-job-lock ></label></div>
+    <div class="field-stack"><label for="compare-right" class="editor-label">{{revisedText}}</label><textarea id="compare-right" class="editor" dir="auto" maxlength="200000" spellcheck="false" data-job-lock></textarea> <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="compare-right-file" type="file" accept=".txt,.md,.csv,.docx,.odt,.pdf" data-job-lock ></label></div>
+  </div>
+  <div class="tool-detail field-stack">
+    <div class="field-line">
+      <label><span>{{compareBy}}</span><select id="compare-mode" class="field" data-job-lock><option value="words">{{signalWords}}</option><option value="characters">{{statCharacters}}</option><option value="lines">{{compareLines}}</option></select></label>
+      <label class="check-field"><input id="compare-ignore" type="checkbox" data-job-lock> {{ignoreSpace}}</label>
+      <label class="check-field"><input id="compare-changes-only" type="checkbox"> {{changesOnly}}</label>
+    </div>
+    <div class="text-tool-actions">
+      <button type="button" id="compare-run" class="btn btn-primary" data-run disabled>{{compareAction}}</button> <button type="button" id="compare-sample" class="btn btn-secondary" data-job-lock data-before="{{sampleCompareLeft}}" data-after="{{sampleCompareRight}}">{{tryExample}}</button> <button type="button" class="btn btn-secondary" data-cancel disabled hidden>{{cancelRun}}</button>
+    </div>
+    <progress data-progress max="1" aria-label="{{workingLabel}}" hidden></progress>
+      <p id="compare-status" class="text-tool-note feedback" role="status" data-tool-status></p>
+  </div>
+  <div id="compare-results" class="tool-detail diff-output" data-side="before" hidden>
+    <div class="diff-toolbar">
+      <button id="compare-prev" type="button" class="btn btn-secondary">{{previousChange}}</button>
+      <button id="compare-next" type="button" class="btn btn-secondary">{{nextChange}}</button>
+      <span id="compare-count" role="status" class="text-tool-note"></span>
+    </div>
+    <div class="diff-mobile" aria-label="{{compareTitle}}">
+      <button type="button" class="btn btn-secondary" aria-pressed="true" data-side="before">{{workInput}}</button>
+      <button type="button" class="btn btn-secondary" aria-pressed="false" data-side="after">{{revisedText}}</button>
+    </div>
+    <div class="diff-headers"><strong class="diff-before">{{workInput}}</strong><strong class="diff-after">{{revisedText}}</strong></div>
+    <div id="compare-rows" class="diff-rows" role="region" aria-label="{{compareTitle}}" tabindex="0"></div>
+  </div>
+</section>

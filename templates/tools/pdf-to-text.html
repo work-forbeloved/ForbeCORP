@@ -1,0 +1,30 @@
+<section class="workspace glass text-workspace" aria-labelledby="work-title" id="pdf-work">
+  <div class="workspace-heading"><div><h1 id="work-title">{{pdfTextTitle}}</h1><p>{{pdfTextIntro}}</p></div><span class="workspace-label">{{workLocal}}</span></div>
+  <div class="workspace-content text-tool-grid rewrite-grid">
+    <div class="field-stack">
+      <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="pdf-source" type="file" accept=".pdf" data-job-lock aria-describedby="pdf-file-help"></label>
+      <p id="pdf-file-help" class="text-tool-note">{{pdfFormats}}</p>
+      <p id="pdf-file-note" class="file-note" dir="auto"></p>
+      <div id="pdf-page-options" class="field-stack">
+        <label for="pdf-range" class="editor-label">{{pagesLabel}}</label>
+        <input id="pdf-range" class="field" type="text" dir="ltr" placeholder="1–3, 5" aria-describedby="range-help pdf-select-info" data-job-lock>
+        <p id="range-help" class="text-tool-note">{{pagesHelp}}</p>
+        <p class="text-tool-note" id="pdf-select-info" role="status"></p>
+      </div>
+      
+      <div class="text-tool-actions">
+        <button type="button" id="pdf-run" class="btn btn-primary" data-run disabled>{{pdfTextRun}}</button>
+        <button type="button" id="pdf-sample" class="btn btn-secondary" data-job-lock >{{tryExample}}</button>
+        <button type="button" class="btn btn-secondary" data-cancel disabled hidden>{{cancelRun}}</button>
+      </div>
+      <progress data-progress max="1" aria-label="{{workingLabel}}" hidden></progress>
+      <p id="pdf-status" class="text-tool-note feedback" role="status" data-tool-status></p>
+      <p class="text-tool-note" id="pdf-empty-pages" hidden>{{emptyPdfPages}} <bdi id="pdf-skipped-list"></bdi> <a class="text-link" href="../ocr/{{routeIndex}}" data-route>{{ocrTitle}}</a></p>
+    </div>
+    <div class="field-stack">
+      <label for="pdf-output" class="editor-label">{{rewriteOutput}}</label><textarea id="pdf-output" class="editor" dir="auto" maxlength="200000" spellcheck="false" ></textarea>
+      <div class="text-tool-actions"><button type="button" class="btn btn-secondary" data-copy="pdf-output" disabled>{{rewriteCopy}}</button> <button type="button" class="btn btn-secondary" data-result="pdf-output" data-download="txt" disabled>{{rewriteDownload}}</button> <button type="button" class="btn btn-secondary" data-result="pdf-output" data-download="docx" disabled>{{exportDocx}}</button></div>
+      <div class="text-tool-actions"><button class="btn btn-secondary" type="button" data-result="pdf-output" data-send="text-cleaner"  disabled>{{goCleaner}}</button> <button class="btn btn-secondary" type="button" data-result="pdf-output" data-send="humanizer"  disabled>{{detectorSend}}</button> <button class="btn btn-secondary" type="button" data-result="pdf-output" data-send="text-counter"  disabled>{{openCounter}}</button></div>
+    </div>
+  </div>
+</section>

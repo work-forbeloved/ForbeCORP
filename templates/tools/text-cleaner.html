@@ -1,0 +1,61 @@
+<section aria-labelledby="clean-title" class="workspace glass text-workspace" id="text-cleaner">
+  <div class="workspace-heading">
+    <div><h1 id="clean-title">{{cleanTitle}}</h1><p>{{cleanIntro}}</p></div>
+    <span class="workspace-label">{{workLocal}}</span>
+  </div>
+  <div class="workspace-content text-tool-grid rewrite-grid">
+    <div class="field-stack">
+      <label class="editor-label" for="clean-input">{{workInput}}</label>
+      <textarea class="editor" id="clean-input" dir="auto" maxlength="200000" spellcheck="false" aria-describedby="clean-help" data-job-lock></textarea>
+      <p class="text-tool-note" id="clean-help">{{cleanerGuide}}</p>
+      <details class="tool-options">
+        <summary>{{cleanupSettings}}</summary>
+        <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="clean-source" type="file" accept=".txt,.docx,.odt,.md,.csv" data-job-lock></label>
+        <div class="check-grid">
+          <label class="check-field"><input type="checkbox" id="clean-wrap" checked> {{cleanupWrap}}</label>
+          <label class="check-field"><input type="checkbox" id="clean-spaces" checked> {{cleanupSpaces}}</label>
+          <label class="check-field"><input type="checkbox" id="clean-blank" checked> {{cleanupBlank}}</label>
+          <label class="check-field"><input type="checkbox" id="clean-duplicates"> {{duplicatesLabel}}</label>
+          <label class="check-field"><input type="checkbox" id="clean-tabs"> {{cleanupTabs}}</label>
+          <label class="check-field"><input type="checkbox" id="clean-invisible"> {{cleanupInvisible}}</label>
+        </div>
+        <div class="field-line">
+          <label><span>{{sortLines}}</span><select id="clean-sort" class="field" aria-describedby="sort-help"><option value="">{{none}}</option><option value="asc">{{ascending}}</option><option value="desc">{{descending}}</option></select></label>
+          <label><span>{{caseLabel}}</span><select id="clean-case-mode" class="field"><option value="">{{none}}</option><option value="upper">{{uppercase}}</option><option value="lower">{{lowercase}}</option><option value="title">{{titleCase}}</option></select></label>
+          <label><span>{{rewriteLanguage}}</span><select id="clean-language" class="field">{{languageOptions}}</select></label>
+        </div>
+        <p class="text-tool-note" id="sort-help">{{sortHelp}}</p>
+        <div class="field-line">
+          <label><span>{{findLabel}}</span><input type="text" id="clean-find" class="field" dir="auto" maxlength="512"></label>
+          <label><span>{{replaceLabel}}</span><input type="text" id="clean-replace" class="field" dir="auto" maxlength="512"></label>
+        </div>
+        <label class="check-field"><input type="checkbox" id="clean-case-sensitive"> {{matchCase}}</label>
+        <div class="text-tool-actions">
+          <button class="btn btn-secondary" id="clean-save-settings" type="button">{{saveSettings}}</button>
+          <button class="btn btn-secondary" id="clean-reset-settings" type="button">{{resetSettings}}</button>
+        </div>
+      </details>
+      <div class="text-tool-actions">
+        <button class="btn btn-primary" id="clean-text" type="button" data-run disabled>{{cleanAction}}</button>
+        <button class="btn btn-secondary" type="button" data-example="clean-input" data-sample="{{sampleCleanup}}" data-job-lock>{{tryExample}}</button>
+        <button class="btn btn-secondary" type="button" data-cancel hidden disabled>{{cancelRun}}</button>
+      </div>
+      <progress data-progress max="1" aria-label="{{workingLabel}}" hidden></progress>
+    </div>
+    <div class="field-stack">
+      <label class="editor-label" for="clean-output">{{rewriteOutput}}</label>
+      <textarea class="editor" id="clean-output" dir="auto" maxlength="200000" spellcheck="false"></textarea>
+      <div class="text-tool-actions">
+        <button class="btn btn-secondary" data-copy="clean-output" type="button" disabled>{{rewriteCopy}}</button>
+        <button class="btn btn-secondary" data-result="clean-output" data-download="txt" type="button" disabled>{{rewriteDownload}}</button>
+        <button class="btn btn-secondary" data-result="clean-output" data-download="docx" type="button" disabled>{{exportDocx}}</button>
+      </div>
+      <div class="text-tool-actions">
+        <button class="btn btn-secondary" data-send="humanizer" data-result="clean-output" type="button" disabled>{{detectorSend}}</button>
+        <button class="btn btn-secondary" data-send="text-counter" data-result="clean-output" type="button" disabled>{{openCounter}}</button>
+        <button class="btn btn-secondary" data-send="text-compare" data-result="clean-output" data-compare-with="clean-input" type="button" disabled>{{goCompare}}</button>
+      </div>
+      <p class="text-tool-note feedback" id="clean-feedback" data-tool-status role="status"></p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,29 @@
+<section class="workspace glass text-workspace" aria-labelledby="work-title" id="table-work">
+  <div class="workspace-heading"><div><h1 id="work-title">{{tableTitle}}</h1><p>{{tableIntro}}</p></div><span class="workspace-label">{{workLocal}}</span></div>
+  <div class="workspace-content text-tool-grid rewrite-grid">
+    <div class="field-stack">
+      <label for="table-input" class="editor-label">{{workInput}}</label><textarea id="table-input" class="editor" dir="auto" maxlength="200000" spellcheck="false" data-job-lock></textarea>
+      <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="table-source" type="file" accept=".csv,.tsv,.txt" data-job-lock aria-describedby="table-help"></label>
+      <p id="table-help" class="text-tool-note">{{tableGuide}}</p>
+      <div class="field-line">
+        <label for="table-separator"><span>{{separatorLabel}}</span><select id="table-separator" class="field" data-job-lock><option value="auto">{{automatic}}</option><option value="comma">,</option><option value="semi">;</option><option value="tab">TAB</option></select></label>
+        <label for="table-encoding"><span>{{encodingLabel}}</span><select id="table-encoding" class="field" data-job-lock><option value="auto">{{automatic}}</option><option>UTF-8</option><option>UTF-16LE</option><option>UTF-16BE</option><option>windows-1251</option><option>windows-1252</option><option>windows-1256</option><option>Shift_JIS</option><option>GB18030</option><option>EUC-KR</option></select></label>
+      </div>
+      <div class="check-grid">
+        <label class="check-field"><input id="table-header" type="checkbox" checked data-job-lock> {{tableHeader}}</label>
+        <label class="check-field"><input id="table-list-mode" type="checkbox" data-job-lock> {{listMode}}</label>
+        <label class="check-field"><input id="table-dedupe" type="checkbox" data-job-lock> {{duplicatesLabel}}</label>
+      </div>
+      <div class="text-tool-actions"><button type="button" id="table-run" class="btn btn-primary" data-run disabled>{{previewAction}}</button> <button type="button" class="btn btn-secondary" data-example="table-input" data-sample="A,B\n1,2\n1,2\n2,3" data-job-lock>{{tryExample}}</button></div>
+      <progress data-progress max="1" aria-label="{{workingLabel}}" hidden></progress>
+      <p id="table-status" class="text-tool-note feedback" role="status" data-tool-status></p>
+    </div>
+    <div class="field-stack">
+      <label for="table-output-format" class="editor-label">{{outputFormat}}</label>
+      <select id="table-output-format" class="field" data-job-lock><option value="csv">CSV</option><option value="md">Markdown</option></select>
+      <label for="table-output" class="editor-label">{{rewriteOutput}}</label><textarea id="table-output" class="editor" dir="auto" maxlength="200000" spellcheck="false" readonly></textarea>
+      <div class="text-tool-actions"><button type="button" id="table-download" class="btn btn-secondary" disabled>{{downloadFile}}</button> <button type="button" class="btn btn-secondary" data-copy="table-output" disabled>{{rewriteCopy}}</button></div>
+    </div>
+  </div>
+  <div class="tool-detail table-scroll"><table id="table-preview" class="data-table" hidden><caption>{{tablePreview}}</caption></table></div>
+</section>

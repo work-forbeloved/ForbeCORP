@@ -1,0 +1,48 @@
+<section aria-labelledby="counter-title" class="workspace glass text-workspace" id="text-counter">
+  <div class="workspace-heading">
+    <div><h1 id="counter-title">{{counterTitle}}</h1><p>{{counterIntro}}</p></div>
+    <span class="workspace-label">{{localLabel}}</span>
+  </div>
+  <div class="workspace-content text-tool-grid">
+    <div class="field-stack">
+      <label class="editor-label" for="text-input">{{editorLabel}}</label>
+      <textarea class="editor" dir="auto" id="text-input" placeholder="{{editorPlaceholder}}" maxlength="200000" spellcheck="false"></textarea>
+      <div class="field-line">
+        <label><span>{{rewriteLanguage}}</span><select id="counter-language" class="field">{{languageOptions}}</select></label>
+        <label><span>{{characterLimit}}</span><input id="counter-limit" class="field" type="number" min="1" max="200000" inputmode="numeric"></label>
+      </div>
+      <details class="tool-options">
+        <summary>{{speedSettings}}</summary>
+        <div class="field-line">
+          <label><span>{{readingRate}}</span><input id="counter-reading" class="field" type="number" min="1" max="1000" value="220" inputmode="numeric"></label>
+          <label><span>{{speakingRate}}</span><input id="counter-speaking" class="field" type="number" min="1" max="1000" value="130" inputmode="numeric"></label>
+        </div>
+      </details>
+      <progress id="counter-progress" max="1" aria-label="{{characterLimit}}" hidden></progress>
+      <p class="text-tool-note" id="counter-budget" role="status" hidden></p>
+      <div class="text-tool-actions">
+        <button class="btn btn-secondary" id="clear-text" type="button" disabled>{{clearButton}}</button>
+        <button class="btn btn-secondary" data-example="text-input" data-sample="{{sampleText}}" type="button">{{tryExample}}</button>
+        <button class="btn btn-secondary" data-send="text-cleaner" data-result="text-input" type="button" disabled>{{goCleaner}}</button>
+        <button class="btn btn-secondary" data-send="humanizer" data-result="text-input" type="button" disabled>{{detectorSend}}</button>
+      </div>
+      <p class="text-tool-note feedback" role="status" data-tool-status>{{privacyText}}</p>
+    </div>
+    <div class="field-stack">
+      <dl class="stats counter-stats" aria-label="{{statsLabel}}">
+        <div class="stat"><dt>{{statCharacters}}</dt><dd id="characters">0</dd></div>
+        <div class="stat"><dt>{{statWords}}</dt><dd id="words">0</dd></div>
+        <div class="stat"><dt>{{statNonspace}}</dt><dd id="nonspace">0</dd></div>
+        <div class="stat"><dt>{{signalSentences}}</dt><dd id="sentences">0</dd></div>
+        <div class="stat"><dt>{{statParagraphs}}</dt><dd id="paragraphs">0</dd></div>
+        <div class="stat"><dt>{{readingTime}}</dt><dd id="reading-time">0</dd></div>
+        <div class="stat"><dt>{{speakingTime}}</dt><dd id="speaking-time">0</dd></div>
+      </dl>
+      <div class="tool-result">
+        <h2 class="editor-label">{{frequentWords}}</h2>
+        <p id="counter-empty" class="text-tool-note">{{analysisMissing}}</p>
+        <ol id="counter-common-list" class="frequency-list"></ol>
+      </div>
+    </div>
+  </div>
+</section>

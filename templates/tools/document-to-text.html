@@ -1,0 +1,17 @@
+<section class="workspace glass text-workspace" aria-labelledby="work-title" id="doc-work">
+  <div class="workspace-heading"><div><h1 id="work-title">{{docTitle}}</h1><p>{{docIntro}}</p></div><span class="workspace-label">{{workLocal}}</span></div>
+  <div class="workspace-content text-tool-grid rewrite-grid">
+    <div class="field-stack">
+      <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="doc-source" type="file" accept=".txt,.md,.csv,.docx,.odt,.pdf" data-job-lock aria-describedby="doc-file-help"></label>
+      <p id="doc-file-help" class="text-tool-note">{{otherFormats}}</p>
+      <div class="text-tool-actions"><button type="button" id="doc-sample" class="btn btn-secondary" data-job-lock >{{tryExample}}</button> <button type="button" class="btn btn-secondary" data-cancel disabled hidden>{{cancelRun}}</button></div>
+      <progress data-progress max="1" aria-label="{{workingLabel}}" hidden></progress>
+      <p id="doc-status" class="text-tool-note feedback" role="status" data-tool-status></p>
+    </div>
+    <div class="field-stack">
+      <label for="doc-output" class="editor-label">{{rewriteOutput}}</label><textarea id="doc-output" class="editor" dir="auto" maxlength="200000" spellcheck="false" ></textarea>
+      <div class="text-tool-actions"><button type="button" class="btn btn-secondary" data-copy="doc-output" disabled>{{rewriteCopy}}</button> <button type="button" class="btn btn-secondary" data-result="doc-output" data-download="txt" disabled>{{rewriteDownload}}</button></div>
+      <div class="text-tool-actions"><button class="btn btn-secondary" type="button" data-result="doc-output" data-send="text-cleaner"  disabled>{{goCleaner}}</button> <button class="btn btn-secondary" type="button" data-result="doc-output" data-send="text-counter"  disabled>{{openCounter}}</button> <button class="btn btn-secondary" type="button" data-result="doc-output" data-send="text-compare"  disabled>{{goCompare}}</button></div>
+    </div>
+  </div>
+</section>

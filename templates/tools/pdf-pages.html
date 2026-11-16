@@ -1,0 +1,22 @@
+<section class="workspace glass text-workspace" aria-labelledby="work-title" id="page-work">
+  <div class="workspace-heading"><div><h1 id="work-title">{{pdfPagesTitle}}</h1><p>{{pdfPagesIntro}}</p></div><span class="workspace-label">{{workLocal}}</span></div>
+  <div class="tool-detail field-stack">
+    <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="pages-source" type="file" accept=".pdf" data-job-lock multiple aria-describedby="pages-upload-help"></label>
+    <p id="pages-upload-help" class="text-tool-note">{{pdfFormats}} · {{batchMax}}</p>
+    <ol class="file-list" id="pdf-list"></ol>
+    <template id="pdf-item"><li class="file-row">
+      <bdi class="file-note" data-name></bdi>
+      <div class="field-line">
+        <label><span>{{pagesLabel}}</span><input class="field" type="text" data-range dir="ltr" placeholder="3, 1–2" aria-describedby="pages-order" data-job-lock></label>
+        <label><span>{{rotatePages}}</span><select class="field" data-angle data-job-lock><option value="0">0°</option><option value="90">90°</option><option value="180">180°</option><option value="270">270°</option></select></label>
+      </div>
+      <div class="text-tool-actions"><button type="button" class="btn btn-secondary" data-up data-job-lock>{{moveUp}}</button><button type="button" class="btn btn-secondary" data-down data-job-lock>{{moveDown}}</button><button type="button" class="btn btn-secondary" data-remove data-job-lock>{{removeFile}}</button></div>
+    </li></template>
+    <p id="pages-order" class="text-tool-note">{{pageOrdering}}</p>
+    <label for="pages-mode" class="editor-label">{{outputFormat}}</label>
+    <select id="pages-mode" class="field fit-field" data-job-lock><option value="combine">{{combinePdf}}</option><option value="split">{{splitPdf}}</option></select>
+    <div class="text-tool-actions"><button type="button" id="pages-run" class="btn btn-primary" data-run disabled>{{pdfPagesRun}}</button> <button type="button" id="pages-sample" class="btn btn-secondary" data-job-lock >{{tryExample}}</button> <button type="button" id="pages-download" class="btn btn-secondary" disabled>{{downloadFile}}</button> <button type="button" class="btn btn-secondary" data-cancel disabled hidden>{{cancelRun}}</button></div>
+    <progress data-progress max="1" aria-label="{{workingLabel}}" hidden></progress>
+      <p id="pages-status" class="text-tool-note feedback" role="status" data-tool-status></p>
+  </div>
+</section>

@@ -1,0 +1,57 @@
+<section aria-labelledby="detector-title" class="workspace glass text-workspace" id="ai-detector">
+  <div class="workspace-heading">
+    <div><h1 id="detector-title">{{detectorTitle}}</h1><p>{{detectorIntro}}</p></div>
+    <span class="workspace-label">{{workLocal}}</span>
+  </div>
+  <div class="workspace-content text-tool-grid">
+    <div>
+      <label class="editor-label" for="detector-input">{{workInput}}</label>
+      <textarea class="editor" dir="auto" id="detector-input" spellcheck="false" maxlength="200000" aria-describedby="detector-help"></textarea>
+      <p class="text-tool-note" id="detector-help">{{detectorHelp}}</p>
+      <div class="text-tool-actions">
+        <label for="analysis-language">{{rewriteLanguage}}</label>
+        <select id="analysis-language">{{languageOptions}}</select>
+      </div>
+      <div class="document-input">
+        <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="detector-file" type="file" accept=".docx,.odt,.txt,.md,.csv" aria-describedby="file-help"></label>
+        <p id="file-help">{{workFormats}}</p>
+      </div>
+      <div class="text-tool-actions">
+        <button class="btn btn-primary" id="analyze-text" type="button" disabled>{{detectorAction}}</button>
+        <button class="btn btn-secondary" type="button" data-example="detector-input" data-sample="{{sampleText}}">{{tryExample}}</button>
+        <button class="btn btn-secondary" data-send="humanizer" data-result="detector-input" type="button" disabled>{{detectorSend}}</button>
+        <button class="btn btn-secondary" data-send="text-counter" data-result="detector-input" type="button" disabled>{{openCounter}}</button>
+        <button class="btn btn-secondary" id="clear-detector" type="button" disabled>{{clearButton}}</button>
+      </div>
+      <p class="text-tool-note feedback" id="detector-feedback" role="status"></p>
+    </div>
+    <div class="tool-result">
+      <h4>{{detectorResults}}</h4>
+      <p class="text-tool-note">{{detectorCaveat}}</p>
+      <p class="feedback result-summary" id="analysis-summary" role="status"></p>
+      <dl id="analysis-signals" class="analysis-signals" hidden>
+        <div><dt>{{signalWords}}</dt><dd id="analysis-words"></dd></div>
+        <div><dt>{{signalSentences}}</dt><dd id="analysis-sentences"></dd></div>
+        <div><dt>{{signalSpread}}</dt><dd id="analysis-spread"></dd></div>
+        <div><dt>{{signalRepeats}}</dt><dd id="analysis-repeats"></dd></div>
+        <div><dt>{{signalPhrases}}</dt><dd id="analysis-phrases"></dd></div>
+        <div><dt>{{signalLong}}</dt><dd id="analysis-long"></dd></div>
+        <div><dt>{{signalDoubled}}</dt><dd id="analysis-duplicate-words"></dd></div>
+        <div><dt>{{signalMixed}}</dt><dd id="analysis-mixed"></dd></div>
+        <div><dt>{{signalFormats}}</dt><dd id="analysis-format"></dd></div>
+      </dl>
+    </div>
+  </div>
+  <div class="tool-detail" id="analysis-preview" hidden>
+    <h2>{{highlightTitle}}</h2>
+    <ul class="tool-legend">
+      <li><span class="signal-repeat"></span>{{signalRepeats}}</li>
+      <li><span class="signal-phrase"></span>{{signalPhrases}}</li>
+      <li><span class="signal-long"></span>{{signalLong}}</li>
+      <li><span class="signal-extra"></span>{{signalExtra}}</li>
+    </ul>
+    <p class="text-tool-note">{{styleAdvice}}</p>
+    <div class="text-preview" id="analysis-highlight" dir="auto" tabindex="0" role="region" aria-label="{{highlightTitle}}"></div>
+  </div>
+  <span id="detector-messages" hidden data-loading="{{fileLoading}}" data-loaded="{{fileLoaded}}" data-error="{{fileError}}" data-empty="{{fileEmpty}}" data-large="{{fileLarge}}" data-type="{{fileType}}" data-short="{{analysisShort}}" data-ready="{{analysisReady}}" data-missing="{{analysisMissing}}"></span>
+</section>
