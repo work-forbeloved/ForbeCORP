@@ -120,7 +120,7 @@ markdownGuide	Tempel Markdown atau buka MD. Judul, daftar, tabel, dan blok kode 
 imageTitle	Ubah ukuran dan format gambar
 imageIntro	Ubah ukuran dan kompres JPG, PNG, atau WebP, lalu bandingkan ukuran berkas.
 imageGuide	Buka gambar. Pilih lebar dan tinggi atau pertahankan proporsi. Pilih format dan atur kualitas JPG atau WebP.
-imageFormats	JPG, PNG, atau WebP · hingga 40 MB
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · hingga 40 MB
 imageWidth	Lebar (px)
 imageHeight	Tinggi (px)
 imageRatio	Pertahankan proporsi

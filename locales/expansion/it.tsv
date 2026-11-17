@@ -120,7 +120,7 @@ markdownGuide	Incolla Markdown o apri un file MD. Sono supportati titoli, elench
 imageTitle	Ridimensiona e converti immagini
 imageIntro	Ridimensiona e comprimi JPG, PNG e WebP. Confronta le dimensioni dei file prima di scaricarli.
 imageGuide	Apri un’immagine, scegli larghezza e altezza o mantieni le proporzioni. Seleziona il formato e imposta la qualità per JPG o WebP.
-imageFormats	JPG, PNG o WebP · fino a 40 MB
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · fino a 40 MB
 imageWidth	Larghezza (px)
 imageHeight	Altezza (px)
 imageRatio	Mantieni le proporzioni

@@ -116,7 +116,7 @@
   menu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
   document.addEventListener('keydown', event => { if (event.key === 'Escape' && !menu.hidden) { closeMenu(); menuButton.focus(); } });
   document.addEventListener('click', event => { if (!menu.hidden && !menu.contains(event.target) && !menuButton.contains(event.target)) closeMenu(); });
-  window.matchMedia('(min-width: 821px)').addEventListener?.('change', event => { if (event.matches) closeMenu(); });
+  window.matchMedia('(max-width: 820px)').addEventListener?.('change', event => { if (!event.matches) closeMenu(); });
 
   selectorList.forEach(select => {
     select.value = locale;
@@ -128,7 +128,7 @@
           sessionStorage.setItem(stateKey, JSON.stringify({ tool, locale: select.value, fields: draft }));
         } catch (_) {}
       }
-      const target = (tool ? `../../${select.value}/${tool}/` : `../${select.value}/`) + pageFile + location.hash;
+      const target = (tool ? `../../${select.value}/${tool}/` : `../${select.value}/`) + pageFile + location.search + location.hash;
       window.location.assign(new URL(target, location.href));
     });
   });

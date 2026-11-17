@@ -120,7 +120,7 @@ markdownGuide	Markdown yapıştırın veya bir MD dosyası açın. Başlıklar, 
 imageTitle	Görselleri boyutlandır ve dönüştür
 imageIntro	JPG, PNG veya WebP dosyalarını yeniden boyutlandırın, sıkıştırın ve dosya boyutlarını karşılaştırın.
 imageGuide	Bir görsel açıp genişliği ve yüksekliği seçin veya oranı koruyun. Çıktı biçimini ve JPG ya da WebP kalitesini ayarlayın.
-imageFormats	JPG, PNG veya WebP · en fazla 40 MB
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · en fazla 40 MB
 imageWidth	Genişlik (px)
 imageHeight	Yükseklik (px)
 imageRatio	En boy oranını koru

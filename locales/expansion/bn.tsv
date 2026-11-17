@@ -120,7 +120,7 @@ markdownGuide	Markdown পেস্ট করুন বা MD খুলুন।
 imageTitle	ছবির আকার ও ফরম্যাট বদলান
 imageIntro	JPG, PNG বা WebP ছবির আকার বদলান, সংকুচিত করুন ও ফাইলের আকার মিলিয়ে দেখুন।
 imageGuide	ছবি খুলে প্রস্থ ও উচ্চতা ঠিক করুন অথবা অনুপাত রাখুন। ফরম্যাট বাছুন এবং JPG বা WebP-এর গুণমান ঠিক করুন।
-imageFormats	JPG, PNG বা WebP · 40 MB পর্যন্ত
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · 40 MB পর্যন্ত
 imageWidth	প্রস্থ (পিক্সেল)
 imageHeight	উচ্চতা (পিক্সেল)
 imageRatio	অনুপাত রাখুন

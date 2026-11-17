@@ -120,7 +120,7 @@ markdownGuide	Füge Markdown ein oder öffne eine MD-Datei. Unterstützt werden 
 imageTitle	Bilder skalieren und umwandeln
 imageIntro	Skaliere und komprimiere JPG, PNG oder WebP und vergleiche die Dateigrößen.
 imageGuide	Öffne ein Bild. Lege Breite und Höhe fest oder behalte das Seitenverhältnis bei. Wähle Format und Qualität für JPG oder WebP.
-imageFormats	JPG, PNG oder WebP · bis 40 MB
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · bis 40 MB
 imageWidth	Breite (px)
 imageHeight	Höhe (px)
 imageRatio	Seitenverhältnis beibehalten

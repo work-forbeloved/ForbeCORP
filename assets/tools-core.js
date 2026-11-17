@@ -5,7 +5,7 @@
   const maxText = 200_000;
   const maxDocumentBytes = 40_000_000;
   const maxBatchBytes = 80_000_000;
-  const defaultCleanup = { wrap: true, spaces: true, blank: true, invisible: true };
+  const defaultCleanup = { wrap: true, spaces: true, blank: true };
 
   function segment(language, granularity) {
     return Intl.Segmenter ? new Intl.Segmenter(language, { granularity }) : null;
@@ -198,7 +198,7 @@
   }
 
   function csvString(rows, delimiter) {
-    return rows.map(row => row.map(cell => cell.includes(delimiter) || /["\r\n]/u.test(cell)
+    return rows.map(row => row.map(cell => cell.includes(delimiter) || (row.length === 1 && cell === '') || /["\r\n]/u.test(cell)
       ? '"' + cell.replaceAll('"', '""') + '"' : cell).join(delimiter)).join('\r\n');
   }
 

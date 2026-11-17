@@ -5,10 +5,12 @@
     <select id="batch-mode" class="field fit-field" data-job-lock><option value="clean">{{cleanTitle}}</option><option value="extract">{{pdfTextTitle}}</option><option value="pages">{{batchExtractPages}}</option></select>
     <label class="drop-field" data-drop><span>{{chooseDrop}}</span><span class="drop-button" aria-hidden="true">{{workFile}}</span><input id="batch-source" type="file" accept=".txt,.md,.csv,.docx,.odt" data-job-lock multiple aria-describedby="batch-help"></label>
     <p id="batch-help" class="text-tool-note">{{batchMax}}</p>
-    <p class="text-tool-note">{{batchUsesSettings}}</p>
+    <p class="text-tool-note" id="batch-cleanup-note">{{batchUsesSettings}}</p>
+    <div id="batch-page-options" class="field-stack" hidden>
     <label for="batch-range" class="editor-label">{{pagesLabel}}</label>
     <input id="batch-range" class="field fit-field" type="text" dir="ltr" placeholder="1–3, 5" aria-describedby="batch-range-help" data-job-lock>
     <p id="batch-range-help" class="text-tool-note">{{pagesHelp}}</p>
+    </div>
     <ul id="batch-list" class="file-list batch-list"></ul>
     <div class="text-tool-actions"><button type="button" id="batch-run" class="btn btn-primary" data-run disabled>{{batchRun}}</button> <button type="button" id="batch-sample" class="btn btn-secondary" data-job-lock data-sample="{{sampleCleanup}}">{{tryExample}}</button> <button type="button" id="batch-download" class="btn btn-secondary" disabled>{{downloadZip}}</button> <button type="button" class="btn btn-secondary" data-cancel disabled hidden>{{cancelRun}}</button></div>
     <progress data-progress max="1" aria-label="{{workingLabel}}" hidden></progress>

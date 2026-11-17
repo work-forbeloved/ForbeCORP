@@ -120,7 +120,7 @@ markdownGuide	Markdownを貼り付けるかMDを開きます。見出し、リ�
 imageTitle	画像のサイズ変更・変換
 imageIntro	JPG、PNG、WebPを縮小または圧縮し、ファイルサイズを比較できます。
 imageGuide	画像を開き、幅と高さや縦横比を設定します。形式を選び、JPGとWebPでは画質も指定できます。
-imageFormats	JPG、PNG、WebP · 最大40 MB
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · 最大40 MB
 imageWidth	幅（px）
 imageHeight	高さ（px）
 imageRatio	縦横比を維持

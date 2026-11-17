@@ -120,7 +120,7 @@ markdownGuide	粘贴 Markdown 或打开 MD 文件。支持标题、列表、表�
 imageTitle	调整和转换图像
 imageIntro	缩放、压缩 JPG、PNG 或 WebP，并比较文件大小。
 imageGuide	打开图片，设置宽度和高度或保持原比例。选择输出格式，JPG 和 WebP 可调整质量。
-imageFormats	JPG、PNG 或 WebP · 不超过 40 MB
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · 不超过 40 MB
 imageWidth	宽度（像素）
 imageHeight	高度（像素）
 imageRatio	保持宽高比

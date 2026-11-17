@@ -112,7 +112,7 @@
       }
       rows.replaceChildren(content);
       previous.disabled = next.disabled = !changes.length;
-      body.hidden = !blocks.length || (!changes.length && unchanged.checked);
+      updateVisibility();
       get('compare-count').textContent = '';
     }
 
@@ -129,9 +129,11 @@
 
     next.addEventListener('click', () => go(1));
     previous.addEventListener('click', () => go(-1));
-    unchanged.addEventListener('change', () => {
+    function updateVisibility() {
       for (const child of rows.children) child.hidden = unchanged.checked && child.dataset.changed === 'false';
-    });
+      body.hidden = !rows.children.length || (unchanged.checked && !changes.length);
+    }
+    unchanged.addEventListener('change', updateVisibility);
     for (const control of body.querySelectorAll('[data-side]')) {
       control.addEventListener('click', () => {
         body.dataset.side = control.dataset.side;
@@ -201,13 +203,15 @@
     }
     W.bindPicker('table-source', ([file]) => { rawFile = file; void readFile(file); });
     encoding.addEventListener('change', () => { if (rawFile) void readFile(rawFile); });
-    W.watchValue(field, refresh);
-    list.addEventListener('change', refresh);
-    mode.addEventListener('change', () => {
+    function invalidate() {
       save.disabled = true;
       W.setText(output, '');
+      if (!preview.hidden) status.textContent = '';
       preview.hidden = true;
-    });
+    }
+    W.watchValue(field, () => { refresh(); invalidate(); });
+    list.addEventListener('change', () => { refresh(); invalidate(); });
+    for (const control of [separator, header, dedupe, mode]) control.addEventListener('change', invalidate);
 
     function draw(rows, hasHeader) {
       const body = document.createElement('tbody');
@@ -272,7 +276,15 @@
     const refresh = () => { run.disabled = !field.value.trim(); };
     const job = W.makeJob(panel, refresh);
     let result;
-    W.watchValue(field, refresh);
+    W.watchValue(field, () => {
+      refresh();
+      if (!result) return;
+      result = undefined;
+      output.replaceChildren();
+      output.hidden = true;
+      save.disabled = true;
+      status.textContent = '';
+    });
     W.bindPicker('markdown-source', ([file]) => job.run(async ({ signal, report }) => {
       W.setText(field, await W.abortable(W.textFromFile(file), signal));
       report('msgFileLoaded', { file: file.name });
@@ -356,6 +368,27 @@
     let source;
     let image;
     let result;
+    const probe = document.createElement('canvas');
+    probe.width = probe.height = 1;
+    for (const option of format.options) {
+      if (['image/jpeg', 'image/webp'].includes(option.value)) {
+        option.disabled = !probe.toDataURL(option.value).startsWith('data:' + option.value + ';');
+      }
+    }
+    if (format.selectedOptions[0]?.disabled) format.value = [...format.options].find(option => !option.disabled).value;
+
+    function invalidate() {
+      if (!result) return;
+      URL.revokeObjectURL(to.dataset.url);
+      delete to.dataset.url;
+      to.removeAttribute('src');
+      to.hidden = true;
+      get('image-after-meta').textContent = '';
+      save.disabled = true;
+      result = undefined;
+      status.textContent = '';
+    }
+
     const refresh = () => {
       start.disabled = !source || !image;
       quality.disabled = !['image/jpeg', 'image/webp'].includes(format.value);
@@ -395,7 +428,8 @@
     W.bindPicker('image-source', ([file]) => job.run(({ signal, report }) => choose(file, signal, report)));
     get('image-sample').addEventListener('click', () => job.run(async ({ signal, report }) =>
       choose(await sampleFile('example.png', signal), signal, report)));
-    format.addEventListener('change', refresh);
+    format.addEventListener('change', () => { invalidate(); refresh(); });
+    for (const input of [width, height, quality]) input.addEventListener('input', invalidate);
     width.addEventListener('input', () => {
       if (image && proportional.checked) height.value = String(Math.max(1, Math.round(Number(width.value) * image.naturalHeight / image.naturalWidth)));
     });
@@ -453,6 +487,8 @@
     const refresh = () => {
       run.disabled = !files.length;
       range.disabled = mode.value === 'clean';
+      get('batch-page-options').hidden = range.disabled;
+      get('batch-cleanup-note').hidden = !range.disabled;
     };
     const job = W.makeJob(panel, refresh);
 
@@ -484,9 +520,15 @@
     }
 
     W.bindPicker('batch-source', choose);
-    mode.addEventListener('change', () => {
+    function invalidateBatch() {
       result = undefined;
       save.disabled = true;
+      draw(files.map(file => ({ name: file.name, state: 'msgQueued' })));
+      status.textContent = '';
+    }
+    range.addEventListener('input', invalidateBatch);
+    mode.addEventListener('change', () => {
+      invalidateBatch();
       source.accept = mode.value === 'clean' ? '.txt,.docx,.odt,.md,.csv' : '.pdf';
       refresh();
     });

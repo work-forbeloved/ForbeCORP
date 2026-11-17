@@ -55,7 +55,8 @@
       iccUrl: path('iccs'), wasmUrl: path('wasm'), useWorkerFetch: true,
       isEvalSupported: false, enableXfa: false
     });
-    const close = () => task.destroy().catch(() => {});
+    let closing;
+    const close = () => closing ??= task.destroy().catch(() => {});
     const abort = () => { void close(); };
     signal?.addEventListener('abort', abort, { once: true });
     try {
@@ -289,6 +290,7 @@
     const english = W.get('ocr-english');
     let file;
     let pageCount = 0;
+    let generated;
     const refresh = () => {
       analyze.disabled = !file;
       range.disabled = !file || !isPdf(file);
@@ -327,13 +329,22 @@
       W.get('pdf-skipped-list').textContent = '';
       fileNote.textContent = file.name;
       range.value = '';
+      generated = undefined;
       W.setText(result, '');
       report(note, { file: file.name }, 1);
     }
 
     W.bindPicker(input.id, ([picked]) => job.run(({ signal, report }) => choose(picked, signal, report, 'msgFileLoaded')));
-    range.addEventListener('input', refresh);
-    ocrLanguage?.addEventListener('change', refresh);
+    function settingsChanged() {
+      empty.hidden = true;
+      if (generated !== undefined && result.value === generated) W.setText(result, '');
+      generated = undefined;
+      W.get('pdf-status').textContent = '';
+      refresh();
+    }
+    range.addEventListener('input', settingsChanged);
+    ocrLanguage?.addEventListener('change', settingsChanged);
+    english?.addEventListener('change', settingsChanged);
     sample.addEventListener('click', () => job.run(async ({ signal, report }) => {
       const language = ocrLanguage?.value || 'en';
       const demo = mode === 'text'
@@ -359,6 +370,7 @@
         throw new Error('empty');
       }
       W.setText(result, detected.text);
+      generated = result.value;
       report('msgTextReady', { total: W.numeric.format(detected.count) }, 1);
     }));
     refresh();

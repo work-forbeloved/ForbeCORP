@@ -80,9 +80,16 @@
       const namespace = documentXml.documentElement.namespaceURI;
       const body = documentXml.getElementsByTagNameNS(namespace, 'body')[0];
       if (!body) throw new Error('error');
-      return Array.from(body.getElementsByTagNameNS(namespace, 'p'), paragraph => {
-        const fragments = paragraph.getElementsByTagNameNS(namespace, '*');
-        return Array.from(fragments, fragment => {
+      const paragraphs = new Set(body.getElementsByTagNameNS(namespace, 'p'));
+      return Array.from(paragraphs, paragraph => {
+        const walker = documentXml.createTreeWalker(paragraph, NodeFilter.SHOW_ELEMENT, {
+          acceptNode: node => paragraphs.has(node) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT
+        });
+        const fragments = [];
+        for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+          if (node.namespaceURI === namespace) fragments.push(node);
+        }
+        return fragments.map(fragment => {
           if (fragment.localName === 't') return fragment.textContent;
           if (fragment.localName === 'br' || fragment.localName === 'cr') return '\n';
           return fragment.localName === 'tab' ? '\t' : '';

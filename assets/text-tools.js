@@ -483,7 +483,7 @@
     const get = id => byId('clean-' + id);
     const toggleIds = ['wrap', 'spaces', 'blank', 'duplicates', 'tabs', 'invisible'];
     const localePicker = get('language');
-    const originalSettings = { wrap: true, spaces: true, blank: true, language: W.code };
+    const originalSettings = { ...C.defaultCleanup, language: W.code };
     const refreshSort = () => { wrap.disabled = Boolean(sort.value); };
 
     function settings() {

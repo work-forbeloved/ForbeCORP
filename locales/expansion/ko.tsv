@@ -120,7 +120,7 @@ markdownGuide	Markdown을 붙여 넣거나 MD 파일을 여세요. 제목, 목�
 imageTitle	이미지 크기 조정과 변환
 imageIntro	JPG, PNG, WebP의 크기를 바꾸고 압축한 뒤 파일 용량을 비교하세요.
 imageGuide	이미지를 열고 너비와 높이를 지정하거나 비율을 유지하세요. 출력 형식과 JPG 또는 WebP 품질을 선택할 수 있습니다.
-imageFormats	JPG, PNG, WebP · 최대 40 MB
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · 최대 40 MB
 imageWidth	너비(px)
 imageHeight	높이(px)
 imageRatio	가로세로 비율 유지

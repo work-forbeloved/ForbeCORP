@@ -120,7 +120,7 @@ markdownGuide	Paste Markdown or open an MD file. The preview supports headings, 
 imageTitle	Resize and convert images
 imageIntro	Resize and compress JPG, PNG or WebP and compare file sizes before downloading.
 imageGuide	Open an image, choose width and height or keep the aspect ratio, then select the output format and adjust quality for JPG or WebP.
-imageFormats	JPG, PNG or WebP · up to 40 MB
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · up to 40 MB
 imageWidth	Width (px)
 imageHeight	Height (px)
 imageRatio	Keep aspect ratio

@@ -120,7 +120,7 @@ markdownGuide	Markdown चिपकाएँ या MD फ़ाइल खोल
 imageTitle	इमेज का आकार और फ़ॉर्मैट बदलें
 imageIntro	JPG, PNG या WebP का आकार बदलें, उन्हें कंप्रेस करें और फ़ाइल का साइज़ देखें।
 imageGuide	इमेज खोलें और चौड़ाई व ऊँचाई चुनें या अनुपात बनाए रखें। फ़ॉर्मैट और JPG या WebP की क्वालिटी चुनें।
-imageFormats	JPG, PNG या WebP · 40 MB तक
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · 40 MB तक
 imageWidth	चौड़ाई (px)
 imageHeight	ऊँचाई (px)
 imageRatio	अनुपात बनाए रखें

@@ -64,7 +64,9 @@
     const link = document.createElement('a');
     link.href = url;
     link.download = name;
+    document.body.append(link);
     link.click();
+    link.remove();
     setTimeout(() => URL.revokeObjectURL(url), 30_000);
   }
 
@@ -205,13 +207,13 @@
   }
 
   async function zip(entries, signal) {
-    const writer = await library('vendor/fflate/index.js', 'fflate');
+    const writer = await abortable(library('vendor/fflate/index.js', 'fflate'), signal);
     signal?.throwIfAborted();
     let terminate;
     const writing = new Promise((resolve, reject) => {
       terminate = writer.zip(entries, { level: 3 }, (error, data) => error ? reject(error) : resolve(data));
     });
-    const abort = () => terminate();
+    const abort = () => terminate?.();
     signal?.addEventListener('abort', abort, { once: true });
     try { return new Blob([await abortable(writing, signal)], { type: 'application/zip' }); }
     finally { signal?.removeEventListener('abort', abort); }

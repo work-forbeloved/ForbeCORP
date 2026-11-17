@@ -120,7 +120,7 @@ markdownGuide	الصق Markdown أو افتح ملف MD. تظهر العناوي
 imageTitle	تغيير حجم الصور وتحويلها
 imageIntro	غيّر حجم صور JPG وPNG وWebP واضغطها وقارن أحجامها.
 imageGuide	افتح صورة وحدد عرضها وارتفاعها أو حافظ على نسبتها. اختر الصيغة واضبط الجودة لملفات JPG أو WebP.
-imageFormats	JPG أو PNG أو WebP · حتى 40 ميغابايت
+imageFormats	JPG, PNG, WebP, GIF, BMP, ICO, AVIF · حتى 40 ميغابايت
 imageWidth	العرض (بكسل)
 imageHeight	الارتفاع (بكسل)
 imageRatio	الحفاظ على نسبة الأبعاد
